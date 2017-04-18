@@ -17,19 +17,19 @@
     } ,
     
   {
+    "title"    : "Играем мышцами в этом шаблоне",
+    "category" : "",
+    "tags"     : "demo, возможности, шаблон",
+    "url"      : "/jekyll/2017/01/10/carte-noire-in-action/",
+    "date"     : "2017-01-10 15:31:19 +0300"
+    } ,
+    
+  {
     "title"    : "О Jekyll",
     "category" : "",
     "tags"     : "технологии, jekyll",
     "url"      : "/jekyll/2017/01/09/about-jekyll/",
     "date"     : "2017-01-09 15:32:18 +0300"
-    } ,
-    
-  {
-    "title"    : "Играем мышцами в этом шаблоне",
-    "category" : "",
-    "tags"     : "demo, возможности, шаблон",
-    "url"      : "/jekyll/2014/06/10/carte-noire-in-action/",
-    "date"     : "2014-06-10 15:31:19 +0300"
     } 
     
   ]
