@@ -28,7 +28,7 @@ layout: default
       <div class="author">
         <small><i>
           {% if page.author %}
-          by
+          
           <span itemprop="author">
             {% if site.google_plus_link %}
               <a rel="author" href="{{ site.google_plus_link }}">
@@ -41,7 +41,7 @@ layout: default
             {% endif %}
           </span>
           {% endif %}
-          <span itemprop="datePublished" content="2014-08-28">{{ page.date | russian_long_month }}</span>
+          <span itemprop="datePublished" content="2014-08-28">{% include date_ru_locale.html date=page.date %}</span>
           {% if page.categories != empty %} на тему {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
@@ -153,7 +153,7 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Публикация {{ page.previous.date | date: russian_long_month }}</p>
+          <p class="date">Публикация {% include date_ru_locale.html date=page.previous.date %}</p>
           {% endif %}
         </div>
         <div class="next previous-next">
@@ -161,7 +161,7 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
-          <p class="date">Публикация {{ page.next.date | date: russian_long_month }}</p>
+          <p class="date">Публикация {% include date_ru_locale.html date=page.next.date %}</p>
           {% endif %}
         </div>
       </div>
