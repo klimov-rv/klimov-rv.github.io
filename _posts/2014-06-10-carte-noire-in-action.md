@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Играем мышцами в этом шаблоне
-date:       2014-06-10 12:31:19
+date:       2017-01-10 12:31:19
 summary:    Демонстративно показываем возможности шаблона
 categories: jekyll
 thumbnail: cogs
