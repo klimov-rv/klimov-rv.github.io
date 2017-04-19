@@ -10,9 +10,11 @@ tags:
  - jekyll
 ---
 
-Jekyll — средство генерации простых сайтов. С ним легко создать и вести свой личный блог или сайт-визитку, портфолио.
-Jekyll использует шаблонизатор
-[Liquid](http://docs.shopify.com/themes/liquid-basics) и  встроенный язык разметки [Markdown](http://daringfireball.net/projects/markdown/) с поддержкой [Textile](http://en.wikipedia.org/wiki/Textile_(markup_language)).
+__Jekyll__ — средство генерации простых сайтов. С ним легко создать и 
+вести свой личный блог или сайт-визитку, портфолио. Jekyll использует 
+шаблонизатор [Liquid](http://docs.shopify.com/themes/liquid-basics) и 
+встроенный язык разметки [Markdown](http://daringfireball.net/projects/markdown/) 
+с поддержкой [Textile](http://en.wikipedia.org/wiki/Textile_(markup_language)).
 
 Приятно то, что он легко располагается на [Github Pages](https://pages.github.com/).
 

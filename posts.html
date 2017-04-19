@@ -34,7 +34,7 @@ make-smaller-titles: true
 
           <li>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <small class="hidden-xs">{{ post.date | russian_long_month }}</small>
+            <small class="hidden-xs">{% include date_ru_locale.html date=post.date %}</small>
           </li>
       {% if forloop.last %}
         </ul>
