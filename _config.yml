@@ -1,5 +1,5 @@
 # Site settings
-title: "<span class=\"logo8250\">&#8250;</span><p> Project  <span id=\"blink\">_</span></p>"
+title: "<p><span class=\"logo8250\">&#8250;</span> Project  <span id=\"blink\">_</span></p>"
 email: site.projector@gmail.com
 description: "Первый официальный проект любого вебмастера - это его собственный сайт "
 baseurl: ""
