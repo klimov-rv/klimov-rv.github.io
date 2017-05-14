@@ -109,7 +109,20 @@ ul {
 		width: 120%;
 	}
 }
-
+.logo8250 {
+    color: white;
+    font-family: Helvetica;
+    font-size: 89px;
+    font-weight: 500;
+    left: 177px;
+    position: absolute;
+    text-decoration: none;
+    top: -8px;
+}
+#blink {
+    color: white;
+    margin-left: -16px;
+}
 .menu-button {
 	color: $white;
 	font-size: 24px;
@@ -256,7 +269,7 @@ ul {
 	}
 
 	.author-header {
-		font-family: 'Montserrat', sans-serif;
+		font-family: Consolas, monospace;
 		color: $light-blue;
 		margin-top: 0px;
 		padding-top: 15px;
@@ -421,7 +434,7 @@ ul {
 		color:$dark;
 		background-color:$white;
 
-		border:1px solid #adc5cf;
+		border: medium none;
 		border-radius:15px;
 		-moz-border-radius:15px;
 		-webkit-border-radius:15px;
@@ -810,6 +823,7 @@ ul {
 
 		a {
 			color: $light-blue;
+			font-size: 14px;
 		}
 	}
 
@@ -901,11 +915,19 @@ td{
 }
 
 .main {
-    background-attachment: fixed;
-    background-clip: border-box;
-    background-color: rgba(0, 0, 0, 0.01);
-    background-image: url("../images/compress/felipe-santana-compress.jpg");
-    background-origin: padding-box;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+ #blink { 
+	 -webkit-animation: blink 1.3s linear infinite; 
+	 animation: blink 1.3s linear infinite; 
+} 
+@-webkit-keyframes blink { 
+	50% { color: rgb(34, 34, 34); } 
+	51% { color: rgba(34, 34, 34, 0); } 
+	100% { color: rgba(34, 34, 34, 0); } 
+} 
+@keyframes blink { 
+	50% { color: rgb(34, 34, 34); } 
+	51% { color: rgba(34, 34, 34, 0); } 
+	100% { color: rgba(34, 34, 34, 0); } 
 }

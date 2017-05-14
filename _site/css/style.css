@@ -59,6 +59,20 @@ ul {
       margin-left: -10%;
       width: 120%; } }
 
+.logo8250 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 89px;
+  font-weight: 500;
+  left: 177px;
+  position: absolute;
+  text-decoration: none;
+  top: -8px; }
+
+#blink {
+  color: white;
+  margin-left: -16px; }
+
 .menu-button {
   color: #FFFFFF;
   font-size: 24px;
@@ -154,7 +168,7 @@ ul {
   .index .content-panel:nth-of-type(1) {
     border-bottom: 10px solid #3CA2A2; }
   .index .author-header {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Consolas, monospace;
     color: #3CA2A2;
     margin-top: 0px;
     padding-top: 15px;
@@ -255,7 +269,7 @@ ul {
     margin-top: 50px;
     color: #2D2D29;
     background-color: #FFFFFF;
-    border: 1px solid #adc5cf;
+    border: medium none;
     border-radius: 15px;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px; }
@@ -505,7 +519,8 @@ ul {
 .error .error-text {
   margin-top: 30px; }
   .error .error-text a {
-    color: #3CA2A2; }
+    color: #3CA2A2;
+    font-size: 14px; }
 .error .links {
   font-size: 1em; }
 
@@ -574,10 +589,23 @@ td {
   border: 1px solid #215A6D; }
 
 .main {
-  background-attachment: fixed;
-  background-clip: border-box;
-  background-color: rgba(0, 0, 0, 0.01);
-  background-image: url("../images/compress/felipe-santana-compress.jpg");
-  background-origin: padding-box;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-color: rgba(0, 0, 0, 0.1); }
+
+#blink {
+  -webkit-animation: blink 1.3s linear infinite;
+  animation: blink 1.3s linear infinite; }
+
+@-webkit-keyframes blink {
+  50% {
+    color: #222222; }
+  51% {
+    color: rgba(34, 34, 34, 0); }
+  100% {
+    color: rgba(34, 34, 34, 0); } }
+@keyframes blink {
+  50% {
+    color: #222222; }
+  51% {
+    color: rgba(34, 34, 34, 0); }
+  100% {
+    color: rgba(34, 34, 34, 0); } }

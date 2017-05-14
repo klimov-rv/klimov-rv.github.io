@@ -1,17 +1,15 @@
 # Site settings
-title: "KlimovProject"
+title: "<span class=\"logo8250\">&#8250;</span><p> Project  <span id=\"blink\">_</span></p>"
 email: site.projector@gmail.com
 description: "Первый официальный проект любого вебмастера - это его собственный сайт "
 baseurl: ""
 url: "klimovproject.ru"
-title_description: "/dev блог, как хороший пример «статического» сайта <br/> 
+title_description: "/dev блог, как хороший пример статического сайта <br/> 
 на простом и быстром Jekyll. Здесь собраны мысли, 
 идеи и заметки о моих разработках, а так же многое другое.<br/><br/>
 Сборник ссылок на меня <i class=\"fa fa-hand-o-down\" aria-hidden=\"true\"></i>"
-title_image: "/images/logo-klimov.jpg"
 google_analytics: ""
 disqus_account: 
-github_repository: https://github.com/jacobtomlinson/
 addthis_id: 
 post_limit: 5
 

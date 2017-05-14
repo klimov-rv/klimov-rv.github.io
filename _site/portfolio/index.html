@@ -4,7 +4,7 @@
     <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>О Jekyll</title>
+<title><span class="logo8250">&#8250;</span><p> Project  <span id="blink">_</span></p></title>
 <meta name="description" content="Первый официальный проект любого вебмастера - это его собственный сайт ">
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -74,87 +74,80 @@
 
     <div class="page-content">
       <div class="wrap">
-      
+      <div class="container-fluid index">
+    <div class="row index all-posts">
 
-<div class="container-fluid single">
-  <div class="row">
+        <h1 class="header author-header">Портфолио</h1>
 
-    <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
-      
-      <div class="thumb">
-        <img itemprop="image" src="https://i.imgur.com/aRQcGSi.png" alt="Thumbnail: jekyll" />
-      </div>
-      
+        <div class="dropdown btn-group">
+            <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">категориям
+            <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+            <li><a href="/posts/">годам</a></li>
+            </ul>
+        </div>
 
-      <h1 class="header" itemprop="name">О Jekyll</h1>
+        </small></h2>
+        
+        <div class="col-md-12 content-panel articles">
+            <h2 id="jekyll-ref">jekyll</h2>
+            <ul>
+            
+                
+                <li>
+                    <a href=""></a>
+                    <small class="hidden-xs">
 
-      <div class="author">
-        <small><i>
-          
-          <span itemprop="datePublished" content="2014-08-28">
+
+</small>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/jekyll/2017/04/04/using-thumbnails/">Заглавные миниатюры</a>
+                    <small class="hidden-xs">
+4
+апреля
+  
+2017</small>
+                </li>
+                
+                <li>
+                    <a href="/jekyll/2017/02/01/welcome-to-carte-noir/">Чёрная Карта</a>
+                    <small class="hidden-xs">
+1
+февраля
+  
+2017</small>
+                </li>
+                
+                <li>
+                    <a href="/jekyll/2017/01/10/carte-noire-in-action/">Играем мышцами в этом шаблоне</a>
+                    <small class="hidden-xs">
+10
+января
+  
+2017</small>
+                </li>
+                
+                <li>
+                    <a href="/jekyll/2017/01/09/about-jekyll/">О Jekyll</a>
+                    <small class="hidden-xs">
 9
 января
   
-2017</span>
-           на тему jekyll
-        </i></small>
-      </div>
+2017</small>
+                </li>
+                
+            
 
-      <div class="read-time">
-        <small>
-          Чтение на 1 мин.
-        </small>
-      </div>
-
-      <div class="content-panel content">
-
-        
-
-        <span itemprop="articleBody"><p><strong>Jekyll</strong> — средство генерации простых сайтов. С ним легко создать и 
-вести свой личный блог или сайт-визитку, портфолио. Jekyll использует 
-шаблонизатор <a href="http://docs.shopify.com/themes/liquid-basics">Liquid</a> и 
-встроенный язык разметки <a href="http://daringfireball.net/projects/markdown/">Markdown</a> 
-с поддержкой <a href="http://en.wikipedia.org/wiki/Textile_(markup_language)">Textile</a>.</p>
-
-<p>Приятно то, что он легко располагается на <a href="https://pages.github.com/">Github Pages</a>.</p>
-
-<p>Узнать больше можно на официальном сайте <a href="http://jekyllrb.com/">website</a>.</p>
-</span>
-
-        
-
-        
-
-        
-        <div class="tags">
-          <small>
-          <i class="fa fa-tags"></i>
-            технологии, jekyll
-          </small>
+            </ul>
         </div>
         
-
-      </div>
-
-      
-      <div class="content-panel feedback">
-        Живите мирно и процветайте <i class="fa fa-hand-spock-o"></i><br />
-        Если что - пиште мне в твиттер <i class="fa fa fa-twitter"></i> <a href="http://www.twitter.com/KlimovRV">@KlimovRV</a>
-      </div>
-      
-
-      
-
-      
-
     </div>
-
-  </div>
-
 </div>
-
-
-
       </div>
     </div>
 
@@ -184,6 +177,48 @@
    });
 </script>
 
+
+<script type="text/javascript">
+
+  function setFontSize() {
+
+    var title, dateOfTitle, fontSizeOfTitle, listOfA, listOfSmall, listOfArticlesDiv, divWidth;
+
+    listOfArticlesDiv = document.getElementsByClassName("articles");
+
+    for (i = 0; i < listOfArticlesDiv.length; i++) {
+
+      listOfA = document.getElementsByClassName("articles")[i].getElementsByTagName("a");
+      listOfSmall = document.getElementsByClassName("articles")[i].getElementsByTagName("small");
+
+      divWidth = document.getElementsByClassName("articles")[i].offsetWidth;
+
+      for (k = 0; k < listOfSmall.length; k++) {
+
+        title = $(listOfA[k]);
+        dateOfTitle = $(listOfSmall[k]);
+
+        fontSizeOfTitle = startingFontSize;
+        title.css("font-size", fontSizeOfTitle);
+
+        while (title.width() + dateOfTitle.width() >= divWidth)
+          title.css("font-size", fontSizeOfTitle -= 0.5);
+
+      }
+    }
+  }
+
+  function getStartFontSize() {
+    try {
+      startingFontSize = parseInt($(document.getElementsByClassName("articles")[0].getElementsByTagName("a")[0]).css("font-size"));
+      setFontSize();
+      window.addEventListener('resize', setFontSize, true);
+    } catch (e) {}
+  }
+
+  $(document).ready(getStartFontSize);
+
+</script>
 
 
 
