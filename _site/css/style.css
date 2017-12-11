@@ -89,7 +89,7 @@ ul {
       top: 20px;
       left: 40px; } }
 
-.content-panel {
+.content-panel, .content-panel-clean {
   background-color: #3B3B35;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -98,6 +98,9 @@ ul {
   margin-top: 20px;
   box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
   border-bottom: 5px solid #3CA2A2; }
+
+.content-panel-clean {
+  padding: 0px; }
 
 #my-menu p {
   margin-bottom: 5px; }

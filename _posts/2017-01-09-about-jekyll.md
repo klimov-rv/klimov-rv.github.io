@@ -4,7 +4,7 @@ title:      О Jekyll
 date:       2017-01-09 12:32:18
 summary:    Генератор статической информации. Быстро, точно, и локанично.
 categories: jekyll
-thumbnail: jekyll
+thumbnail:  jekyll
 tags:
  - технологии
  - jekyll
