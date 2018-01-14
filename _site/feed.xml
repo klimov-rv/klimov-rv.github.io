@@ -5,9 +5,68 @@
     <description>Первый официальный проект любого вебмастера - это его собственный сайт </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Jan 2018 02:35:10 +0300</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2018 02:35:10 +0300</lastBuildDate>
+    <pubDate>Sun, 14 Jan 2018 17:18:04 +0300</pubDate>
+    <lastBuildDate>Sun, 14 Jan 2018 17:18:04 +0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>CNAME для домена на Github</title>
+        <description>&lt;h3 id=&quot;Что-такое-cname-Запись&quot;&gt;Что такое [CNAME] Запись?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;[CNAME] Запись&lt;/strong&gt; или &lt;strong&gt;Каноническая Запись Доменного Имени&lt;/strong&gt; указывает на то, что доменное имя или поддомен является алиасом (псевдонимом) другого, канонического доменного имени.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Значение &lt;strong&gt;CNAME&lt;/strong&gt; записи всегда является доменным именем.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;Для-чего-служит-cname-Запись&quot;&gt;Для чего служит [CNAME] Запись?&lt;/h3&gt;
+
+&lt;p&gt;[CNAME] Записи полезны тем, что они позволяют настраивать алиасы (псевдонимы) сервера, без использования его IP адреса.&lt;/p&gt;
+
+&lt;p&gt;Например, &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt; может иметь [CNAME] Запись, указывающую на &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Таким образом, если Вы наберете в браузере, &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt;, Вы будете перенаправленный на &lt;em&gt;CNAME&lt;/em&gt; — &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;Как-проверить-cname-Запись&quot;&gt;Как проверить [CNAME] Запись?&lt;/h3&gt;
+
+&lt;p&gt;Используйте команду &lt;code class=&quot;highlighter-rouge&quot;&gt;dig&lt;/code&gt;, чтобы узнать [CNAME] Запись:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ dig CNAME www.example.com +short
+example.com.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;Добавление-cname-Записи-в-dns--Примеры&quot;&gt;Добавление [CNAME] Записи в DNS — Примеры&lt;/h2&gt;
+
+&lt;p&gt;Используйте следующий синтаксис для добавления [CNAME] Записи в Файл Зоны.&lt;/p&gt;
+&lt;h4 id=&quot;Настроить-Редирект-для-www-с-помощью-cname-Записи&quot;&gt;Настроить Редирект для [WWW] с помощью [CNAME] Записи&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com. IN CNAME example.com.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;Создать-Несколько-Алиасов-с-помощью-cname-Записи&quot;&gt;Создать Несколько Алиасов с помощью [CNAME] Записи&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;example.com. IN CNAME example.tld.
+www.example.com. IN CNAME example.tld.
+test.example.com. IN CNAME example.tld.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.shellhacks.com/ru/setup-dns-cname-record/&quot;&gt;© Источник&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Jan 2018 14:57:05 +0300</pubDate>
+        <link>http://localhost:4000/site/2018/01/13/CNAME-for-github-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/site/2018/01/13/CNAME-for-github-jekyll/</guid>
+        
+        <category>CNAME</category>
+        
+        <category>ЗонаDNS</category>
+        
+        <category>canonical</category>
+        
+        <category>aliases</category>
+        
+        
+        <category>Site</category>
+        
+      </item>
     
       <item>
         <title>Полезные SMM-сервисы</title>
@@ -133,45 +192,6 @@
         
         
         <category>Web</category>
-        
-      </item>
-    
-      <item>
-        <title>Идея калькулятора для сайта</title>
-        <description>&lt;p&gt;Здравствуйте, Роман!&lt;/p&gt;
-
-&lt;p&gt;Сколько раз за последний год вы ввязывались в отношения, о которых потом сожалели? Партнеры, подрядчики, работники … сколько? Наверняка найдется не меньше трех «кейсов».&lt;/p&gt;
-
-&lt;p&gt;Каждый неудачный опыт — это грузовик кирпичей и бочка цемента в стене вашего скепсиса. Поэтому другим людям — новым партнерам и подрядчикам — приходится завоевывать ваше доверие из «минуса».&lt;/p&gt;
-
-&lt;p&gt;Не сложилось с одним сеошником, другим изначально не верят. Одно маркетинговое агентство не сумело доказать свою эффективность, к другому будут повышенные требования.&lt;/p&gt;
-
-&lt;p&gt;Мы не знаем наверняка о вашем бэкграунде, но готовы начать нулевой километр сотрудничества из самого ужасного «минуса».&lt;/p&gt;
-
-&lt;p&gt;И наш первый шаг — эти ссылки, по которым все получилось. Подобрали их по сложным тематикам «Мебель» и «Недвижимость», но знайте, что мы здорово работаем со всеми сферами и задачами :).&lt;/p&gt;
-
-&lt;p&gt;Здесь улучшили конверсию в 2,5 раза, улучшив интерфейс известного интернет-магазина мебели.&lt;/p&gt;
-
-&lt;p&gt;Здесь увеличили объем трафика на 300% меньше чем за год, переориентировав сайт.&lt;/p&gt;
-
-&lt;p&gt;А здесь разобрали сайт интернет-магазина мебели по косточкам. Только после такого аудита можно браться за стратегию SEO-продвижения.&lt;/p&gt;
-
-&lt;p&gt;Это не значит, что у нас с вами получится так же. Вполне вероятно, что будет лучше.&lt;/p&gt;
-
-&lt;p&gt;Хотите честный прогноз и индивидуальный план продвижения? Дайте знать. Можно ответить на это письмо или отправить короткую заявку. Свяжемся с вами быстро.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Apr 2017 17:11:51 +0300</pubDate>
-        <link>http://localhost:4000/site/2017/04/27/</link>
-        <guid isPermaLink="true">http://localhost:4000/site/2017/04/27/</guid>
-        
-        <category>идеи</category>
-        
-        <category>калькулятор</category>
-        
-        <category>полезные ссылки</category>
-        
-        
-        <category>Site</category>
         
       </item>
     
@@ -329,16 +349,9 @@
   &lt;li&gt;&lt;a href=&quot;https://domainr.com&quot; target=&quot;_blank&quot;&gt;Dominr&lt;/a&gt; – Быстро ознакомит с возможными вариантами, а так же сразу проверяет на доступность.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;Опознавательные цвета:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;#a6eba6 - бесплатные&lt;/li&gt;
-  &lt;li&gt;#ff8fff - условно-бесплатные&lt;/li&gt;
-  &lt;li&gt;#df5320 - платные, разовая покупка&lt;/li&gt;
-  &lt;li&gt;#ff6685 - платные, подписка&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Напоминаю, что “условно-бесплатными” называются те сервисы, которые дают результат на вермя или в урезанном варианте, что бы вы могли попробовать и только потом решить, стоит ли платить.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Напоминаю, что “условно-бесплатными” называются те сервисы, которые дают результат на вермя или в урезанном варианте, что бы вы могли попробовать и только потом решить, стоит ли платить.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;© &lt;a href=&quot;https://habrahabr.ru/post/323600/&quot; target=&quot;_blank&quot;&gt;Источник&lt;/a&gt;&lt;/p&gt;
 
