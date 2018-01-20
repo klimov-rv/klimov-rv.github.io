@@ -37,6 +37,3 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
-
-plugins:
-  - jekyll-sitemap

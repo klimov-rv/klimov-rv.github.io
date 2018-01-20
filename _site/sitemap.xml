@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>http://localhost:4000/site/2018/01/13/price/</loc>
+      
+        <lastmod>2018-01-13T14:57:05+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/site/2018/01/13/CNAME-for-github-jekyll/</loc>
+      
+        <lastmod>2018-01-13T14:57:05+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/smm/2017/06/06/SMM-Promotion-links/</loc>
+      
+        <lastmod>2017-06-06T14:04:18+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/web/2017/05/26/Pitfalls-of-web-development.1/</loc>
+      
+        <lastmod>2017-05-26T22:00:52+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/site/2017/04/10/Ideas-from-portfolio/</loc>
+      
+        <lastmod>2017-04-10T17:11:51+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/site/2017/04/06/increase-sales-with-calculator/</loc>
+      
+        <lastmod>2017-04-06T17:11:51+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/web/2017/04/04/name-generators-CLUE/</loc>
+      
+        <lastmod>2017-04-04T22:17:18+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/jekyll/2017/02/04/using-thumbnails/</loc>
+      
+        <lastmod>2017-02-04T14:41:22+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/jekyll/2017/02/01/welcome-to-carte-noir/</loc>
+      
+        <lastmod>2017-02-01T18:31:19+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/jekyll/2017/01/10/carte-noire-in-action/</loc>
+      
+        <lastmod>2017-01-10T15:31:19+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/jekyll/2017/01/09/about-jekyll/</loc>
+      
+        <lastmod>2017-01-09T15:32:18+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</urlset>
