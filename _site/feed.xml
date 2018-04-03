@@ -5,71 +5,9 @@
     <description>Первый официальный проект любого вебмастера - это его собственный сайт </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Apr 2018 13:12:21 +0300</pubDate>
-    <lastBuildDate>Tue, 03 Apr 2018 13:12:21 +0300</lastBuildDate>
+    <pubDate>Tue, 03 Apr 2018 17:40:58 +0300</pubDate>
+    <lastBuildDate>Tue, 03 Apr 2018 17:40:58 +0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
-    
-      <item>
-        <title>CNAME для домена на Github</title>
-        <description>&lt;h3 id=&quot;Что-входит-в-услугу-создания-сайта&quot;&gt;Что входит в услугу создания сайта?&lt;/h3&gt;
-
-&lt;p&gt;1) Общий дизайн, гамма, шрифты, расположение элементов
-2) Разработка логотипа - всегда уникальный дизайн.
-3) В качестве наполения - замещающие картинки и текст,
-показывающие как будет выглядеть сайт с информацией.
-4) Вёрстка дизайна сайта. Кроссбраузерность и адаптивность.
-5) Публикация в интернете - доступность по адресу в интернете (домену)&lt;/p&gt;
-
-&lt;p&gt;От 20 тыс за проект&lt;/p&gt;
-
-&lt;h3 id=&quot;Что-входит-в-услугу-продвижения-сайта&quot;&gt;Что входит в услугу продвижения сайта?&lt;/h3&gt;
-
-&lt;p&gt;[CNAME] Записи полезны тем, что они позволяют настраивать алиасы (псевдонимы) сервера, без использования его IP адреса.&lt;/p&gt;
-
-&lt;p&gt;Например, &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt; может иметь [CNAME] Запись, указывающую на &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Таким образом, если Вы наберете в браузере, &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt;, Вы будете перенаправленный на &lt;em&gt;CNAME&lt;/em&gt; — &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;Как-проверить-cname-Запись&quot;&gt;Как проверить [CNAME] Запись?&lt;/h3&gt;
-
-&lt;p&gt;Используйте команду &lt;code class=&quot;highlighter-rouge&quot;&gt;dig&lt;/code&gt;, чтобы узнать [CNAME] Запись:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ dig CNAME www.example.com +short
-example.com.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;Добавление-cname-Записи-в-dns--Примеры&quot;&gt;Добавление [CNAME] Записи в DNS — Примеры&lt;/h2&gt;
-
-&lt;p&gt;Используйте следующий синтаксис для добавления [CNAME] Записи в Файл Зоны.&lt;/p&gt;
-&lt;h4 id=&quot;Настроить-Редирект-для-www-с-помощью-cname-Записи&quot;&gt;Настроить Редирект для [WWW] с помощью [CNAME] Записи&lt;/h4&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com. IN CNAME example.com.&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;Создать-Несколько-Алиасов-с-помощью-cname-Записи&quot;&gt;Создать Несколько Алиасов с помощью [CNAME] Записи&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;example.com. IN CNAME example.tld.
-www.example.com. IN CNAME example.tld.
-test.example.com. IN CNAME example.tld.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.shellhacks.com/ru/setup-dns-cname-record/&quot;&gt;© Источник&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 13 Jan 2018 14:57:05 +0300</pubDate>
-        <link>http://localhost:4000/site/2018/01/13/price/</link>
-        <guid isPermaLink="true">http://localhost:4000/site/2018/01/13/price/</guid>
-        
-        <category>CNAME</category>
-        
-        <category>ЗонаDNS</category>
-        
-        <category>canonical</category>
-        
-        <category>aliases</category>
-        
-        
-        <category>Site</category>
-        
-      </item>
     
       <item>
         <title>CNAME для домена на Github</title>
