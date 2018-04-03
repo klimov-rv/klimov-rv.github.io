@@ -11,3 +11,8 @@ tags:
 ---
 
 Голосовалка за домен projectile.ru
+
+Полезные ссылки для работы:
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+https://nikomedvedev.ru/other/vscodeshortcuts/hotkeys.html
+
