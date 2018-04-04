@@ -1,6 +1,14 @@
 [
   
   {
+    "title"    : "",
+    "category" : "",
+    "tags"     : "",
+    "url"      : "/2018/04/04/2018-04-04-SSG-vs-CMS/",
+    "date"     : "2018-04-04 20:56:05 +0300"
+    } ,
+    
+  {
     "title"    : "CNAME для домена на Github",
     "category" : "",
     "tags"     : "CNAME, ЗонаDNS, canonical, aliases",

@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Istok+Web:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext);
 /* Colours */
 /* Responsive sizes */
 /* Globals font - ​Tahoma (Roboto)  */
@@ -10,7 +11,7 @@ html {
   overflow-x: hidden; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Istok Web, monospace;
   font-weight: 300;
   background-color: #2D2D29;
   color: #FFFFFF;
@@ -171,7 +172,8 @@ ul {
   .index .content-panel:nth-of-type(1) {
     border-bottom: 10px solid #3CA2A2; }
   .index .author-header {
-    font-family: Consolas, monospace;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 2.5px;
     color: #3CA2A2;
     margin-top: 0px;
     padding-top: 15px;
@@ -196,7 +198,8 @@ ul {
     text-align: center; }
   .index .author-text {
     text-align: center;
-    margin-top: 30px; }
+    margin-top: 30px;
+    letter-spacing: 0.5px; }
     .index .author-text b {
       font-size: 32px; }
   .index .links {
@@ -290,7 +293,7 @@ ul {
   height: 100%;
   max-height: 100%; }
   .single h1, .single h2, .single h3, .single h4, .single h5, .single h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 10px; }
   .single h2 {
     font-size: 36px; }
@@ -360,7 +363,7 @@ ul {
         .single .article .read-time {
           margin-bottom: 40px; } }
     .single .article .content {
-      font-size: 18px;
+      font-size: 15px;
       line-height: 170%;
       padding-left: 15px;
       padding-right: 15px;
@@ -368,7 +371,7 @@ ul {
       padding-bottom: 10px; }
       @media (min-width: 768px) {
         .single .article .content {
-          font-size: 24px;
+          font-size: 17px;
           padding-left: 30px;
           padding-right: 30px;
           padding-top: 40px;
