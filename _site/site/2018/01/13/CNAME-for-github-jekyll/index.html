@@ -115,7 +115,7 @@
 
         
 
-        <span itemprop="articleBody"><h3 id="Что-такое-cname-Запись">Что такое [CNAME] Запись?</h3>
+        <span itemprop="articleBody"><h1 id="Что-такое-cname-Запись">Что такое [CNAME] Запись</h1>
 
 <p><strong>[CNAME] Запись</strong> или <strong>Каноническая Запись Доменного Имени</strong> указывает на то, что доменное имя или поддомен является алиасом (псевдонимом) другого, канонического доменного имени.</p>
 
@@ -123,14 +123,15 @@
   <p>Значение <strong>CNAME</strong> записи всегда является доменным именем.</p>
 </blockquote>
 
-<h3 id="Для-чего-служит-cname-Запись">Для чего служит [CNAME] Запись?</h3>
+<h2 id="Для-чего-служит-cname-Запись">Для чего служит [CNAME] Запись</h2>
 
 <p>[CNAME] Записи полезны тем, что они позволяют настраивать алиасы (псевдонимы) сервера, без использования его IP адреса.</p>
 
 <p>Например, <code class="highlighter-rouge">www.example.com</code> может иметь [CNAME] Запись, указывающую на <code class="highlighter-rouge">example.com</code>.</p>
 
 <p>Таким образом, если Вы наберете в браузере, <code class="highlighter-rouge">www.example.com</code>, Вы будете перенаправленный на <em>CNAME</em> — <code class="highlighter-rouge">example.com</code>.</p>
-<h3 id="Как-проверить-cname-Запись">Как проверить [CNAME] Запись?</h3>
+
+<h3 id="Как-проверить-cname-Запись">Как проверить [CNAME] Запись</h3>
 
 <p>Используйте команду <code class="highlighter-rouge">dig</code>, чтобы узнать [CNAME] Запись:</p>
 
@@ -142,11 +143,13 @@ example.com.
 <h2 id="Добавление-cname-Записи-в-dns--Примеры">Добавление [CNAME] Записи в DNS — Примеры</h2>
 
 <p>Используйте следующий синтаксис для добавления [CNAME] Записи в Файл Зоны.</p>
-<h4 id="Настроить-Редирект-для-www-с-помощью-cname-Записи">Настроить Редирект для [WWW] с помощью [CNAME] Записи</h4>
+
+<h3 id="Настроить-Редирект-для-www-с-помощью-cname-Записи">Настроить Редирект для [WWW] с помощью [CNAME] Записи</h3>
 
 <p><code class="highlighter-rouge">www.example.com. IN CNAME example.com.</code></p>
 
 <h3 id="Создать-Несколько-Алиасов-с-помощью-cname-Записи">Создать Несколько Алиасов с помощью [CNAME] Записи</h3>
+
 <div class="highlighter-rouge"><pre class="highlight"><code>example.com. IN CNAME example.tld.
 www.example.com. IN CNAME example.tld.
 test.example.com. IN CNAME example.tld.

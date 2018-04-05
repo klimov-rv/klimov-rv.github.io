@@ -5,12 +5,12 @@
     <description>Первый официальный проект любого вебмастера - это его собственный сайт </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Apr 2018 20:56:05 +0300</pubDate>
-    <lastBuildDate>Wed, 04 Apr 2018 20:56:05 +0300</lastBuildDate>
+    <pubDate>Wed, 04 Apr 2018 21:40:47 +0300</pubDate>
+    <lastBuildDate>Wed, 04 Apr 2018 21:40:47 +0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title></title>
+        <title>CMS vs SSG</title>
         <description>&lt;h1 id=&quot;Что-выбрать-cms-или-ssg&quot;&gt;Что выбрать CMS или SSG&lt;/h1&gt;
 
 &lt;p&gt;Все кто впервые задумывается о бизнесе в интернете обычно стоит перед выбором:&lt;/p&gt;
@@ -117,16 +117,22 @@
 
 &lt;p&gt;&lt;a href=&quot;http://www.dejurka.ru/articless/seven-yes-to-static-sites-generators/&quot;&gt;© Источник&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 04 Apr 2018 20:56:05 +0300</pubDate>
-        <link>http://localhost:4000/2018/04/04/2018-04-04-SSG-vs-CMS/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/04/04/2018-04-04-SSG-vs-CMS/</guid>
+        <pubDate>Sat, 13 Jan 2018 14:57:05 +0300</pubDate>
+        <link>http://localhost:4000/site/2018/01/13/SSG-vs-CMS/</link>
+        <guid isPermaLink="true">http://localhost:4000/site/2018/01/13/SSG-vs-CMS/</guid>
         
+        <category>CMS</category>
+        
+        <category>SSG</category>
+        
+        
+        <category>Site</category>
         
       </item>
     
       <item>
         <title>CNAME для домена на Github</title>
-        <description>&lt;h3 id=&quot;Что-такое-cname-Запись&quot;&gt;Что такое [CNAME] Запись?&lt;/h3&gt;
+        <description>&lt;h1 id=&quot;Что-такое-cname-Запись&quot;&gt;Что такое [CNAME] Запись&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;[CNAME] Запись&lt;/strong&gt; или &lt;strong&gt;Каноническая Запись Доменного Имени&lt;/strong&gt; указывает на то, что доменное имя или поддомен является алиасом (псевдонимом) другого, канонического доменного имени.&lt;/p&gt;
 
@@ -134,14 +140,15 @@
   &lt;p&gt;Значение &lt;strong&gt;CNAME&lt;/strong&gt; записи всегда является доменным именем.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;Для-чего-служит-cname-Запись&quot;&gt;Для чего служит [CNAME] Запись?&lt;/h3&gt;
+&lt;h2 id=&quot;Для-чего-служит-cname-Запись&quot;&gt;Для чего служит [CNAME] Запись&lt;/h2&gt;
 
 &lt;p&gt;[CNAME] Записи полезны тем, что они позволяют настраивать алиасы (псевдонимы) сервера, без использования его IP адреса.&lt;/p&gt;
 
 &lt;p&gt;Например, &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt; может иметь [CNAME] Запись, указывающую на &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Таким образом, если Вы наберете в браузере, &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt;, Вы будете перенаправленный на &lt;em&gt;CNAME&lt;/em&gt; — &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;Как-проверить-cname-Запись&quot;&gt;Как проверить [CNAME] Запись?&lt;/h3&gt;
+
+&lt;h3 id=&quot;Как-проверить-cname-Запись&quot;&gt;Как проверить [CNAME] Запись&lt;/h3&gt;
 
 &lt;p&gt;Используйте команду &lt;code class=&quot;highlighter-rouge&quot;&gt;dig&lt;/code&gt;, чтобы узнать [CNAME] Запись:&lt;/p&gt;
 
@@ -153,11 +160,13 @@ example.com.
 &lt;h2 id=&quot;Добавление-cname-Записи-в-dns--Примеры&quot;&gt;Добавление [CNAME] Записи в DNS — Примеры&lt;/h2&gt;
 
 &lt;p&gt;Используйте следующий синтаксис для добавления [CNAME] Записи в Файл Зоны.&lt;/p&gt;
-&lt;h4 id=&quot;Настроить-Редирект-для-www-с-помощью-cname-Записи&quot;&gt;Настроить Редирект для [WWW] с помощью [CNAME] Записи&lt;/h4&gt;
+
+&lt;h3 id=&quot;Настроить-Редирект-для-www-с-помощью-cname-Записи&quot;&gt;Настроить Редирект для [WWW] с помощью [CNAME] Записи&lt;/h3&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com. IN CNAME example.com.&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;Создать-Несколько-Алиасов-с-помощью-cname-Записи&quot;&gt;Создать Несколько Алиасов с помощью [CNAME] Записи&lt;/h3&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;example.com. IN CNAME example.tld.
 www.example.com. IN CNAME example.tld.
 test.example.com. IN CNAME example.tld.
