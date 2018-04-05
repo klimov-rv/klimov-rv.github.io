@@ -4,7 +4,7 @@ title:      Заглавные миниатюры
 date:       2017-02-04 11:41:22
 summary:    Использую миниатюрные изображения для моего проекта
 categories: jekyll
-thumbnail: jekyll
+thumbnail:  jekyll
 tags:
  - иконки
  - эскизы
