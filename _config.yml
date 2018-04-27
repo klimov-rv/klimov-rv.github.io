@@ -1,13 +1,13 @@
 # Site settings
 title: "KlimovProject — Мой прожектор в WEB-разработках"
-email: site.projector@gmail.com
+email: Klimov.RV@yandex.ru
 description: "Первый официальный проект любого вебмастера - это его собственный сайт "
 baseurl: ""
-url: "klimovproject.ru"
-title_description: "/dev блог, как хороший пример статического сайта <br/> 
+url: "/"
+title_description: "Блог, как хороший пример статического сайта <br/> 
 на простом и быстром Jekyll. Здесь собраны мысли, 
-идеи и заметки о моих разработках, а так же многое другое.<br/><br/>
-Сборник ссылок на меня <i class=\"fa fa-hand-o-down\" aria-hidden=\"true\"></i>"
+идеи и заметки о моих разработках, моё <a href=\"/portfolio/\">портфолио</a>.<br/><br/>
+Ссылки <i class=\"fas fa-hand-point-down\" aria-hidden=\"true\"></i>"
 google_analytics: ""
 disqus_account: 
 addthis_id: 
@@ -15,6 +15,7 @@ post_limit: 5
 
 # Social usernames/URLs
 twitter_username: KlimovRV
+telegram_username: klimovrv
 github_username:  klimov-rv
 instagram_username: klimov.rv
 reddit_username: 
@@ -25,8 +26,8 @@ xing_link:
 facebook_link: https://www.facebook.com/profile.php?id=100012300218634
 
 # Footer
-footer_left: "Сделано на <a href=\"https://jekyllrb.com/\">Jekyll</a> с <i class=\"fa fa-heart\"></i>"
-footer_right: "&lt; <a href=\"https://github.com/klimov-rv/klimov-rv.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i> /&gt;"
+footer_left: "Сделано на <a href=\"https://jekyllrb.com/\">Jekyll</a> с <i class=\"fas fa-heart\"></i>"
+footer_right: "&lt; <a href=\"https://github.com/klimov-rv/klimov-rv.github.io\">Github</a> &nbsp;<i class=\"fab fa-github-alt\"></i> /&gt;"
 
 # Build settings
 markdown: kramdown
@@ -37,3 +38,9 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
+
+# KP settings
+# permalink: /:year/:title:output_ext
+
+# This will require each of these plugins automatically.
+plugins:

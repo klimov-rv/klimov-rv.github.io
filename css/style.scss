@@ -6,6 +6,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Istok+Web:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext);
 
 /* Colours */ 
+$telegram:		 #1d93d2;
 $twitter:        #6dabda;
 $linkedin:       #2b77b1;
 $xing:           #006567;
@@ -38,6 +39,10 @@ $screen-md-min: 992px;
 $screen-lg-min: 1200px;
 
 /* Globals font - ​Tahoma (Roboto)  */
+
+::selection {
+    background: $light-blue;
+}
 
 html {
 	height: 100%;
@@ -117,26 +122,23 @@ ul {
     font-weight: 500;
     left: 2%;
     position: relative;
-    text-decoration: none;
-}
-#blink {
-    color: white;
-    margin-left: -10px;
+	text-decoration: none;
 }
 .menu-button {
-	color: $white;
-	font-size: 24px;
-	position: fixed;
-	top: 10px;
-	left: 20px;
-	cursor: pointer;
-	line-height: 1em;
-	padding: 10px;
-	background-color: $dark;
-	z-index: 100;
+    color: #FFFFFF;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    line-height: 1em;
+    padding: 27px;
+    // background-color: #2D2D29;
+    z-index: 100;
+	height: 100%;
+	
 	@media (min-width: $screen-sm-min) {
-		top: 20px;
-		left: 40px;
+		padding: 50px;
 	}
 }
 
@@ -190,10 +192,14 @@ ul {
 		}
 	}
 
-	.fa {
+	.fa, .fas, .fab {
 		-webkit-transition: 0.3s;
 		-moz-transition: 0.3s;
 		transition: 0.3s;
+	}
+
+	.fa-telegram:hover, .fa-telegram-plane:hover {
+		color: $telegram;
 	}
 
 	.fa-twitter:hover {
@@ -208,7 +214,7 @@ ul {
 		color: $xing;
 	}
 
-	.fa-google-plus:hover {
+	.fa-google-plus-g:hover, .fa-google-plus:hover {
 		color: $google-plus;
 	}
 	
@@ -278,6 +284,16 @@ ul {
 		margin-top: 0px;
 		padding-top: 15px;
 		font-size: 30px;
+
+		.blink {
+			&:after {
+				content: "_";
+				color: white;
+				margin-left: 7px;
+				-webkit-animation: blink 1.3s linear infinite; 
+				animation: blink 1.3s linear infinite; 
+			}
+		}
 
 		@media (min-width: $screen-sm-min) {
 			font-size: 52px;
@@ -466,7 +482,7 @@ ul {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Roboto Condensed', sans-serif;
-		margin-bottom: 10px;
+		margin-bottom: 23px;
 	}
 
 	h2 {
@@ -481,7 +497,7 @@ ul {
 		margin-bottom: 10px;
 
 		@media (min-width: $screen-sm-min) {
-			margin-bottom: 40px;
+			margin-bottom: 30px;
 		}
 	}
 
@@ -555,6 +571,13 @@ ul {
 
 			img {
 				height: 50px;
+				fill: #fff;
+
+				&.svg-image {
+					fill: #fff;
+					stroke: black; // для демонстрации
+					stroke-width: 30px; // для демонстрации
+				}
 				@media (min-width: $screen-sm-min) {
 					height: 70px;
 				}
@@ -899,10 +922,22 @@ ul {
 }
 
 table{
-    margin: 0 auto;
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid $darker;;
+    width: 100%;
+    max-width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	background-color: transparent;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
 }
 
 th{
@@ -918,10 +953,6 @@ td{
 .main {
     background-color: rgba(0, 0, 0, 0.1);
 }
- #blink { 
-	 -webkit-animation: blink 1.3s linear infinite; 
-	 animation: blink 1.3s linear infinite; 
-} 
 @-webkit-keyframes blink { 
 	50% { color: rgb(34, 34, 34); } 
 	51% { color: rgba(34, 34, 34, 0); } 

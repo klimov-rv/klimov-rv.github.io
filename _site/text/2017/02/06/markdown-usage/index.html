@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KlimovProject — Использование Markdown</title>
+<meta name="description" content="Первый официальный проект любого вебмастера - это его собственный сайт ">
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/icomoon.css" />
+<link rel="stylesheet" type="text/css" media="all" href="icons.klimovproject.ru/icomoon/Font/demo-files/icomoon-free.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="/css/jquery.mmenu.all.css" />
+<link rel="stylesheet" href="/css/highlightjs.piperita.css">
+
+<!-- Favicons generated at http://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/manifest.json">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+</head>
+
+
+    <body>
+
+    <nav id="my-menu">
+  <div>
+    <p>Навигация</p>
+
+    <ul class="pages">
+      <li><a href="/"><i class="fa fa-home"></i> Главная</a></li>
+      <li><a href="/posts/"><i class="fa fa-archive"></i> Лента</a></li>
+      <li><a href="/portfolio/"><i class="fa fa-briefcase"></i> Портфолио</a></li>
+      <li><a href="/calendar/"><i class="fa fa-calendar "></i> Календарь</a></li>
+      <li><a href="/search/"><i class="fa fa-search"></i> Поиск</a></li>
+    </ul>
+
+    <p class="links">
+  <a href="https://t.me/klimovrv" target="_new"><i class="fab fa-telegram-plane"></i></a>
+  <a href="http://stackexchange.com/users/10611498/%d0%a0%d0%be%d0%bc%d0%b0%d0%bd-%d0%9a%d0%bb%d0%b8%d0%bc%d0%be%d0%b2" target="_new"><i class="fab fa-stack-overflow"></i></a>
+  <a href="https://www.twitter.com/KlimovRV" target="_new"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.instagram.com/klimov.rv" target="_new"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD-%D0%BA%D0%BB%D0%B8%D0%BC%D0%BE%D0%B2-4598a9121/" target="_new"><i class="fab fa-linkedin"></i></a>
+  
+  <a href="https://plus.google.com/113740816105565942618" target="_new"><i class="fab fa-google-plus-g"></i></a>
+  <a href="https://www.facebook.com/profile.php?id=100012300218634" target="_new"><i class="fab fa-facebook"></i></a>
+  <a href="https://github.com/klimov-rv" target="_new"><i class="fab fa-github-alt"></i></a>
+  
+  <a href="/feed.xml" target="_new"><i class="fas fa-rss"></i></a>
+</p>
+
+  </div>
+</nav>
+<div class="menu-button" href="#menu"><i class="icon icon-menu"></i></div>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      
+
+<div class="container-fluid single">
+  <div class="row">
+
+    <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
+      
+      <div class="thumb">
+        <img itemprop="image" class="svg-image" src="https://d33wubrfki0l68.cloudfront.net/f1f475a6fda1c2c4be4cac04033db5c3293032b4/513a4/assets/images/markdown-mark-white.svg" alt="Thumbnail: Markdown" />
+      </div>
+      
+
+      <h1 class="header" itemprop="name">Использование Markdown</h1>
+
+      <div class="author">
+        <small><i>
+          
+          <span itemprop="datePublished" content="2014-08-28">
+6
+февраля
+  
+2017</span>
+           на тему text
+        </i></small>
+      </div>
+
+      <div class="read-time">
+        <small>
+          Чтение на 14 мин.
+        </small>
+      </div>
+
+      <div class="content-panel content">
+
+        
+
+        <span itemprop="articleBody"><h1 id="Короткий-гайд-по-markdown">Короткий гайд по Markdown</h1>
+
+<p>Рассмотрим базовый синтаксис <strong>Markdown</strong> поддерживают базовый синтаксис, описанный в оригинальном дизайнерском документе Джона Грубера.</p>
+
+<blockquote>
+  <p>Использование Markdown не означает, что вы не можете использовать HTML
+   Добавление HTML-тегов допускается в любой файл Markdown</p>
+</blockquote>
+
+<h2 id="Заголовки">Заголовки</h2>
+
+<p>Чтобы создать заголовок, добавьте знаки ( <code class="highlighter-rouge">#</code> ) перед словом или фразой. Количество этих знаков должно соответствовать уровню заголовка. Например, чтобы создать заголовок третьего уровня (<code class="highlighter-rouge">&lt;h3&gt;</code>), используйте три цифровых знака (например, <code class="highlighter-rouge">### Мой Заголовок</code>).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Результат</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td># Заголовок уровня 1</td>
+      <td>&lt;h1&gt;Заголовок уровня 1&lt;/h1&gt;</td>
+      <td># Заголовок уровня 1</td>
+    </tr>
+    <tr>
+      <td>## Заголовок уровня 2</td>
+      <td>&lt;h2&gt;Заголовок уровня 2&lt;/h2&gt;</td>
+      <td>## Заголовок уровня 2</td>
+    </tr>
+    <tr>
+      <td>### Заголовок уровня 3</td>
+      <td>&lt;h3&gt;Заголовок уровня 3&lt;/h3&gt;</td>
+      <td>### Заголовок уровня 3</td>
+    </tr>
+    <tr>
+      <td>#### Заголовок уровня 4</td>
+      <td>&lt;h4&gt;Заголовок уровня 4&lt;/h4&gt;</td>
+      <td>#### Заголовок уровня 4</td>
+    </tr>
+    <tr>
+      <td>##### Заголовок уровня 5</td>
+      <td>&lt;h5&gt;Заголовок уровня 5&lt;/h5&gt;</td>
+      <td>##### Заголовок уровня 5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="Альтернативный-синтаксис">Альтернативный синтаксис</h2>
+<p>Alternatively, on the line below the text, add any number of == characters for heading level 1 or – characters for heading level 2.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Результат</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Заголовок уровня 1</td>
+      <td>&lt;h1&gt;Заголовок уровня 1&lt;/h1&gt;</td>
+      <td>Заголовок уровня 1</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Заголовок уровня 2</td>
+      <td>&lt;h2&gt;Заголовок уровня 2&lt;/h2&gt;</td>
+      <td>Заголовок уровня 2</td>
+    </tr>
+  </tfoot>
+</table>
+
+<h2 id="Параграфы">Параграфы</h2>
+
+<p>Что бы задействовать разделение по параграфам ( <code class="highlighter-rouge">&lt;p&gt; ... &lt;/p&gt;</code> ), просто используйте используйте пустую строку. Отступы абзацев не стоит делать пробелами или табуляциями.</p>
+
+<blockquote>
+  <p>Пост в процессе перевода…</p>
+</blockquote>
+
+<p>Markdown	HTML	Rendered Output
+I really like using Markdown.</p>
+
+<p>I think I’ll use it to format all of my documents from now on.	&lt;p&gt;I really like using Markdown.&lt;/p&gt;</p>
+
+<p>I think I'll use it to format all of my documents from now on.</p>
+<p>I really like using Markdown.</p>
+
+<p>I think I’ll use it to format all of my documents from now on.</p>
+
+<p>Line Breaks
+To create a line break (<br />), end a line with two or more spaces, and then type return.</p>
+
+<p>Markdown	HTML	Rendered Output
+This is the first line.<br />
+And this is the second line.	&lt;p&gt;This is the first line.<br />
+And this is the second line.&lt;/p&gt;	
+This is the first line.
+And this is the second line.</p>
+
+<p>Emphasis
+You can add emphasis by making text bold or italic.</p>
+
+<p>Bold
+To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.</p>
+
+<p>Markdown	HTML	Rendered Output
+I just love <strong>bold text</strong>.	I just love <strong>bold text</strong>.	I just love bold text.
+I just love <strong>bold text</strong>.	I just love <strong>bold text</strong>.	I just love bold text.
+Love<strong>is</strong>bold	Love<strong>is</strong>bold	Loveisbold
+Italic
+To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.</p>
+
+<p>Markdown	HTML	Rendered Output
+Italicized text is the <em>cat’s meow</em>.	Italicized text is the <em>cat’s meow</em>.	Italicized text is the cat’s meow.
+Italicized text is the <em>cat’s meow</em>.	Italicized text is the <em>cat’s meow</em>.	Italicized text is the cat’s meow.
+A<em>cat</em>meow	A<em>cat</em>meow	Acatmeow
+Bold and Italic
+To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase.</p>
+
+<p>Markdown	HTML	Rendered Output
+This text is <strong><em>really important</em></strong>.	This text is <strong><em>really important</em></strong>.	This text is really important.
+This text is <strong><em>really important</em></strong>.	This text is <strong><em>really important</em></strong>.	This text is really important.
+This text is <strong><em>really important</em></strong>.	This text is <strong><em>really important</em></strong>.	This text is really important.
+This text is <strong><em>really important</em></strong>.	This text is <strong><em>really important</em></strong>.	This text is really important.
+Blockquotes
+To create a blockquote, add a &gt; in front of a paragraph.</p>
+
+<blockquote>
+  <p>Dorothy followed her through many of the beautiful rooms in her castle.
+The Результатlooks like this:</p>
+</blockquote>
+
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+
+<p>Blockquotes with Multiple Paragraphs
+Blockquotes can contain multiple paragraphs. Add a &gt; on the blank lines between the paragraphs.</p>
+
+<blockquote>
+  <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+
+  <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+The Результатlooks like this:</p>
+</blockquote>
+
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+
+<p>Nested Blockquotes
+Blockquotes can be nested. Add a » in front of the paragraph you want to nest.</p>
+
+<blockquote>
+  <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+
+  <blockquote>
+    <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+The Результатlooks like this:</p>
+  </blockquote>
+</blockquote>
+
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+
+<p>Blockquotes with Other Elements
+Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.</p>
+
+<blockquote>
+  <h3 id="the-quarterly-results-look-great">The quarterly results look great!</h3>
+
+  <ul>
+    <li>Revenue was off the chart.</li>
+    <li>Profits were higher than ever.</li>
+  </ul>
+
+  <p><em>Everything</em> is going according to <strong>plan</strong>.
+The Результатlooks like this:</p>
+</blockquote>
+
+<p>The quarterly results look good!
+Revenue was off the chart.
+Profits were higher than ever.
+Everything is going according to plan.</p>
+
+<p>Lists
+You can organize items into ordered and unordered lists.</p>
+
+<p>Ordered Lists
+To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.</p>
+
+<p>Markdown	HTML	Rendered Output</p>
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item	&lt;ol&gt;</li>
+</ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+<p>&lt;/ol&gt;	
+First item
+Second item
+Third item
+Fourth item</p>
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item	&lt;ol&gt;</li>
+</ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+<p>&lt;/ol&gt;	
+First item
+Second item
+Third item
+Fourth item</p>
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item	&lt;ol&gt;</li>
+</ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+<p>&lt;/ol&gt;	
+First item
+Second item
+Third item
+Fourth item</p>
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+    <ol>
+      <li>Indented item</li>
+      <li>Indented item</li>
+    </ol>
+  </li>
+  <li>Fourth item	&lt;ol&gt;</li>
+</ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item
+<ol>
+<li>Indented item</li>
+<li>Indented item</li>
+</ol>
+</li>
+<li>Fourth item</li>
+<p>&lt;/ol&gt;	
+First item
+Second item
+Third item
+Indented item
+Indented item
+Fourth item
+Unordered Lists
+To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.</p>
+
+<p>Markdown	HTML	Rendered Output</p>
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item	&lt;ul&gt;</li>
+</ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+<p>&lt;/ul&gt;	
+First item
+Second item
+Third item
+Fourth item</p>
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item	&lt;ul&gt;</li>
+</ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+<p>&lt;/ul&gt;	
+First item
+Second item
+Third item
+Fourth item</p>
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item	&lt;ul&gt;</li>
+</ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+<p>&lt;/ul&gt;	
+First item
+Second item
+Third item
+Fourth item</p>
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+    <ul>
+      <li>Indented item</li>
+      <li>Indented item</li>
+    </ul>
+  </li>
+  <li>Fourth item	&lt;ul&gt;</li>
+</ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item
+<ul>
+<li>Indented item</li>
+<li>Indented item</li>
+</ul>
+</li>
+<li>Fourth item</li>
+<p>&lt;/ul&gt;	
+First item
+Second item
+Third item
+Indented item
+Indented item
+Fourth item
+Adding Elements in Lists
+To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.</p>
+
+<p>Paragraphs</p>
+<ul>
+  <li>This is the first list item.</li>
+  <li>
+    <p>Here’s the second list item.</p>
+
+    <p>I need to add another paragraph below the second list item.</p>
+  </li>
+  <li>And here’s the third list item.
+The Результатlooks like this:</li>
+</ul>
+
+<p>This is the first list item.
+Here’s the second list item.</p>
+
+<p>I need to add another paragraph below the second list item.</p>
+
+<p>And here’s the third list item.
+Blockquotes</p>
+<ul>
+  <li>This is the first list item.</li>
+  <li>
+    <p>Here’s the second list item.</p>
+
+    <blockquote>
+      <p>A blockquote would look great below the second list item.</p>
+    </blockquote>
+  </li>
+  <li>And here’s the third list item.
+The Результатlooks like this:</li>
+</ul>
+
+<p>This is the first list item.
+Here’s the second list item.</p>
+
+<p>A blockquote would look great below the second list item.</p>
+
+<p>And here’s the third list item.
+Code Blocks
+Code blocks are normally indented four spaces or one tab. When they’re in a list, indent them eight spaces or two tabs.</p>
+
+<ol>
+  <li>Open the file.</li>
+  <li>
+    <p>Find the following code block on line 21:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Test<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Update the title to match the name of your website.
+The Результатlooks like this:</li>
+</ol>
+
+<p>Open the file.
+Find the following code block on line 21:</p>
+
+<html>
+  <head>
+    <title>Test</title>
+  </head>
+Update the title to match the name of your website.
+Images
+1.  Open the file containing the Linux mascot.
+2.  Marvel at its beauty.
+
+    ![Tux, the Linux mascot](/assets/images/tux.png)
+
+3.  Close the file.
+The Результатlooks like this:
+
+Open the file containing the Linux mascot.
+Marvel at its beauty.
+
+Tux, the Linux mascot
+
+Close the file.
+Code
+To denote a word or phrase as code, enclose it in tick marks (`).
+
+Markdown	HTML	Rendered Output
+At the command prompt, type `nano`.	At the command prompt, type <code>nano</code>.	At the command prompt, type nano.
+Escaping Tick Marks
+If the word or phrase you want to denote as code includes one or more tick marks, you can escape it by enclosing the word or phrase in double tick marks (``).
+
+Markdown	HTML	Rendered Output
+``Use `code` in your Markdown file.``	<code>Use `code` in your Markdown file.</code>	Use `code` in your Markdown file.
+Code Blocks
+To create code blocks, indent every line of the block by at least four spaces or one tab.
+
+    <html>
+      <head>
+      </head>
+    </html>
+The Результатlooks like this:
+
+<html>
+  <head>
+  </head>
+</html>
+ Note: To create code blocks without indenting lines, use fenced code blocks.
+Horizontal Rules
+To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+
+***
+
+---
+
+_________________
+The Результатof all three looks identical:
+
+Links
+To create a link, enclose the link text in brackets (e.g., [Duck Duck Go]) and then follow it immediately with the URL in parentheses (e.g., (https://duckduckgo.com)).
+
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+The Результатlooks like this:
+
+My favorite search engine is Duck Duck Go.
+
+URLs and Email Addresses
+To quickly turn a URL or email address into a link, enclose it in angle brackets.
+
+&lt;https://www.markdownguide.org&gt;
+&lt;fake@example.com&gt;
+The Результатlooks like this:
+
+https://www.markdownguide.org
+fake@example.com
+
+Formatting Links
+To emphasize links, add asterisks before and after the brackets and parentheses.
+
+I love supporting **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
+The Результатlooks like this:
+
+I love supporting the EFF.
+This is the Markdown Guide.
+
+Reference-style Links
+Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
+
+Formatting the First Part of the Link
+The first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you’re storing elsewhere in your document.
+
+Although not required, you can include a space between the first and second set of brackets. Also, the label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.
+
+This means the following example formats are all roughly equivalent for the first part of the link:
+
+[hobbit-hole][1]
+[hobbit-hole] [1]
+[hobbit-hole][a]
+[hobbit-hole][A]
+Formatting the Second Part of the Link
+The second part of a reference-style link is formatted with the following attributes:
+
+The label, in brackets, followed immediately by a colon and at least one space (e.g., [label]: ).
+The URL for the link, which you can optionally enclose in angle brackets.
+The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.
+This means the following example formats are all roughly equivalent for the second part of the link:
+
+[hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+[hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
+[hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
+[hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
+[hobbit-hole]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; "Hobbit lifestyles"
+[hobbit-hole]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; 'Hobbit lifestyles'
+[hobbit-hole]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; (Hobbit lifestyles)
+You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).
+
+An Example Putting the Parts Together
+Say you add a URL as a standard URL link to a paragraph and it looks like this in Markdown:
+
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
+of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
+eat: it was a hobbit-hole &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt;, and that means comfort.
+Though it may point to interesting additional information, the URL as displayed really doesn’t add much to the existing raw text other than making it harder to read. To fix that, you could format the URL like this instead:
+
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
+of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
+eat: it was a [hobbit-hole][1], and that means comfort.
+
+[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; "Hobbit lifestyles"
+In both instances above, the Результатwould be identical:
+
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
+
+and the HTML for the link would be:
+
+<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>
+Images
+To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
+
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+The Результатlooks like this:
+
+Philadelphia's Magic Gardens. This place was so cool!
+
+Linking Images
+To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+
+[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+The Результатlooks like this:
+
+An old rock in the desert
+
+Escaping Characters
+To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
+
+\* Without the backslash, this would be a bullet in an unordered list.
+The Результатlooks like this:
+
+* Without the backslash, this would be a bullet in an unordered list.
+
+Characters You Can Escape
+You can use a backslash to escape the following characters.
+
+
+
+Что бы быстро писать посты в Jekyll желательно так же быстро освоить Markdown
+
+| Syntax                                                    | Description |
+| --------------------------------------------------------- | ----------- |
+| <i class="fa fa-info-circle" aria-hidden="true"></i>      | Title       |
+| Paragraph                                                 | Text        |
+
+
+[Markdown Guide](https://www.markdownguide.org/basic-syntax)
+
+___
+
+[1]: https://
+</html>
+</span>
+
+        
+
+        
+
+        
+        <div class="tags">
+          <small>
+          <i class="fas fa-tags"></i>
+            Markdown, text, Syntax
+          </small>
+        </div>
+        
+
+      </div>
+
+      
+      <div class="content-panel feedback">
+        Живите мирно и процветайте <i class="fas fa-hand-spock"></i><br />
+        Если что - пиште мне в telegram  <a href="https://t.me/klimovrv">@klimovrv <i class="fab fa-telegram-plane"></i> </a>
+      </div>
+      
+
+      
+
+      
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div class="footer clearfix">
+  <div class="col-md-6">
+    Сделано на <a href="https://jekyllrb.com/">Jekyll</a> с <i class="fas fa-heart"></i>
+  </div>
+  <div class="col-md-6">
+    &lt; <a href="https://github.com/klimov-rv/klimov-rv.github.io">Github</a> &nbsp;<i class="fab fa-github-alt"></i> /&gt;
+  </div>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="/js/jquery.mmenu.min.all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script src="/js/script.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $("#my-menu").mmenu().on( "closed.mm", function() {
+            $(".menu-button").show();
+         });
+      $(".menu-button").click(function() {
+        $(".menu-button").hide();
+        $("#my-menu").trigger("open.mm");
+      });
+   });
+</script>
+
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+          _gaq.push(['_trackPageview']);
+  (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47298480 = new Ya.Metrika({ id:47298480, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47298480" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+    </body>
+</html>

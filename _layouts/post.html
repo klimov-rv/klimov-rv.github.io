@@ -15,11 +15,11 @@ layout: default
     <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
       {% if site.data.thumbnail[page.thumbnail] %}
       <div class="thumb">
-        <img itemprop="image" src="{{ site.data.thumbnail[page.thumbnail] }}" alt="Thumbnail: {{ page.thumbnail }}" />
+        <img itemprop="image" class="svg-image" src="{{ site.data.thumbnail[page.thumbnail] }}" alt="Thumbnail: {{ page.thumbnail }}" />
       </div>
       {% elsif page.thumbnail %}
       <div class="thumb">
-        <i class="fa fa-{{ page.thumbnail }} fa-4x"></i>
+        <i class="fas fa-{{ page.thumbnail }} fa-4x"></i>
       </div>
       {% endif %}
 
@@ -80,7 +80,7 @@ layout: default
 
         {% if page.series %}
           {% if seriesnext %}
-            <i>Продолжение <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <i>Продолжение <i class="fab fa-angle-double-right" aria-hidden="true"></i>
             :</i> <a href="{{ seriesnext.url }}">{{ seriesnext.title }}</a>
           {% endif %}
         {% endif %}
@@ -95,7 +95,7 @@ layout: default
         {% if page.tags and page.tags.size > 0 %}
         <div class="tags">
           <small>
-          <i class="fa fa-tags"></i>
+          <i class="fas fa-tags"></i>
             {{ page.tags | join: ', ' }}
           </small>
         </div>
@@ -105,17 +105,22 @@ layout: default
 
       {% if site.twitter_username and site.disqus_account %}
       <div class="content-panel feedback">
-        Живите мирно и процветайте <i class="fa fa-hand-spock-o"></i><br />
-        Если что - пиште мне в твиттер <i class="fa fa fa-twitter"></i><a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> или оставьте коммент ниже
+        Живите мирно и процветайте <i class="fas fa-hand-spock"></i><br />
+        Если что - пиште мне в твиттер <i class="fab fa-twitter"></i><a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> или оставьте коммент ниже
+      </div>
+      {% elsif site.telegram_username %}
+      <div class="content-panel feedback">
+        Живите мирно и процветайте <i class="fas fa-hand-spock"></i><br />
+        Если что - пиште мне в telegram  <a href="https://t.me/{{ site.telegram_username }}">@{{ site.telegram_username }} <i class="fab fa-telegram-plane"></i> </a>
       </div>
       {% elsif site.twitter_username %}
       <div class="content-panel feedback">
-        Живите мирно и процветайте <i class="fa fa-hand-spock-o"></i><br />
-        Если что - пиште мне в твиттер <i class="fa fa fa-twitter"></i> <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>
+        Живите мирно и процветайте <i class="fas fa-hand-spock"></i><br />
+        Если что - пиште мне в твиттер <i class="fab fa-twitter"></i> <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>
       </div>
       {% elsif site.disqus_account %}
       <div class="content-panel feedback">
-        Живите мирно и процветайте <i class="fa fa-hand-spock-o"></i><br />
+        Живите мирно и процветайте <i class="fas fa-hand-spock"></i><br />
         Если что - пиште мне, что вы думаете в комментариях ниже
       </div>
       {% endif %}

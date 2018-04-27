@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      О Jekyll
-date:       2017-01-09 12:32:18
-summary:    Генератор статической информации. Быстро, точно, и локанично.
+title: О Jekyll
+layout: post
+date: '2017-01-09 15:32:18 +0300'
+summary: Генератор статической информации. Быстро, точно, и локанично.
 categories: jekyll
-thumbnail:  jekyll
+thumbnail: jekyll
 tags:
- - технологии
- - jekyll
+- технологии
+- jekyll
 ---
 
 __Jekyll__ — средство генерации простых сайтов. С ним легко создать и 
@@ -18,4 +18,4 @@ __Jekyll__ — средство генерации простых сайтов. 
 
 Приятно то, что он легко располагается на [Github Pages](https://pages.github.com/).
 
-Узнать больше можно на официальном сайте [website](http://jekyllrb.com/).
+Узнать больше можно на официальном сайте [jekyllrb.com](http://jekyllrb.com/).

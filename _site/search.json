@@ -17,6 +17,14 @@
     } ,
     
   {
+    "title"    : "Шпаргалка",
+    "category" : "",
+    "tags"     : "VSC, shortcuts, cheatsheets",
+    "url"      : "/site/2017/07/05/Visual-Studio-Code/",
+    "date"     : "2017-07-05 22:01:05 +0300"
+    } ,
+    
+  {
     "title"    : "Полезные SMM-сервисы",
     "category" : "",
     "tags"     : "SMM, продвижение, подборка, маркетинг, полезные ссылки",
@@ -25,11 +33,35 @@
     } ,
     
   {
-    "title"    : "Подводные камни Интернет агентств",
+    "title"    : "О Ruby на рельсах",
     "category" : "",
-    "tags"     : "интернет, стартап, выбор",
-    "url"      : "/web/2017/05/26/Pitfalls-of-web-development.1/",
-    "date"     : "2017-05-26 22:00:52 +0300"
+    "tags"     : "Ruby, RoR, Library",
+    "url"      : "/programming/2017/05/08/ruby-on-rails-framework/",
+    "date"     : "2017-05-08 13:08:00 +0300"
+    } ,
+    
+  {
+    "title"    : "И не только Рельсы",
+    "category" : "",
+    "tags"     : "Ruby, Sinatra",
+    "url"      : "/programming/2017/05/07/not-only-Rails/",
+    "date"     : "2017-05-07 14:17:39 +0300"
+    } ,
+    
+  {
+    "title"    : "Моё знакомство с Ruby",
+    "category" : "",
+    "tags"     : "Jekyll, Ruby, ",
+    "url"      : "/programming/2017/05/07/Hello-Ruby/",
+    "date"     : "2017-05-07 14:08:51 +0300"
+    } ,
+    
+  {
+    "title"    : "Node.js первые шаги",
+    "category" : "",
+    "tags"     : "JavaScript, V8, Node.js",
+    "url"      : "/site/2017/05/01/Node-JS-first-steps/",
+    "date"     : "2017-05-01 21:52:15 +0300"
     } ,
     
   {
@@ -49,10 +81,34 @@
     } ,
     
   {
+    "title"    : "Использование Markdown",
+    "category" : "",
+    "tags"     : "Markdown, text, Syntax",
+    "url"      : "/text/2017/02/06/markdown-usage/",
+    "date"     : "2017-02-06 21:51:02 +0300"
+    } ,
+    
+  {
+    "title"    : "Использование SVG",
+    "category" : "",
+    "tags"     : "icons, SVG, fonts, icons8",
+    "url"      : "/design/2017/02/06/SVG-usage/",
+    "date"     : "2017-02-06 21:51:02 +0300"
+    } ,
+    
+  {
     "title"    : "Заглавные миниатюры",
     "category" : "",
     "tags"     : "иконки, эскизы, изображения, jekyll",
     "url"      : "/jekyll/2017/02/04/using-thumbnails/",
+    "date"     : "2017-02-04 14:41:22 +0300"
+    } ,
+    
+  {
+    "title"    : "Новые иконки на сайт",
+    "category" : "",
+    "tags"     : "icons, SVG, fonts",
+    "url"      : "/design/2017/02/04/new-icons-moon/",
     "date"     : "2017-02-04 14:41:22 +0300"
     } ,
     
@@ -62,6 +118,14 @@
     "tags"     : "дизайн, статика, carte, noire",
     "url"      : "/jekyll/2017/02/01/welcome-to-carte-noir/",
     "date"     : "2017-02-01 18:31:19 +0300"
+    } ,
+    
+  {
+    "title"    : "Копирайтинг",
+    "category" : "",
+    "tags"     : "Text, Copywriting, Copyright",
+    "url"      : "/text/2017/01/17/copyright/",
+    "date"     : "2017-01-17 14:56:55 +0300"
     } ,
     
   {
@@ -81,4 +145,3 @@
     } 
     
   ]
-

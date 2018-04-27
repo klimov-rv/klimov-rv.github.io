@@ -5,23 +5,25 @@
     <description>Первый официальный проект любого вебмастера - это его собственный сайт </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Apr 2018 21:40:47 +0300</pubDate>
-    <lastBuildDate>Wed, 04 Apr 2018 21:40:47 +0300</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Fri, 27 Apr 2018 14:24:33 +0300</pubDate>
+    <lastBuildDate>Fri, 27 Apr 2018 14:24:33 +0300</lastBuildDate>
+    <generator>Jekyll v3.8.0</generator>
     
       <item>
         <title>CMS vs SSG</title>
         <description>&lt;h1 id=&quot;Что-выбрать-cms-или-ssg&quot;&gt;Что выбрать CMS или SSG&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://klimovproject.ru/images/post-hero/thinking-about-SSG.png&quot; alt=&quot;Разбираем преимущества SGG&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Все кто впервые задумывается о бизнесе в интернете обычно стоит перед выбором:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Решиться на серьёзные затраты, нанимая разработчиков и дизайнеров&lt;/li&gt;
   &lt;li&gt;Начать изучать основы HTML и CSS самостоятельно&lt;/li&gt;
-  &lt;li&gt;Использовать различные CMS (Content Management System)&lt;/li&gt;
+  &lt;li&gt;Использовать различные &lt;strong&gt;CMS&lt;/strong&gt; (Content Management System)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Первый вариант зависит от бюджета, а 2ый и 3ий более привлекательны для стартапа, это понятно. Но из 2 и 3 варианта многие выбирают удобные и привлекательные с первого взгляда CMS (25% выбирают Wordpress), не подозревая, что есть в природе такой зверь, как SSG (Static Site Generator). А он между прочим имеет огромные приемущества и активно захватывает свою нишу. Например данный блог создан на Jekyll - &lt;a href=&quot;https://www.staticgen.com/&quot;&gt;самом популярном&lt;/a&gt; статическом генераторе с 2015 года!&lt;/p&gt;
+&lt;p&gt;Первый вариант зависит от бюджета, а 2ый и 3ий более привлекательны для стартапа, это понятно. Но из 2 и 3 варианта многие выбирают удобные и привлекательные с первого взгляда CMS (25% выбирают Wordpress), не подозревая, что есть в природе такой зверь, как &lt;strong&gt;SSG&lt;/strong&gt; (Static Site Generator). А он между прочим имеет огромные преимущества и активно захватывает свою нишу. Например данный блог создан на Jekyll - &lt;a href=&quot;https://www.staticgen.com/&quot;&gt;самом популярном&lt;/a&gt; статическом генераторе с 2015 года!&lt;/p&gt;
 
 &lt;h2 id=&quot;Плюсы-ssg&quot;&gt;Плюсы SSG&lt;/h2&gt;
 
@@ -95,9 +97,11 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Отсутствие “админки”&lt;/p&gt;
+    &lt;p&gt;Отсутствие классической “админки”&lt;/p&gt;
 
-    &lt;p&gt;Поиск удобного решения этого минуса в процессе. В данный момент тестируется сервис &lt;a href=&quot;https://cloudcannon.com/&quot;&gt;CloudCannon&lt;/a&gt;, который предоставляет админку вместе с хостингом, но не русифицирован&lt;/p&gt;
+    &lt;p&gt;То есть нет интерфейса для редактирования “как в Word” или безумного WYSIWYG-редактора. Посты нужно писать в файлах определённого типа, в определённом формате вручную.
+ Поиск удобного решения этой проблемы - в процессе. В данный момент тестируется сервис &lt;a href=&quot;https://cloudcannon.com/&quot;&gt;CloudCannon&lt;/a&gt;, который предоставляет админку вместе с хостингом, но не русифицирован
+ Так же есть плагин &lt;a href=&quot;https://jekyll.github.io/jekyll-admin/&quot;&gt;Jekyll Admin&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Родовое отсутствие динамического контента&lt;/p&gt;
@@ -152,10 +156,9 @@
 
 &lt;p&gt;Используйте команду &lt;code class=&quot;highlighter-rouge&quot;&gt;dig&lt;/code&gt;, чтобы узнать [CNAME] Запись:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ dig CNAME www.example.com +short
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ dig CNAME www.example.com +short
 example.com.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;Добавление-cname-Записи-в-dns--Примеры&quot;&gt;Добавление [CNAME] Записи в DNS — Примеры&lt;/h2&gt;
 
@@ -167,11 +170,10 @@ example.com.
 
 &lt;h3 id=&quot;Создать-Несколько-Алиасов-с-помощью-cname-Записи&quot;&gt;Создать Несколько Алиасов с помощью [CNAME] Записи&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;example.com. IN CNAME example.tld.
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;example.com. IN CNAME example.tld.
 www.example.com. IN CNAME example.tld.
 test.example.com. IN CNAME example.tld.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.shellhacks.com/ru/setup-dns-cname-record/&quot;&gt;© Источник&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -186,6 +188,43 @@ test.example.com. IN CNAME example.tld.
         <category>canonical</category>
         
         <category>aliases</category>
+        
+        
+        <category>Site</category>
+        
+      </item>
+    
+      <item>
+        <title>Шпаргалка</title>
+        <description>&lt;h1 id=&quot;Ссылки-на-вспомогательные-клавиши&quot;&gt;Ссылки на вспомогательные клавиши&lt;/h1&gt;
+
+&lt;p&gt;Пока я сижу под Windows - не могу найти минусов в моём любимом редакторе кода &lt;a href=&quot;https://ru.wikipedia.org/wiki/Visual_Studio_Code&quot;&gt;Visual Studio Code&lt;/a&gt;. Поэтому не забываем &lt;a href=&quot;https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf&quot;&gt;горячие клавиши&lt;/a&gt; и ускоряем процесс работы&lt;/p&gt;
+
+&lt;h2 id=&quot;Шпаргалка-devhintsio&quot;&gt;Шпаргалка DevHints.io&lt;/h2&gt;
+
+&lt;p&gt;Коллекция разработчика Rico Sta Cruz (подписывайтесь на его твиттер &lt;a href=&quot;https://twitter.com/rstacruz&quot;&gt;@rstacruz&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devhints.io/jekyll&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devhints.io/css&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devhints.io/css-flexbox&quot;&gt;CSS flexbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devhints.io/sass&quot;&gt;Sass&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;Списком&quot;&gt;Списком&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;горячие клавиши &lt;a href=&quot;https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf&quot;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 05 Jul 2017 22:01:05 +0300</pubDate>
+        <link>http://localhost:4000/site/2017/07/05/Visual-Studio-Code/</link>
+        <guid isPermaLink="true">http://localhost:4000/site/2017/07/05/Visual-Studio-Code/</guid>
+        
+        <category>VSC</category>
+        
+        <category>shortcuts</category>
+        
+        <category>cheatsheets</category>
         
         
         <category>Site</category>
@@ -260,62 +299,152 @@ test.example.com. IN CNAME example.tld.
       </item>
     
       <item>
-        <title>Подводные камни Интернет агентств</title>
-        <description>&lt;p&gt;Что должно насторожить в работе подрядчика?&lt;/p&gt;
+        <title>О Ruby на рельсах</title>
+        <description>&lt;h2 id=&quot;Говорим-руби-подразумеваем-рельсы&quot;&gt;Говорим &lt;em&gt;руби&lt;/em&gt;, подразумеваем &lt;em&gt;рельсы&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Что бы создать собственое веб-приложение на &lt;a href=&quot;/programming/2017/05/07/Hello-Ruby/&quot;&gt;Ruby&lt;/a&gt; — без “рельс” не обойтись
+Данный фреймворк включает в себя:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Мнимая дешевизна.
-Сэкономив на сложной услуге однажды, вы, скорее всего, будете еще долго расплачиваться и рублем, и нервами. Эффективный интернет-маркетинг (а ведь именно такой вам нужен?) не может стоить дешево априори, поэтому внимательно изучайте договор и особенности ценообразования агентства.
-Так, низкая базовая ставка в SEO чаще всего подразумевает дополнительную оплату техподдержки, копирайтинга, настройки аналитики. Большинство из этих работ являются обязательными и в базовом объеме должны быть включены в стоимость абонемента. Поэтому еще на этапе подбора подрядчика уделяйте внимание тому, что на самом деле входит в пакет работ и не придется ли вам постоянно доплачивать.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Малая зона ответственности.
-Представим ситуацию: ваша цель – заявки и/или продажи, вы готовы максимально взаимодействовать с агентством для достижения этой цели. Но в ответ оно обещает привести качественный трафик, после чего ваша прибыль якобы вырастет сама собой. На самом деле никакой гарантии, что все будет именно так, нет. Профессиональное агентство должно ориентироваться не только на привод трафика, но и на достижение бизнес-целей клиента.
-Если вам нужен рост продаж с сайта, оптимальным решением для вас будет performance-маркетинг – самый эффективный, но при этом самый сложный подход к продвижению в интернете. Его основная цель – достижение конкретных, измеримых бизнес-результатов в максимально сжатые сроки через управляемое в режиме реального времени рациональное использование маркетинговых инструментов и ресурсов. Специалисты агентства должны понять, какие рекламные каналы эффективны для вашего бизнеса и собрать их в единую комплексную стратегию. Причем работа в таком формате подходит, даже если вы используете всего один канал, – в сочетании с веб-аналитикой можно выжимать из него максимум отдачи за короткий период времени.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Сам &lt;strong&gt;Ruby&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Пакетный менеджер &lt;strong&gt;Gems&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bundler&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Готовый Веб-сервер с предустановленной &lt;strong&gt;MVC&lt;/strong&gt; структурой&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;[]&lt;/p&gt;
+&lt;p&gt;Более подробную информацию и инструкцию для старта разработки на RoR рекомендую почерпнуть из данной литературы:&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Посредственный клиентский сервис.
-При оказании таких сложных услуг, как интернет-маркетинг, плохой сервис просто недопустим. Если вы не можете дозвониться до своего менеджера или он не в состоянии внятно и подробно объяснить ситуацию по вашему проекту, а также быстро принять в работу ваши требования и обратную связь, сотрудничество вряд ли получится плодотворным.
-Связываться с агентствами, которые не дают подробных и понятных разъяснений по проекту, попросту опасно. Это один из признаков того, что подрядчик скрывает правду, и, возможно, использует черные и серые методы продвижения. Важно понимать, что такие способы дают лишь кратковременный эффект и не позволяют в перспективе получить весомое конкурентное преимущество. Поэтому среди критериев для оценки работы с подрядчиком комфорт и надежность должны стоять наравне с результативностью.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Постоянные срывы сроков работ.
-Еще один аспект, на который нельзя закрывать глаза, – это сам процесс работы с проектом. Задачи в нем должны четко регламентироваться по приоритету и по времени. Если агентство выполняет вовремя меньше 85-90 % работ, это повод задуматься, нужен ли вам такой подрядчик.
-Зачастую причина задержек кроется в плохо отстроенных бизнес-процессах и недостаточном количестве компетентных сотрудников (на постоянной основе или сезонно – во время отпусков, сокращений и т. п.). А это, в свою очередь, негативно сказывается на объеме и качестве предоставляемых услуг.
-Разумеется, гарантировать стопроцентный результат в 100 % случаев невозможно, но систематические задержки работ по проекту по вине агентства (если вы вовремя согласовываете доработки и со своей стороны не препятствуете их внедрению) говорят о непрофессионализме подрядчика.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Поверхностные отраслевые знания.
-Если вы все еще считаете, что продвижение – это стандартный набор механик по технической оптимизации сайта, вы сильно ошибаетесь. Без понимания специфики рынка, потребностей аудитории и тенденций отрасли достичь желаемого результата просто невозможно. Поэтому, отдавая свой проект в руки специалистов, не имеющих опыта продвижения сайтов в вашей тематике, вы с большой вероятностью становитесь для агентства «подопытным кроликом».&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.ozone.ru/multimedia/book_file/1005872139.pdf&quot;&gt;“Ruby on Rails. Быстрая веб-разработка”&lt;/a&gt;. &lt;em&gt;2008 г. Брюс Тейт, Курт Ниббс&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vk.com/doc10903696_319056752?hash=2b76c608f78301b46c&amp;amp;dl=523a5250ad165c506d&quot;&gt;“Rails 4. Гибкая разработка веб-приложений” (PDF)&lt;/a&gt;. &lt;em&gt;2014 г. Сэм Руби, Дейв Томас, Дэвид Хэннсон&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;[]&lt;/p&gt;
+&lt;h3 id=&quot;Видео-с-практическим-примером-анг-яз-60-мин&quot;&gt;Видео с практическим примером (анг. яз., 60 мин)&lt;/h3&gt;
 
-&lt;p&gt;К счастью, распознать непонимание специфики вашей отрасли возможно. Если тематика достаточно широкая (Авто, Медицина, Строительство и т. п.), то еще до начала работ можно ознакомиться с кейсами агентства. В узких нишах бизнеса найти примеры будет сложнее, однако если пообщаться с менеджером и оценить, насколько он разбирается в нюансах вашей отрасли, сразу многое встанет на свои места.&lt;/p&gt;
-
-&lt;p&gt;Проверьте себя&lt;/p&gt;
-
-&lt;p&gt;Конечно, все аспекты профессионального подхода в работе агентства в одном письме не раскроешь. Чтобы облегчить задачу, мы подготовили для вас небольшой тест. Он не займет и пяти минут, зато поможет понять, насколько ваш подрядчик компетентен и полезен вашему бизнесу.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pPy0GQJLZUM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Fri, 26 May 2017 22:00:52 +0300</pubDate>
-        <link>http://localhost:4000/web/2017/05/26/Pitfalls-of-web-development.1/</link>
-        <guid isPermaLink="true">http://localhost:4000/web/2017/05/26/Pitfalls-of-web-development.1/</guid>
+        <pubDate>Mon, 08 May 2017 13:08:00 +0300</pubDate>
+        <link>http://localhost:4000/programming/2017/05/08/ruby-on-rails-framework/</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/05/08/ruby-on-rails-framework/</guid>
         
-        <category>интернет</category>
+        <category>Ruby</category>
         
-        <category>стартап</category>
+        <category>RoR</category>
         
-        <category>выбор</category>
+        <category>Library</category>
         
         
-        <category>Web</category>
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>И не только Рельсы</title>
+        <description>&lt;h1 id=&quot;sinatra--альтернатива-ror&quot;&gt;Sinatra — альтернатива RoR&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Sinatra&lt;/strong&gt; — аналогичный рельсам “каркас” на  &lt;a href=&quot;/programming/2017/05/07/Hello-Ruby/&quot;&gt;Ruby&lt;/a&gt;, специализирующийся на быстром создании Веб-приложений. 
+Узнать больше полезной информации о нём &lt;a href=&quot;http://sinatrarb.com/&quot;&gt;здесь&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;Видеознакомство-с-sinatra-rb&quot;&gt;Видеознакомство с Sinatra Rb&lt;/h2&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sp8TL37ymGk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 07 May 2017 14:17:39 +0300</pubDate>
+        <link>http://localhost:4000/programming/2017/05/07/not-only-Rails/</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/05/07/not-only-Rails/</guid>
+        
+        <category>Ruby</category>
+        
+        <category>Sinatra</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Моё знакомство с Ruby</title>
+        <description>&lt;h1 id=&quot;ruby--знакомство&quot;&gt;Ruby — знакомство&lt;/h1&gt;
+
+&lt;p&gt;Данный сайт создан благодаря этому практичному языку программирования.
+А теперь посмотрите насколько локаничен и прост код в примере:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Результат выполнения: &quot;I love Ruby&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;say&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;I love Ruby&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Результат выполнения: &quot;I *LOVE* RUBY&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'love'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*love*&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;upcase&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Результат выполнения: пять раз выводится&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# &quot;I *love* Ruby&quot;&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;times&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;say&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;Начать-программировать-на-ruby-&quot;&gt;Начать программировать на Ruby !&lt;/h2&gt;
+
+&lt;p&gt;Для начала нырните и ознакомьтесь с &lt;a href=&quot;https://www.ruby-lang.org/ru/documentation/quickstart/&quot;&gt;“быстрым стартом”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Что бы начать писать &lt;strong&gt;Ruby&lt;/strong&gt; в редакторе &lt;strong&gt;VS Code&lt;/strong&gt;  пригодится &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby&quot;&gt;дебаггер&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Хотите почувствовать всю мощь и изящество языка? - заходите на &lt;a href=&quot;https://www.codewars.com/&quot;&gt;CodeWars&lt;/a&gt;
+Я там пока &lt;a href=&quot;https://www.codewars.com/users/dreamhaze&quot;&gt;7 “кю”&lt;/a&gt; но всё ещё впереди!&lt;/p&gt;
+
+&lt;h3 id=&quot;Для-углубления-посмотрим-видео-урок-eng-60-мин&quot;&gt;Для углубления посмотрим видео-урок (ENG, 60 мин)&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dji9ALCgfpM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;Идеальный-для-статических-сайтов&quot;&gt;Идеальный для статических сайтов&lt;/h2&gt;
+
+&lt;p&gt;Хоть сам язык уже далеко не новый, и впервые опубликован ещё в 1995 году, он переживает второе дыхание в связи с популярностью фреймворков. Например всем известный &lt;a href=&quot;/programming/2017/05/08/ruby-on-rails-framework/&quot;&gt;Ruby on Rails&lt;/a&gt; или быстрый &lt;a href=&quot;/programming/2017/05/07/not-only-Rails/&quot;&gt;Sinatra&lt;/a&gt;. Направленность и область применения - это Веб-приложения, в том числе статические сайты. Эту направленность так же подтверждает успех Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;icon icon-ruby&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 May 2017 14:08:51 +0300</pubDate>
+        <link>http://localhost:4000/programming/2017/05/07/Hello-Ruby/</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/05/07/Hello-Ruby/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Ruby</category>
+        
+        <category></category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Node.js первые шаги</title>
+        <description>&lt;h1 id=&quot;nodejs-первые-шаги---командная-строка&quot;&gt;Node.js первые шаги - командная строка&lt;/h1&gt;
+
+&lt;p&gt;Открываем папку в терминале:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;platformio-ide-terminal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Плагин для установки терминала в редакторе&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;platformio-ide-terminal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;https://repl.it/@klimov_rv/FrillySugaryInternalcommand&lt;/p&gt;
+
+&lt;iframe height=&quot;400px&quot; width=&quot;100%&quot; src=&quot;https://repl.it/@klimov_rv/FrillySugaryInternalcommand?lite=true&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; sandbox=&quot;allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Mon, 01 May 2017 21:52:15 +0300</pubDate>
+        <link>http://localhost:4000/site/2017/05/01/Node-JS-first-steps/</link>
+        <guid isPermaLink="true">http://localhost:4000/site/2017/05/01/Node-JS-first-steps/</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>V8</category>
+        
+        <category>Node.js</category>
+        
+        
+        <category>Site</category>
         
       </item>
     
@@ -425,239 +554,6 @@ test.example.com. IN CNAME example.tld.
         
         
         <category>Web</category>
-        
-      </item>
-    
-      <item>
-        <title>Заглавные миниатюры</title>
-        <description>&lt;p&gt;Каждая статья klimov-project начинается с изображения, которое сразу
-намекает на содержание страницы. В jekyll это легко сделать, добавив простой
-параметр &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail&lt;/code&gt; в формате сериализации данных &lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML frontmatter&lt;/a&gt;
-Он может быть описан как изображение в файле &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnails.yml&lt;/code&gt; или
-используя &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;Картинкой&quot;&gt;Картинкой&lt;/h2&gt;
-
-&lt;p&gt;Что бы воспользоваться изобржением - нужно загрузить его в интернет, например 
-на хостинг картинок &lt;a href=&quot;http://imgur.com/&quot;&gt;Imgur&lt;/a&gt;, после чего прописать полученный адрес в файле 
-&lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnail.yml&lt;/code&gt;, присвоив ему имя. В нашем случае запись выглядит так:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll: &quot;http://i.imgur.com/aRQcGSi.png&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Это имя-переменную я и подставляю позже в параметр &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail&lt;/code&gt; как опцию для 
-данной страницы&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;thumbnail: jekyll
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Эта система позволяет использовать одно и то же изображения без указания и 
-поисков конкретной ссылки.&lt;/p&gt;
-
-&lt;h2 id=&quot;font-awesome&quot;&gt;Font Awesome&lt;/h2&gt;
-
-&lt;p&gt;Если jekyll не найдёт адресата для эскиза в файле &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail.yml&lt;/code&gt; , тогда
-он решит что мы хотим использовать &lt;em&gt;Font Awesome&lt;/em&gt; взамен. Весь список иконок
-&lt;em&gt;Font Awesome&lt;/em&gt; можно найти &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Для примера, если я писал бы на этой странице об Android, то использовал бы
-&lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icon/android/&quot;&gt;иконку android&lt;/a&gt; из набора font awesome, и задал бы параметру страницы такое
-значение:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;thumbnail: android
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Удобно это тем, что воспользовавшись по умолчанию иконкой из всеми любимой библиотеки,
-позже мы можем легко переназначить имени android уже своё изображение, добавив его в
- &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnails.yml&lt;/code&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 04 Feb 2017 14:41:22 +0300</pubDate>
-        <link>http://localhost:4000/jekyll/2017/02/04/using-thumbnails/</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2017/02/04/using-thumbnails/</guid>
-        
-        <category>иконки</category>
-        
-        <category>эскизы</category>
-        
-        <category>изображения</category>
-        
-        <category>jekyll</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Шаблон Чёрная Карта</title>
-        <description>&lt;p&gt;Дизайн блога называется &lt;em&gt;“Чёрная Карта”&lt;/em&gt;, и он должен всем понравится, нашёл я 
-его в каталоге бесплатных шаблонов &lt;a href=&quot;http://jekyllthemes.org/themes/carte-noire/&quot;&gt;jekyllthemes.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“Чёрная Карта”&lt;/em&gt; отлично подходит для личного блога с &lt;strong&gt;важными&lt;/strong&gt; заметками, поэтому мой
-выбор пал на него. Он отлично демонстрирует возможности генератора статических 
-сайтов &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Но в блоге не всё является &lt;strong&gt;“статикой”&lt;/strong&gt;, предусмотрены и очень лаконично оформлены
-сервисы &lt;em&gt;3rd party&lt;/em&gt; (третей стороны), которые обеспечивают динамику, такие как
-&lt;em&gt;Disqus&lt;/em&gt; и &lt;em&gt;AddThis&lt;/em&gt;. С подобными опциями мы можем позволить себе оставаться на 
-любимом Jekyll без необходимости перехода на тяжёлые движки Wordpress и переплаты
-за хостинг.&lt;/p&gt;
-
-&lt;p&gt;И конечно же, в знак благодарности оставляю символичесую ссылку на &lt;a href=&quot;http://www.jacobtomlinson.co.uk/&quot;&gt;создателя&lt;/a&gt; &lt;em&gt;“Чёрной
-Карты”&lt;/em&gt;!&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 01 Feb 2017 18:31:19 +0300</pubDate>
-        <link>http://localhost:4000/jekyll/2017/02/01/welcome-to-carte-noir/</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2017/02/01/welcome-to-carte-noir/</guid>
-        
-        <category>дизайн</category>
-        
-        <category>статика</category>
-        
-        <category>carte</category>
-        
-        <category>noire</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Играем мышцами в этом шаблоне</title>
-        <description>&lt;p&gt;&lt;strong&gt;Важно&lt;/strong&gt; - Это производная статья &lt;a href=&quot;http://pixyll.com/jekyll/pixyll/2014/06/10/see-pixyll-in-action/&quot;&gt;“See pixyll in action”&lt;/a&gt;, взятая из любимой jekyl темы &lt;a href=&quot;http://pixyll.com/&quot;&gt;pixyll&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Все ссылки легко &lt;a href=&quot;#&quot;&gt;найти и опознать&lt;/a&gt;, не отвлекая от гармонии параграфа. Это 
-правило распространяется на &lt;em&gt;курсив&lt;/em&gt; и &lt;strong&gt;полужирный&lt;/strong&gt; текст. Вычёркивание работает 
-&lt;del&gt;на всякий пожарный&lt;/del&gt; на тот случай, если надо обновить пост.
-Что бы не выделяться, &lt;ins&gt;или наоборот выделить себя&lt;/ins&gt; отлично работает и 
-подчёркивание.&lt;/p&gt;
-
-&lt;h3 id=&quot;Код-синтаксис-и-подсветка&quot;&gt;Код, синтаксис и подсветка&lt;/h3&gt;
-
-&lt;p&gt;Блоки кода используют тему &lt;a href=&quot;https://noahfrederick.com/log/lion-terminal-theme-peppermint/&quot;&gt;peppermint&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Awesome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
-  &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EvenMoreAwesome&lt;/span&gt;
-
-  &lt;span class=&quot;n&quot;&gt;validates_presence_of&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:something&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;validates&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;email_format: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Заголовок&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;500px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;application/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;checked&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- here goes the rest of the page --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;Заголовки&quot;&gt;Заголовки!&lt;/h1&gt;
-
-&lt;p&gt;Они адаптивны и пропорциональны (в &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;line-height&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt;, и &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt;).&lt;/p&gt;
-
-&lt;h5 id=&quot;Они-обращают-правильное-внимание-на-себя&quot;&gt;Они обращают правильное внимание на себя&lt;/h5&gt;
-
-&lt;p&gt;Что позволяет подавать информацию в правильной иерархии и логике&lt;/p&gt;
-
-&lt;h3 id=&quot;Есть-списки-конечно&quot;&gt;Есть списки, конечно&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Яблоки&lt;/li&gt;
-  &lt;li&gt;Груши&lt;/li&gt;
-  &lt;li&gt;Помидоры&lt;/li&gt;
-  &lt;li&gt;Молоко&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Покосить газон&lt;/li&gt;
-  &lt;li&gt;Покормить кошку&lt;/li&gt;
-  &lt;li&gt;Брейк-данс!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;Изображения-выглядят-отлично&quot;&gt;Изображения выглядят отлично&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/DMCHDqF.jpg&quot; alt=&quot;Thumper&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;Стильные-цитаты-включены-в-счёт&quot;&gt;Стильные цитаты включены в счёт&lt;/h3&gt;
-
-&lt;p&gt;Можно использовать встроенный синтаксис &lt;em&gt;markdown&lt;/em&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; для простых цитат.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;Поддержка-форматирования-текста-latex&quot;&gt;Поддержка форматирования текста &lt;a href=&quot;https://ru.sharelatex.com/&quot;&gt;LaTeX&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;По умолчанию разделителями являются $$. Следовательно, &lt;code class=&quot;highlighter-rouge&quot;&gt;$$ E = m \cdot c^2 $$&lt;/code&gt; дает &lt;script type=&quot;math/tex&quot;&gt;E = m \cdot c^2&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Ну и кое-что повеселее:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\zeta(s) = \frac{1}{\Gamma(s)} \int \limits_0^\infty x^{s-1} \sum_{n=1}^\infty e^{-nx} \mathrm{d}x = \frac{1}{\Gamma(s)} \int \limits_0^\infty \frac{x^{s-1}}{e^x - 1} \mathrm{d}x&lt;/script&gt;
-
-&lt;h3 id=&quot;Со-временем-возможны-улучшения&quot;&gt;Со временем возможны улучшения&lt;/h3&gt;
-
-&lt;p&gt;Следим за &lt;a href=&quot;https://github.com/jacobtomlinson/carte-noire&quot;&gt;Github репозиторием&lt;/a&gt; для запросов,
-добавлений, функций.&lt;/p&gt;
-
-&lt;p&gt;Кодим дальше.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 10 Jan 2017 15:31:19 +0300</pubDate>
-        <link>http://localhost:4000/jekyll/2017/01/10/carte-noire-in-action/</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2017/01/10/carte-noire-in-action/</guid>
-        
-        <category>demo</category>
-        
-        <category>возможности</category>
-        
-        <category>шаблон</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>О Jekyll</title>
-        <description>&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt; — средство генерации простых сайтов. С ним легко создать и 
-вести свой личный блог или сайт-визитку, портфолио. Jekyll использует 
-шаблонизатор &lt;a href=&quot;http://docs.shopify.com/themes/liquid-basics&quot;&gt;Liquid&lt;/a&gt; и 
-встроенный язык разметки &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; 
-с поддержкой &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot;&gt;Textile&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Приятно то, что он легко располагается на &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Узнать больше можно на официальном сайте &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 09 Jan 2017 15:32:18 +0300</pubDate>
-        <link>http://localhost:4000/jekyll/2017/01/09/about-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2017/01/09/about-jekyll/</guid>
-        
-        <category>технологии</category>
-        
-        <category>jekyll</category>
-        
-        
-        <category>jekyll</category>
         
       </item>
     
