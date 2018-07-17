@@ -1,18 +1,17 @@
 ---
 title: Новые иконки на сайт
-layout: post
 date: '2017-02-04 14:41:22 +0300'
-summary: Использую миниатюрные изображения для моего проекта
-categories: design
+summary: Как я сипользую иконки для своего проекта
+categories: Design
 thumbnail: Icomoon
 tags:
 - icons
 - SVG
 - fonts
 ---
-# Иконки на сайте ☯
+# Иконки на сайте
 
-Когда арсенала таблиц [UTF8][15] и библиотеки [Font Awersome][1] стало недостаточно, наткнулся на приличный и удобный сервис [❍ Icomoon.io][2]. В связи с чем обзавёлся собственной библиотекой иконок на [поддомене icons][7] и пишу этот пост
+Когда арсенала таблиц [UTF8][15] и библиотеки [Font Awersome][1] стало недостаточно и пришлось его расширять - наткнулся на приличный и удобный сервис [Icomoon.io][2]. 
 
 ![Пост klimovproject — Иконки на сайт ][6]
 
@@ -20,13 +19,15 @@ tags:
 
 ## Как добавить иконки ☕
 
-<span class="icon icon-IcoMoon"></span> **Icomoon.io** даёт возможность скачивать целый пак иконок, имеет полный спектр форматов — **PNG, SVG, EPS, PDF**, а так же в виде шрифта. Можно выбрать из нескольких [бесплатных коллекций][5]:
+ **Icomoon.io** даёт возможность скачивать целый пак иконок, имеет полный спектр форматов — **PNG, SVG, EPS, PDF**, а так же в виде шрифта. Можно выбрать из нескольких [бесплатных коллекций][5]:
 
-- 🗹 *FontAwesome* как одна из таких библиотек там тоже есть, можно вытащить **SVG**-шки
+- <i class="fab fa-font-awesome"></i> *FontAwesome* как одна из таких библиотек там тоже есть, можно вытащить **SVG**-шки
 
-- ✓ [IcoMoon][4] библиотека имеет интересный набор стандартных иконок + мне нужна была заглавная для этого <span class="icon icon-point-up"></span> **поста**
+- <i class="icon icon-IcoMoon"></i> [IcoMoon][4] библиотека имеет интересный набор стандартных иконок + мне нужна была заглавная для этого <span class="icon icon-point-up"></span> **поста**
 
-- ✓ [SimpleIcons][3] с максимальным охватом **брендов**, откуда можно взять неплохие картинки по тематике языка <span class="icon icon-ruby"></span> <span style="color: #cc342d">**Ruby**</span> , фреймворка <span class="icon icon-rails"></span> <span style="color: #c00">**Rails**</span>
+- <i class="icon icon-simpleicons"></i> [SimpleIcons][3] с максимальным охватом **брендов**, откуда можно взять классные иконки по тематике языка <span class="icon icon-ruby"></span> <span style="color: #cc342d">**Ruby**</span> , фреймворка <span class="icon icon-rails"></span> <span style="color: #c00">**Rails**</span>
+
+- <i class="devicon-devicon-plain-wordmark"></i> [DevIcon][19] Тут можно быстро установить в качестве иконок логотипы любых dev продуктов.
 
 ![Иконки Icomoon — выбор библиотек][8]
 
@@ -48,7 +49,7 @@ tags:
 
 ### Использование SVG <span class="icon icon-svg"></span>
 
-Как результат, скачав и разместив файлы <span class="icon icon-svg"></span> **SVG-иконок** (например в →  `/images/icomoon/SVG/`), теперь я просто указываю путь до них в файле `thumbnail.yml`
+Как результат, скачав и разместив файлы **SVG-иконок** (например в →  `/images/icomoon/SVG/`), теперь я просто указываю путь до них в файле `thumbnail.yml`
 
 ```yml
 Ruby:               "/images/icomoon/SVG/ruby.svg"
@@ -94,31 +95,42 @@ font-family: 'icomoon';
 <span class="icon icon-font"></span>
 ```
 
+### Тестируем
+
 <table>
     <tr>
-        <td><span class="icon icon-git2"></span></td>
-        <td><span class="icon icon-adobeillustrator"></span></td>
-        <td><span class="icon icon-dribbble2"></span></td>
-        <td><span class="icon icon-dropbox2"></span></td>
-        <td><span class="icon icon-docker"></span></td>
+        <td><span class="icon icon-git2 i35"></span></td>
+        <td><span class="icon icon-adobeillustrator i35"></span></td>
+        <td><span class="icon icon-dribbble2 i35"></span></td>
+        <td><span class="icon icon-dropbox2 i35"></span></td>
+        <td><span class="icon icon-docker i35"></span></td>
     </tr>
     <tr>
-        <td><span class="icon icon-html5"></span></td>
-        <td><span class="icon icon-jekyll"></span></td>
-        <td><span class="icon icon-jquery"></span></td>
-        <td><span class="icon icon-mozillafirefox"></span></td>
-        <td><span class="icon icon-yandex"></span></td>
+        <td><span class="icon icon-html5 i35"></span></td>
+        <td><span class="icon icon-jekyll i35"></span></td>
+        <td><span class="icon icon-jquery i35"></span></td>
+        <td><span class="icon icon-mozillafirefox i35"></span></td>
+        <td><span class="icon icon-yandex i35"></span></td>
     </tr>
     <tr>
-        <td><span class="icon icon-ubuntu"></span></td>
-        <td><span class="icon icon-unsplash"></span></td>
-        <td><span class="icon icon-vimeo3"></span></td>
-        <td><span class="icon icon-joomla2"></span></td>
-        <td><span class="icon icon-dropbox2"></span></td>
+        <td><span class="icon icon-ubuntu i35"></span></td>
+        <td><span class="icon icon-unsplash i35"></span></td>
+        <td><span class="icon icon-vimeo3 i35"></span></td>
+        <td><span class="icon icon-joomla2 i35"></span></td>
+        <td><span class="icon icon-dropbox2 i35"></span></td>
     </tr>
 </table>
 
+### PS
+
 Если заинтересовала тема вставки именно SVG, вам [сюда][17]!
+P.P.S.
+Обзавёлся собственной библиотекой иконок на [поддомене icons][7] и пишу этот пост
+Проверьте так же, нет ли нужной вам иконки среди тех, которые можно реализовать с помощью [чистого CSS][20]
+
+### Почему не стоит использовать изображения для иконок
+
+![тестовая картинка][18]
 
 [1]: https://fontawesome.com/icons?d=gallery&m=free
 [2]: https://icomoon.io/
@@ -136,3 +148,5 @@ font-family: 'icomoon';
 [16]: /jekyll/2017/02/04/using-thumbnails/
 [17]: /design/2017/02/06/SVG-usage/
 [18]: http://images.klimovproject.ru/post-hero/brands.png
+[19]: http://konpa.github.io/devicon/
+[20]: https://cssicon.space

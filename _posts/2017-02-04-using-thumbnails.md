@@ -1,9 +1,8 @@
 ---
-layout:     post
 title:      Заглавные миниатюры
 date:       2017-02-04 11:41:22
 summary:    Использую миниатюрные изображения для моего проекта
-categories: jekyll
+categories: Jekyll
 thumbnail:  jekyll
 tags:
  - иконки

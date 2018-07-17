@@ -4,9 +4,22 @@ layout: default
 
 <div class="container-fluid index">
   <div class="row index all-posts">
+          
+    {% if site.data.thumbnail[page.thumbnail] %}
+    <div class="thumb">
+      <img itemprop="image" src="{{ site.data.thumbnail[page.thumbnail] }}" alt="Thumbnail: {{ page.thumbnail }}" />
+    </div>
+    {% elsif page.thumbnail %}
+    <div class="thumb">
+      <i class="fa fa-{{ page.thumbnail }} fa-4x"></i>
+    </div>
+    {% endif %}
+
     <h2 class="header" itemprop="headline"> {{ page.title }} </h2>
     <div class="col-md-12 content-panel articles">
-       {{ content }}
+
+      {{ content }}
+
     </div>
   </div>
 </div>

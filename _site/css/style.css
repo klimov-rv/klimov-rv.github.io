@@ -30,8 +30,21 @@ a:hover {
   color: #215A6D;
   text-decoration: none; }
 
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
 ul {
   list-style-type: none; }
+
+pre {
+  background-color: none; }
+
+.typed-cursor {
+  color: white;
+  margin-left: 7px;
+  -webkit-animation: blink 1.3s linear infinite;
+  animation: blink 1.3s linear infinite; }
 
 .navbar, .nav {
   background-color: #215A6D; }
@@ -66,7 +79,7 @@ ul {
 .logo8250 {
   color: white;
   font-family: Helvetica;
-  font-size: 1.3em;
+  font-size: .7em;
   font-weight: 500;
   left: 2%;
   position: relative;
@@ -89,7 +102,7 @@ ul {
 
 .content-panel, .content-panel-clean {
   background-color: #3B3B35;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
   padding-left: 30px;
   padding-right: 30px;
@@ -170,27 +183,27 @@ ul {
     font-size: 22px; }
   .index .content-panel:nth-of-type(1) {
     border-bottom: 10px solid #3CA2A2; }
-  .index .author-header {
+  .index .site-name {
     font-family: Roboto, sans-serif;
     letter-spacing: 2.5px;
     color: #3CA2A2;
     margin-top: 0px;
     padding-top: 15px;
     font-size: 30px; }
-    .index .author-header .blink:after {
+    .index .site-name .blink:after {
       content: "_";
       color: white;
       margin-left: 7px;
       -webkit-animation: blink 1.3s linear infinite;
       animation: blink 1.3s linear infinite; }
     @media (min-width: 768px) {
-      .index .author-header {
+      .index .site-name {
         font-size: 52px;
         margin-top: 0px; } }
     @media (min-width: 992px) {
-      .index .author-header {
+      .index .site-name {
         font-size: 60px;
-        margin-top: -20px; } }
+        margin-top: 0px; } }
   .index .row {
     height: 100%;
     max-height: 100%;
@@ -294,6 +307,17 @@ ul {
         padding-left: 30px;
         padding-right: 30px; } }
 
+.thumb {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center; }
+  .thumb img {
+    height: 50px;
+    fill: #fff; }
+    @media (min-width: 768px) {
+      .thumb img {
+        height: 70px; } }
+
 .single {
   height: 100%;
   max-height: 100%; }
@@ -346,20 +370,6 @@ ul {
       .single .article {
         width: 50%;
         margin-left: 25%; } }
-    .single .article .thumb {
-      margin-top: 20px;
-      margin-bottom: 0px;
-      text-align: center; }
-      .single .article .thumb img {
-        height: 50px;
-        fill: #fff; }
-        .single .article .thumb img.svg-image {
-          fill: #fff;
-          stroke: black;
-          stroke-width: 30px; }
-        @media (min-width: 768px) {
-          .single .article .thumb img {
-            height: 70px; } }
     .single .article .author {
       font-size: 20px;
       text-align: center;
@@ -617,19 +627,64 @@ td {
   border: 1px solid #215A6D; }
 
 .main {
-  background-color: rgba(0, 0, 0, 0.1); }
+  color: #000;
+  background: currentColor; }
 
-@-webkit-keyframes blink {
-  50% {
-    color: #222222; }
-  51% {
-    color: rgba(34, 34, 34, 0); }
-  100% {
-    color: rgba(34, 34, 34, 0); } }
 @keyframes blink {
+  0% {
+    opacity: 1; }
   50% {
-    color: #222222; }
-  51% {
-    color: rgba(34, 34, 34, 0); }
+    opacity: 0; }
   100% {
-    color: rgba(34, 34, 34, 0); } }
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -600px 600px; } }
+/* Mozilla Firefox 5.0+ */
+@-moz-keyframes animatedBackground {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -600px 600px; } }
+/* Safari 4.0+, Chrome 4.0+ */
+@-webkit-keyframes animatedBackground {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -600px 600px; } }
+/* Opera 12.0+ */
+@-o-keyframes animatedBackground {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -600px 600px; } }

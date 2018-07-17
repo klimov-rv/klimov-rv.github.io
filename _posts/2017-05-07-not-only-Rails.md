@@ -1,10 +1,8 @@
 ---
 title: И не только Рельсы
-layout: post
 date: '2017-05-07 14:17:39'
-author: Климов Роман
 summary: Sinatra
-categories: programming
+categories: Programming
 thumbnail: Ruby
 tags:
 - Ruby

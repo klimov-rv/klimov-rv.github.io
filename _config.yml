@@ -30,6 +30,18 @@ footer_left: "Сделано на <a href=\"https://jekyllrb.com/\">Jekyll</a> �
 footer_right: "&lt; <a href=\"https://github.com/klimov-rv/klimov-rv.github.io\">Github</a> &nbsp;<i class=\"fab fa-github-alt\"></i> /&gt;"
 
 # Build settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
 markdown: kramdown
 
 kramdown:

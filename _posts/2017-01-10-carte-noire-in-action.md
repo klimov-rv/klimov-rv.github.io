@@ -1,9 +1,8 @@
 ---
-layout:     post
 title:      Играем мышцами в этом шаблоне
 date:       2017-01-10 12:31:19
 summary:    Демонстративно показываем возможности шаблона
-categories: jekyll
+categories: Jekyll
 thumbnail: cogs
 tags:
  - demo

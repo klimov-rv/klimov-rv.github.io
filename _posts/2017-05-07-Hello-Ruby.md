@@ -1,10 +1,8 @@
 ---
 title: Моё знакомство с Ruby
-layout: post
 date: '2017-05-07 14:08:51 +0300'
-author: Климов Роман
 summary: Ruby
-categories: programming
+categories: Programming
 thumbnail: Ruby
 tags:
 - Jekyll

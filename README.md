@@ -1,38 +1,30 @@
-# Carte Noire
+# Блог-визитка Климов-Проджект
 
-A simple Jekyll theme for blogging. Not named after the coffee.
+Простой сайт с портфолио и лентой постов (материалов)
+Основан на шаблоне Jekyll - [Carte Noire](http://carte-noire.jacobtomlinson.co.uk/).
 
-![Homepage](http://i.imgur.com/xlmHArV.png)
+![Главная](http://i.imgur.com/xlmHArV.png)
 
-### Article
-![Article](http://i.imgur.com/8rD8FfC.png)
+### Статья (пост)
+![Статья](http://i.imgur.com/8rD8FfC.png)
 
-### Disqus Comments
-![Comments](http://i.imgur.com/TBZHQwF.png)
+### Disqus комментарии
+![комментарии](http://i.imgur.com/TBZHQwF.png)
 
-### Posts grouped by year
-![All Posts](http://i.imgur.com/9bNs2Sc.png)
+### Группировка постов по годам
+![Все посты](http://i.imgur.com/9bNs2Sc.png)
 
-### JavaScript Search
-![Search](http://i.imgur.com/yQqMeSl.png)
+### JavaScript поиск
+![JavaScript поиск](http://i.imgur.com/yQqMeSl.png)
 
-### Menu by mmenu
-![Menu](http://i.imgur.com/SClrNSH.png)
+### Меню от mmenu
+![Меню от mmenu](http://i.imgur.com/SClrNSH.png)
 
-## Contact
-If you wish to contact me regarding this theme please raise an issue on GitHub,
-tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
-[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
+## Контакты
+Твиттер [@KlimovRV](https://twitter.com/KlimovRV) или пишите а почту [mail@klimovproject.ru](mailto:mail@klimovproject.ru).
 
-## Contribution
-Pull requests are very welcome.
-
-## Theme
-This jekyll theme has been created from scratch. Ideas and inspiration are taken
-from other places but the code is my own.
-
-## Tools and Libraries
-The following tools and libraries are used in this theme
+## Инструменты и библиотеки
+На этом сайте использованы:
 
 ### JavaScript
  * [jQuery](http://jquery.com/)
@@ -51,6 +43,3 @@ The following tools and libraries are used in this theme
 ### Other
  * [Real Favicon Generator](http://realfavicongenerator.net/)
  * [Google Analytics](http://www.google.com/analytics/)
-
-## License
-The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).

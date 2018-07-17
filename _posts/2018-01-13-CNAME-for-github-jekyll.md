@@ -1,8 +1,6 @@
 ---
-layout:     post
 title:      CNAME для домена на Github
 date:       2018-01-13 11:57:05
-author:     Климов Роман
 summary:    Настройка DNS Записей — [CNAME] Запись (каноническая запись имени)
 categories: Site
 thumbnail:  Site
