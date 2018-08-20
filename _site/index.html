@@ -6,12 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KlimovProject — Главная</title>
 <meta name="description" content="Первый официальный проект любого вебмастера - это его собственный сайт ">
-
+<meta name="yandex-verification" content="233a2b0e615a3e40" />
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
 <link rel="stylesheet" type="text/css" media="all" href="/css/icomoon.css" />
-<link rel="stylesheet" type="text/css" media="all" href="icons.klimovproject.ru/icomoon/Font/demo-files/icomoon-free.css" />
+<!-- Тест светлого оформления на основе icomoon demo файла -->
+<!--  <link rel="stylesheet" type="text/css" media="all" href="http://icons.klimovproject.ru/icomoon/Font/demo-files/icomoon-free.css" /> -->
+<!-- devicons -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
 <link rel="stylesheet" type="text/css" media="all" href="/css/jquery.mmenu.all.css" />
 <link rel="stylesheet" href="/css/highlightjs.piperita.css">
@@ -49,7 +53,7 @@
       <li><a href="/search/"><i class="fa fa-search"></i> Поиск</a></li>
     </ul>
 
-    <p class="links">
+    <div class="links">
   <a href="https://t.me/klimovrv" target="_new"><i class="fab fa-telegram-plane"></i></a>
   <a href="http://stackexchange.com/users/10611498/%d0%a0%d0%be%d0%bc%d0%b0%d0%bd-%d0%9a%d0%bb%d0%b8%d0%bc%d0%be%d0%b2" target="_new"><i class="fab fa-stack-overflow"></i></a>
   <a href="https://www.twitter.com/KlimovRV" target="_new"><i class="fab fa-twitter"></i></a>
@@ -61,11 +65,11 @@
   <a href="https://github.com/klimov-rv" target="_new"><i class="fab fa-github-alt"></i></a>
   
   <a href="/feed.xml" target="_new"><i class="fas fa-rss"></i></a>
-</p>
+</div>
 
   </div>
 </nav>
-<div class="menu-button" href="#menu"><i class="icon icon-menu"></i></div>
+<div class="menu-button" href="#menu"><i class="fas fa-bars"></i></div>
 
 
     <div class="page-content">
@@ -73,21 +77,38 @@
       <div class="container-fluid index">
     <div class="row">
 
-        <div class="col-md-12 main content-panel">
+        <div class="col-md-12 content-panel main">
+            <div class="gradient">
 
-            <!--<div class="gravatar">
-                <img src="" class="img-circle about-image" height="150" width="150" alt="KlimovProject — Мой прожектор в WEB-разработках" />
-            </div>-->
+                <!--<div class="gravatar">
+                    <img src="" class="img-circle about-image" height="150" width="150" alt="KlimovProject — Мой прожектор в WEB-разработках" />
+                </div>-->
 
-            <h1 class="header author-header" itemprop="headline">
-                <p><span class="logo8250">&#8250;</span> <span class="blink">Project</span></p>
-            </h1>
+                <h1 class="header site-name" itemprop="headline">
+                    <span class="logo8250"><i class="fas fa-chevron-right"></i><!-- &#8250;--></span> 
+                    <span id="write-site-name"></span>
+                </h1>
 
-            <div class="author-text">
-                Блог, как хороший пример статического сайта <br/> на простом и быстром Jekyll. Здесь собраны мысли, идеи и заметки о моих разработках, моё <a href="/portfolio/">портфолио</a>.<br/><br/> Ссылки <i class="fas fa-hand-point-down" aria-hidden="true"></i>
-            </div>
+                <div class="author-text" id="write-site-desc">
+                    Блог, как хороший пример статического сайта <br/> на простом и быстром Jekyll. Здесь собраны мысли, идеи и заметки о моих разработках, моё <a href="/portfolio/">портфолио</a>.<br/><br/> Ссылки <i class="fas fa-hand-point-down" aria-hidden="true"></i>
+                </div>
+                
 
-            <p class="links">
+                <!-- typed -->
+                <script src="/js/typed.min.js"></script>
+                <script>
+
+                    var typed = new Typed('#write-site-name', {  
+                        strings: [
+                            'Klimov Project'
+                        ],
+                        typeSpeed: 130,
+                        cursorChar: '_'
+                    });
+
+                </script>
+
+                <div class="links">
   <a href="https://t.me/klimovrv" target="_new"><i class="fab fa-telegram-plane"></i></a>
   <a href="http://stackexchange.com/users/10611498/%d0%a0%d0%be%d0%bc%d0%b0%d0%bd-%d0%9a%d0%bb%d0%b8%d0%bc%d0%be%d0%b2" target="_new"><i class="fab fa-stack-overflow"></i></a>
   <a href="https://www.twitter.com/KlimovRV" target="_new"><i class="fab fa-twitter"></i></a>
@@ -99,10 +120,12 @@
   <a href="https://github.com/klimov-rv" target="_new"><i class="fab fa-github-alt"></i></a>
   
   <a href="/feed.xml" target="_new"><i class="fas fa-rss"></i></a>
-</p>
+</div>
 
-          </div>
-          <div class="col-md-12 content-panel">
+            </div>
+        </div>
+
+        <div class="col-md-12 content-panel">
 
             <div class="articles">
 
@@ -112,10 +135,21 @@
                   
 
                       <li>
-                          <a href="/site/2018/01/13/SSG-vs-CMS/">CMS vs SSG</a>
+                          <a href="/design/2018/08/17/success-in-design/">Как определить успешный дизайн?</a>
                           <small class="hidden-xs">
-13
-января
+17
+августа
+  
+2018</small>
+                      </li>
+
+                  
+
+                      <li>
+                          <a href="/design/2018/08/03/Basic-principles-of-graphic-design/">Основные принципы дизайна</a>
+                          <small class="hidden-xs">
+3
+августа
   
 2018</small>
                       </li>
@@ -134,7 +168,7 @@
                   
 
                       <li>
-                          <a href="/site/2017/07/05/Visual-Studio-Code/">Шпаргалка</a>
+                          <a href="/site/2017/07/05/Dev-Hints/">Шпаргалка</a>
                           <small class="hidden-xs">
 5
 июля
@@ -149,17 +183,6 @@
                           <small class="hidden-xs">
 6
 июня
-  
-2017</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/programming/2017/05/08/ruby-on-rails-framework/">О Ruby на рельсах</a>
-                          <small class="hidden-xs">
-8
-мая
   
 2017</small>
                       </li>

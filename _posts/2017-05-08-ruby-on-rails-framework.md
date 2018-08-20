@@ -1,10 +1,8 @@
 ---
 title: О Ruby на рельсах
-layout: post
 date: '2017-05-08 13:08:00'
-author: Климов Роман
 summary: RoR
-categories: programming
+categories: Programming
 thumbnail: Rails
 tags:
 - Ruby

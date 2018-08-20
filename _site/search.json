@@ -1,11 +1,19 @@
 [
   
   {
-    "title"    : "CMS vs SSG",
+    "title"    : "Как определить успешный дизайн?",
     "category" : "",
-    "tags"     : "CMS, SSG",
-    "url"      : "/site/2018/01/13/SSG-vs-CMS/",
-    "date"     : "2018-01-13 14:57:05 +0300"
+    "tags"     : "Design, Шрифт, Цвета",
+    "url"      : "/design/2018/08/17/success-in-design/",
+    "date"     : "2018-08-17 19:17:07 +0300"
+    } ,
+    
+  {
+    "title"    : "Основные принципы дизайна",
+    "category" : "",
+    "tags"     : "Design, Шрифт, Цвета",
+    "url"      : "/design/2018/08/03/Basic-principles-of-graphic-design/",
+    "date"     : "2018-08-03 14:57:05 +0300"
     } ,
     
   {
@@ -20,7 +28,7 @@
     "title"    : "Шпаргалка",
     "category" : "",
     "tags"     : "VSC, shortcuts, cheatsheets",
-    "url"      : "/site/2017/07/05/Visual-Studio-Code/",
+    "url"      : "/site/2017/07/05/Dev-Hints/",
     "date"     : "2017-07-05 22:01:05 +0300"
     } ,
     
@@ -57,11 +65,27 @@
     } ,
     
   {
+    "title"    : "Project Agile",
+    "category" : "",
+    "tags"     : "Project, Agile",
+    "url"      : "/project/2017/05/05/Project-Agile/",
+    "date"     : "2017-05-05 20:24:22 +0300"
+    } ,
+    
+  {
     "title"    : "Node.js первые шаги",
     "category" : "",
     "tags"     : "JavaScript, V8, Node.js",
     "url"      : "/site/2017/05/01/Node-JS-first-steps/",
     "date"     : "2017-05-01 21:52:15 +0300"
+    } ,
+    
+  {
+    "title"    : "Хочешь стать программистом?",
+    "category" : "",
+    "tags"     : "infographic, frontend, backend, programming, language",
+    "url"      : "/different/2017/04/14/Dev-Map/",
+    "date"     : "2017-04-14 19:03:18 +0300"
     } ,
     
   {
@@ -83,7 +107,7 @@
   {
     "title"    : "Использование Markdown",
     "category" : "",
-    "tags"     : "Markdown, text, Syntax",
+    "tags"     : "Markdown, Text, Syntax",
     "url"      : "/text/2017/02/06/markdown-usage/",
     "date"     : "2017-02-06 21:51:02 +0300"
     } ,
@@ -124,8 +148,16 @@
     "title"    : "Копирайтинг",
     "category" : "",
     "tags"     : "Text, Copywriting, Copyright",
-    "url"      : "/text/2017/01/17/copyright/",
+    "url"      : "/text/2017/01/17/CopyWriting-copyright/",
     "date"     : "2017-01-17 14:56:55 +0300"
+    } ,
+    
+  {
+    "title"    : "CMS vs SSG",
+    "category" : "",
+    "tags"     : "CMS, SSG",
+    "url"      : "/site/2017/01/13/SSG-vs-CMS/",
+    "date"     : "2017-01-13 14:57:05 +0300"
     } ,
     
   {

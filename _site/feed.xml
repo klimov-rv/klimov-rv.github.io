@@ -1,136 +1,301 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+
+    <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KlimovProject — Мой прожектор в WEB-разработках</title>
+<meta name="description" content="Первый официальный проект любого вебмастера - это его собственный сайт ">
+<meta name="yandex-verification" content="233a2b0e615a3e40" />
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/icomoon.css" />
+<!-- Тест светлого оформления на основе icomoon demo файла -->
+<!--  <link rel="stylesheet" type="text/css" media="all" href="http://icons.klimovproject.ru/icomoon/Font/demo-files/icomoon-free.css" /> -->
+<!-- devicons -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+
+<link rel="stylesheet" type="text/css" media="all" href="/css/jquery.mmenu.all.css" />
+<link rel="stylesheet" href="/css/highlightjs.piperita.css">
+
+<!-- Favicons generated at http://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/manifest.json">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+</head>
+
+
+    <body>
+
+    <nav id="my-menu">
+  <div>
+    <p>Навигация</p>
+
+    <ul class="pages">
+      <li><a href="/"><i class="fa fa-home"></i> Главная</a></li>
+      <li><a href="/posts/"><i class="fa fa-archive"></i> Лента</a></li>
+      <li><a href="/portfolio/"><i class="fa fa-briefcase"></i> Портфолио</a></li>
+      <li><a href="/calendar/"><i class="fa fa-calendar "></i> Календарь</a></li>
+      <li><a href="/search/"><i class="fa fa-search"></i> Поиск</a></li>
+    </ul>
+
+    <div class="links">
+  <a href="https://t.me/klimovrv" target="_new"><i class="fab fa-telegram-plane"></i></a>
+  <a href="http://stackexchange.com/users/10611498/%d0%a0%d0%be%d0%bc%d0%b0%d0%bd-%d0%9a%d0%bb%d0%b8%d0%bc%d0%be%d0%b2" target="_new"><i class="fab fa-stack-overflow"></i></a>
+  <a href="https://www.twitter.com/KlimovRV" target="_new"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.instagram.com/klimov.rv" target="_new"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD-%D0%BA%D0%BB%D0%B8%D0%BC%D0%BE%D0%B2-4598a9121/" target="_new"><i class="fab fa-linkedin"></i></a>
+  
+  <a href="https://plus.google.com/113740816105565942618" target="_new"><i class="fab fa-google-plus-g"></i></a>
+  <a href="https://www.facebook.com/profile.php?id=100012300218634" target="_new"><i class="fab fa-facebook"></i></a>
+  <a href="https://github.com/klimov-rv" target="_new"><i class="fab fa-github-alt"></i></a>
+  
+  <a href="/feed.xml" target="_new"><i class="fas fa-rss"></i></a>
+</div>
+
+  </div>
+</nav>
+<div class="menu-button" href="#menu"><i class="fas fa-bars"></i></div>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="container-fluid index">
+  <div class="row index all-posts">
+          
+    
+
+    <h2 class="header" itemprop="headline">  </h2>
+    <div class="col-md-12 content-panel articles">
+
+      <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KlimovProject — Мой прожектор в WEB-разработках</title>
     <description>Первый официальный проект любого вебмастера - это его собственный сайт </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 27 Apr 2018 14:24:33 +0300</pubDate>
-    <lastBuildDate>Fri, 27 Apr 2018 14:24:33 +0300</lastBuildDate>
+    <pubDate>Mon, 20 Aug 2018 20:31:34 +0300</pubDate>
+    <lastBuildDate>Mon, 20 Aug 2018 20:31:34 +0300</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
     
       <item>
-        <title>CMS vs SSG</title>
-        <description>&lt;h1 id=&quot;Что-выбрать-cms-или-ssg&quot;&gt;Что выбрать CMS или SSG&lt;/h1&gt;
+        <title>Как определить успешный дизайн?</title>
+        <description>&lt;h1 id=&quot;Чек-лист-для-оценки-дизайна&quot;&gt;Чек-лист для оценки дизайна&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://klimovproject.ru/images/post-hero/thinking-about-SSG.png&quot; alt=&quot;Разбираем преимущества SGG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/ux-power-tools/how-to-succeed-at-your-new-design-job-8d6ac44bcffd&quot;&gt;Делая свои первые шаги в любой профессии&lt;/a&gt; (особенно если она творческая), и столкнувшись с первыми неудачами очень легко скатиться до &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC_%D1%81%D0%B0%D0%BC%D0%BE%D0%B7%D0%B2%D0%B0%D0%BD%D1%86%D0%B0&quot;&gt;синдрома “самозванца”&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Все кто впервые задумывается о бизнесе в интернете обычно стоит перед выбором:&lt;/p&gt;
+&lt;p&gt;Начинаешь чувствовать себя разочарованным… полной фальшивкой… и тотчас начинаешь сравнивать себя с другими людьми и их упехами – это начинает разрушать тебя не только как личность, но и как специалиста.&lt;br /&gt;
+Но наблюдая за игрой самого Леброна Джеймса ты почувствуешь себя баскетболистом младшей школы. Сравнивать его успех &lt;strong&gt;с твоим&lt;/strong&gt; бессмысленно! Поверь, что, однажды, и знаменитый Леброн &lt;strong&gt;впервые&lt;/strong&gt; играл в баскетбол.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Решиться на серьёзные затраты, нанимая разработчиков и дизайнеров&lt;/li&gt;
-  &lt;li&gt;Начать изучать основы HTML и CSS самостоятельно&lt;/li&gt;
-  &lt;li&gt;Использовать различные &lt;strong&gt;CMS&lt;/strong&gt; (Content Management System)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Я не утверждаю, что ты не должен вдохновляться талантами других людей, которые добились успеха в своей профессии. Но не позволяйте себе измерять собственный успех дизайнера на примере твоих заведомо успешных коллег.&lt;/p&gt;
 
-&lt;p&gt;Первый вариант зависит от бюджета, а 2ый и 3ий более привлекательны для стартапа, это понятно. Но из 2 и 3 варианта многие выбирают удобные и привлекательные с первого взгляда CMS (25% выбирают Wordpress), не подозревая, что есть в природе такой зверь, как &lt;strong&gt;SSG&lt;/strong&gt; (Static Site Generator). А он между прочим имеет огромные преимущества и активно захватывает свою нишу. Например данный блог создан на Jekyll - &lt;a href=&quot;https://www.staticgen.com/&quot;&gt;самом популярном&lt;/a&gt; статическом генераторе с 2015 года!&lt;/p&gt;
+&lt;p&gt;Тенденция сравнивать и развилась также благодаря нашим любимым  социальным сетям. Каждый человек выглядит более успешным, более красивым, более загорелым, более худым, чем ты &lt;strong&gt;когда либо будешь&lt;/strong&gt;. Facebook, Instagram, Twitter, и даже Dribbble охватывают &lt;strong&gt;весь мир&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;Плюсы-ssg&quot;&gt;Плюсы SSG&lt;/h2&gt;
+&lt;p&gt;Давай подумаем, с тех пор как Dribbblе распространился на огромнейшую аудиторию, он заставил тебя почувствовать какой же дерьмовый ты дизайнер, и как ты мог расти и оценивать свои дизайнерские успехи без прочтения сотен книг.
+Существует так много разных способов измерить личный рост и успех, и я хотел бы осветить несколько из них в данной статье.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Минимальные нагрузки&lt;/p&gt;
+&lt;h2 id=&quot;1-Решаешь-ли-ты-проблему&quot;&gt;1. Решаешь ли ты проблему&lt;/h2&gt;
 
-    &lt;p&gt;Многие CMS приложения предлагают встроенные (или в виде плагинов) системы кэширования, чтобы обеспечить генерирование страниц и использование их повторно, если необходимо. Это эффективно, но лишние действия все равно имеют место быть: например, при проверке файлов кэша и повторной генерации страниц.&lt;/p&gt;
+&lt;p&gt;Дизайн не ограничивает себя только пикселем и цветом. По сути, все дело в решении проблем. Если вы определили реальную проблему и предложили лучшее решение (каким бы маргинальным оно ни было), то вы преуспели!&lt;/p&gt;
 
-    &lt;p&gt;В то же время статические сайты предварительно кэшируют страницы, и срок жизни такого кэша вечен. Файлы также могут быть сжаты для еще меньшей нагрузки. Вот и получается, что при использовании одного и того же шаблона статический сайт всегда будет работать лучше, чем сайт построенный на CMS.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Высокая безопасность&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*trBHemjWjBVbBClbo_1LtA.gif&quot; alt=&quot;Теодор Христов для Lobster'а&quot; /&gt;
+Теодор &lt;a href=&quot;https://dribbble.com/Teodor&quot;&gt;Христов&lt;/a&gt; для &lt;a href=&quot;https://dribbble.com/lobsterstudio&quot;&gt;Lobster&lt;/a&gt;‘а&lt;/p&gt;
 
-    &lt;p&gt;Что нужно для установки WordPress:&lt;/p&gt;
+&lt;h2 id=&quot;2-Проверка-с-точки-зрения-пользователя&quot;&gt;2. Проверка с точки зрения пользователя&lt;/h2&gt;
 
-    &lt;ul&gt;
-      &lt;li&gt;совместимая операционная система типа Ubuntu или CentOS&lt;/li&gt;
-      &lt;li&gt;веб-сервер — например, Apache или NGINX&lt;/li&gt;
-      &lt;li&gt;PHP с необходимыми расширениями&lt;/li&gt;
-      &lt;li&gt;MySQL&lt;/li&gt;
-      &lt;li&gt;сам WordPress&lt;/li&gt;
-      &lt;li&gt;шаблон (тема)
- Все это должно быть установлено и настроено. На самом деле WordPress — не самая прихотливая штука, ведь существуют приложения, у которых зависимостей в разы больше, но даже этого списка достаточно, чтобы при обновлении всего одной из перечисленных частей списка, сломалось все.&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;p&gt;Помни, что ты не разрабатываешь решение только для того, чтобы поставить галочку «сделано» в своем ежедневнике или для своей статьи на Dribbble. Относись к своему клиенту, так как бы ты хотел, что бы отнеслись к тебе лично! Каждый заказ принимай как последний! Твоя работа должна олицетворять уважение и почтение к своей профессии. Тогда тебя будет ждать успех! Поверь рано или поздно, самое важное действовать!&lt;/p&gt;
 
-    &lt;p&gt;В то же время, статический сайт — очень легкий и может быть размещен на любом сервере, который в состоянии отдавать файлы. И вам больше ничего не нужно устанавливать, настраивать и обновлять.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Надёжность&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/0*3qwPhHU1-Okxq_ve.png&quot; alt=&quot;outcrowd&quot; /&gt;
+&lt;a href=&quot;https://dribbble.com/outcrowd&quot;&gt;Ouctcrowd&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;CMS — это целый комплекс, с огромным количеством перемещаемых частей и «точек отказа». Запуская сайт на вордпрессе, не зависимо от того, колько времени он уже проработал, вы точно хотя бы раз столкнетесь с этой страшной фразой «Failed to establish a database connection». Опыт подсказывает, что непредвиденные проблемы в CMS могут возникнуть в результате внезапного скачка трафика, из-за чего может рухнуть база данных или разорваться активные соединения.&lt;/p&gt;
+&lt;h2 id=&quot;3-Эта-версия-лучше-чем-предыдущая&quot;&gt;3. Эта версия лучше, чем предыдущая&lt;/h2&gt;
 
-    &lt;p&gt;В это же время, обслуживание статического сайта менее напряженное, так как сервер просто должен отдавать HTML файлы. Конечно, в этой ситуации тоже можно положить сервер, но это будет сложнее: нужно в разы больше одновременных запросов.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Высокая безопасность&lt;/p&gt;
+&lt;p&gt;В духе самосовершенствования и профессионального роста, просто практикуя свое ремесло, ты становишься лучше - это и есть показатель твоих достижений! Многие думают: “почему я раньше не делал так хорошо” и начинают корить себя за это. Но ведь если твой &lt;em&gt;новый проект&lt;/em&gt; лучше и креативнее &lt;em&gt;предыдущего&lt;/em&gt;, то это отлично! Ты развиваешься в правильном направлении.&lt;/p&gt;
 
-    &lt;p&gt;Можно выделить море причин, по которым кто-то решит атаковать ваш сайт: угон трафика, мошенническая реклама, ссылки и пр.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*mhvnt_vCWxfmnfZKyioSMg.png&quot; alt=&quot;by Jorik Feskens&quot; /&gt;
+&lt;a href=&quot;https://dribbble.com/Animotioners&quot;&gt;Жорик Фескенс&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;CMS сам дает поле для таких атак. Самым очевидным тонким местом является форма входа: она безопасна настолько, насколько безопасен самый слабый пароль одного из пользователей. Имейте в виду, что код любой страницы выполняется на сервере, что уже предполагает потенциальные дыры — например, отправку спама через контактную форму. Поначалу это может быть не очевидным, ведь лучшие преступники долго остаются незамеченными.&lt;/p&gt;
+&lt;h2 id=&quot;4-Ты-был-более-эффективен-чем-в-прошлый-раз&quot;&gt;4. Ты был более эффективен, чем в прошлый раз&lt;/h2&gt;
 
-    &lt;p&gt;У статического сайта очень мало или вообще нет функциональности на стороне сервера. Вы не можете получить доступ с помощью скриптов или за счет дыр в безопасности базы данных. У кого-то, возможно, и получится получить доступ с помощью SSH или FTP, но им нужно будет очень постараться, чтобы принести вред больше, чем порча страниц или загрузка файлов. Быстрая команда «git status» или, на крайний случай, простая проверка папки сможет быстро выявить следы несанкционированного доступа. Вам просто будет необходимо изменить пароли, удалитьвесь сайт полностью и восстановить все заново.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Управление контентом&lt;/p&gt;
+&lt;p&gt;Процесс так же важен, как и конечный результат, потому что это твой путь, тропинка, которую ты протаптываешь к своему новому творению. Если твой путь со временем сокращается, становиться легче, более прямым, чем на прошлой неделе, то ты преуспел!&lt;/p&gt;
 
-    &lt;p&gt;Вы неделями разрабатываете симпатичные темы для CMS, но как только сайт переходит в пользование клиенту, все ломается за считанные минуты. Было такое? Использовать CMS не всегда легко, так как она предоставляет некоторую власть при редактировании контента. Вы, конечно, можете ограничить или заблокировать права на установку плагинов для клиента, но это никак не помешает ему изменить шрифты, добавить странных, красивых на его взгляд, цветов, залить плохую фотографию и каким-то образом исказить макет.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/0*WS42EDfZrS0WrS2t.png&quot; alt=&quot;by Tristan Kromopawiro&quot; /&gt;
+&lt;a href=&quot;https://dribbble.com/Triskro_Studio&quot;&gt;Тристан Кромопавиро&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;В случае статического сайта чаще всего используются Markdown файлы. Их использование ограничивает возможности пользователей, в результате они делают меньше ошибок, и страница отображается в первозданном виде. А для удобного редактирования файлов можно пользоваться удобным сервисом StackEdit.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Контроль версий и тестирование&lt;/p&gt;
+&lt;h2 id=&quot;5-Работа-выглядит-более-согласованно-и-целостно&quot;&gt;5. Работа выглядит более согласованно и целостно&lt;/h2&gt;
 
-    &lt;p&gt;Содержание базы данных непостоянно. CMS позволяет пользователям добавлять, изменять или удалять содержимое по их желанию. Вы можете создавать резервные копии баз данных, но даже если делать это регулярно, все равно существует шанс потерять часть данных.&lt;/p&gt;
+&lt;p&gt;Профессиональные повара, очевидно, умеют создавать вкусные блюда. Но что более впечатляюще, так это способность воспроизводить этот высокий уровень совершенства снова и снова. Если ваш дизайн целостный и чист, то вы безусловно сделали работу лучше!&lt;/p&gt;
 
-    &lt;p&gt;Статический сайт более безопасен, если, конечно, предположить, что весь контент хранится в Markdown файлах и вы используете систему контроля версий типа Git. И даже после сохранения измененных файлов сделанные изменения можно легко «откатить». Тестирование тоже упрощаетсч, т.к. сайт может быть собран и просмотрен где угодно, даже на компьютере клиента.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*MlOzaHRyI1Hxd8JnkusPzA.png&quot; alt=&quot;by Tyler Poyant&quot; /&gt;
+&lt;a href=&quot;https://dribbble.com/tylerpoyant&quot;&gt;Тайлер Поянт&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Потратив чуть больше усилий, вы можете сделать систему для разворачивания сайта на промежуточном сервере, а после добавления и апрува нового содержимого, можно будет автоматически переносить на главный сервер.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Гибкость&lt;/p&gt;
+&lt;h2 id=&quot;6-Ты-затратил-меньше-усилий&quot;&gt;6. Ты затратил меньше усилий&lt;/h2&gt;
 
-    &lt;p&gt;CMS, как правило, ограничивает ваши возможности, потому что все привязано к конкретным полям в базе данных. Если вы захотите добавить виджет, например, Twitter на какие-то страницы, нужен будет плагин, шорткод или что-то еще.&lt;/p&gt;
+&lt;p&gt;Дизайн не всегда должен быть аддитивным. В то время как ты исследуешь свой путь, ты можешь отсечь некоторые ненужные действия, сконцентрироваться на главных вещах. Если ты сделал процесс более эффективным или производительным за счет улучшения и оптимизации, не думай что ты “поспешил”. Наоборот, я могу тебя поздравить, тебе удалось улучшить свой дизайн!&lt;/p&gt;
 
-    &lt;p&gt;В статическом сайте можно вставить виджет непосредственно в файл в виде фрагмента кода. Есть совсем небольшие ограничения, т.к. вы освобождены от тех, что накладывает CMS.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*2YJ9nzBWo6vFWhAjcLL5Ww.png&quot; alt=&quot;Даша на Dribble&quot; /&gt;
+&lt;a href=&quot;https://dribbble.com/Volnichenko&quot;&gt;Даша&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;Минусы-ssg-в-сравнении-с-cms&quot;&gt;Минусы SSG в сравнении с CMS&lt;/h2&gt;
+&lt;h2 id=&quot;7-Ты-вдохновил-клиента&quot;&gt;7. Ты вдохновил клиента&lt;/h2&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Отсутствие классической “админки”&lt;/p&gt;
+&lt;p&gt;Ты можешь достичь успеха не нарисовав ни одного макета, помогая свежими идеями или иным подходом находя выход из, порой, неразрешимых задач. Если ты помог клиенту выйти за пределы «привычных» рамок и начать двигаться в новом направлении – это уже успех!&lt;/p&gt;
 
-    &lt;p&gt;То есть нет интерфейса для редактирования “как в Word” или безумного WYSIWYG-редактора. Посты нужно писать в файлах определённого типа, в определённом формате вручную.
- Поиск удобного решения этой проблемы - в процессе. В данный момент тестируется сервис &lt;a href=&quot;https://cloudcannon.com/&quot;&gt;CloudCannon&lt;/a&gt;, который предоставляет админку вместе с хостингом, но не русифицирован
- Так же есть плагин &lt;a href=&quot;https://jekyll.github.io/jekyll-admin/&quot;&gt;Jekyll Admin&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Родовое отсутствие динамического контента&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*xdwZRE1gCA1AnXmNzLG8Yg.png&quot; alt=&quot;by Maggie Moore&quot; /&gt;
+&lt;a href=&quot;https://dribbble.com/maggiemoore&quot;&gt;Мэгги Мур&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Вместо динамических модулей приходится использовать сторонние сервисы, такие как:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&quot;8-Были-ли-учтены-просьбы-и-правки&quot;&gt;8. Были ли учтены просьбы и правки&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.uservoice.com/&quot;&gt;UserVoice.com&lt;/a&gt; - для обратной связи&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.formspree.io/&quot;&gt;Formspree.io&lt;/a&gt; - для форм отправки запросов на почту&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.algolia.com/&quot;&gt;Algolia&lt;/a&gt; - для продвинутого поиска (стандартный может не подойти)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.hypercomments.com/&quot;&gt;HyperComments&lt;/a&gt; - для функции комментирования&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Успех дизайна - это не только &lt;em&gt;личностный рост&lt;/em&gt;, но и тактический. Научиться быть открытым и положительно принимать критику - трудный навык, но он необходим для развития. Если ты оставил в стороне свою гордость и прислушивался ко мнению со стороны, то ты на пути к настоящему успеху!&lt;/p&gt;
 
-&lt;p&gt;И конечно же интернет-магазин на SSG не запустишь, но это уже другая ниша. Если же решать вопрос создания небольшого сайта для портфолио фотографа или сайта-визитки агентства услуг - то Jekyll подойдёт идеально!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*ZiXkqWpe9RK6Ll0dRnNLZg.png&quot; alt=&quot;by Iza Dudzik&quot; /&gt;
+&lt;a href=&quot;https://dribbble.com/Dewizka&quot;&gt;Иза Дудзик&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.dejurka.ru/articless/seven-yes-to-static-sites-generators/&quot;&gt;© Источник&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;9-Вложил-ли-ты-все-силы&quot;&gt;9. Вложил ли ты все силы&lt;/h2&gt;
+
+&lt;p&gt;Дизайн создаётся не для одного человека. Действительно сложно заинтересовать и удовлетворить всех, к кому вы обращаетесь своей работой. И если вы делаете максимум, чтобы удовлетворить их потребности и учесть все аспекты, то вы получите соответсвенную отдачу!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/QMeLa6I.png&quot; alt=&quot;Группы ЦА дизайна&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;10-Удовлетворение-работой&quot;&gt;10. Удовлетворение работой&lt;/h2&gt;
+
+&lt;p&gt;Мне нравится верить, что все люди всех профессий должны испытывать чувство гордости за свою работу. Если вы отработали, создали что-то, и остались довольны тем, что получилось, то вы преуспели.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/ux-power-tools/10-ways-to-measure-your-success-in-design-7b3bc1762803&quot;&gt;© Источник&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 </description>
-        <pubDate>Sat, 13 Jan 2018 14:57:05 +0300</pubDate>
-        <link>http://localhost:4000/site/2018/01/13/SSG-vs-CMS/</link>
-        <guid isPermaLink="true">http://localhost:4000/site/2018/01/13/SSG-vs-CMS/</guid>
+        <pubDate>Fri, 17 Aug 2018 19:17:07 +0300</pubDate>
+        <link>http://localhost:4000/design/2018/08/17/success-in-design/</link>
+        <guid isPermaLink="true">http://localhost:4000/design/2018/08/17/success-in-design/</guid>
         
-        <category>CMS</category>
+        <category>Design</category>
         
-        <category>SSG</category>
+        <category>Шрифт</category>
+        
+        <category>Цвета</category>
         
         
-        <category>Site</category>
+        <category>Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Основные принципы дизайна</title>
+        <description>&lt;h1 id=&quot;Дизайн-для-недизайнеров&quot;&gt;Дизайн для недизайнеров&lt;/h1&gt;
+
+&lt;p&gt;Возможно, вы вызвались сделать приглашения на корпоративную вечеринку в попытке (наконец-то!) добиться расположения начальника. Или вы ушли в предпринимательство и теперь самостоятельно занимаетесь созданием всех маркетинговых материалов для вашего молодого бизнеса. В любом случае, вам нужно создать дизайн. И если вы в этой области новичок, то, скорее всего, ваши первые попытки были не очень удачными. Возможно вы сейчас думаете, что достигли пика своей художественной карьеры в 5 лет, когда мама повесила ваш рисунок на холодильник.&lt;/p&gt;
+
+&lt;p&gt;Но, новички, не спешите нервничать из-за творческого кризиса! Вот вам несколько профессиональных советов по графическому дизайну: с их помощью вы выполните поставленную задачу и начнете думать как дизайнер. Если хотите, можете сразу применять полученные знания на практике: для этого откройте пустой холст в приложении &lt;a href=&quot;https://www.picmonkey.com/#go/design/&quot;&gt;Design&lt;/a&gt; или найдите себе подходящий &lt;a href=&quot;https://www.picmonkey.com/#templates&quot;&gt;шаблон&lt;/a&gt; и приступайте к редактированию.&lt;/p&gt;
+
+&lt;h2 id=&quot;Слава-иерархии-в-графическом-дизайне&quot;&gt;Слава иерархии в графическом дизайне!&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b11a9/18qD-VXwlfs.jpg&quot; alt=&quot;Визуальный вес в графическом дизайне&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Когда вы открыли эту статью, то сразу заметили заголовок и подзаголовок. Эти элементы выделяются за счет визуального веса: заголовок написан самым крупным шрифтом, а шрифт подзаголовков чуть мельче, но все же крупнее основного текста. И заголовок, и подзаголовок выделены жирным. Это создает иерархию.&lt;/p&gt;
+
+&lt;p&gt;Важность иерархии в том, что она направляет наш взгляд по странице. Благодаря этому, мозгу проще обрабатывать информацию. Если у всех элементов дизайна будет один и тот же визуальный вес, то иерархии не получится, и зрителю будет сложно определить, что важно, а что второстепенно. Это все равно что оказаться в комнате с кучей людей, которые одновременно разговаривают примерно одинаковым тоном — кто-то из них должен говорить громче, чтобы его услышали.&lt;/p&gt;
+
+&lt;p&gt;Существует несколько способов управления визуальным весом:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Размер&lt;/li&gt;
+  &lt;li&gt;Цвет&lt;/li&gt;
+  &lt;li&gt;Пространство&lt;/li&gt;
+  &lt;li&gt;Группировка&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Самый лучший вариант — когда в дизайне один доминирующий элемент. Но их может быть и два (например, крупный заголовок и кнопка-призыв к действию) — главное, чтобы остальная композиция была сбалансирована. Обычно доминирующим элементом делают самую важную часть сообщения. Эта идея применима ко всем визуальным элементам, а также к текстам (подробнее об этом читайте в нашей статье об &lt;a href=&quot;https://www.picmonkey.com/blog/whos-your-daddy-creating-font-hierarchy&quot;&gt;иерархии шрифтов&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;Осознание-пространства&quot;&gt;Осознание пространства&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b1215/0eGE8Htefz8.jpg&quot; alt=&quot;Пространство в графическом дизайне&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;В дизайне выделяют два типа пространства: позитивное и негативное (или белое). Позитивное пространство — это место, которое занимают сами элементы дизайна, а негативное пространство — это свободное место вокруг позитивного. Когда оба пространства “звучат” гармонично, дизайн выглядит сбалансированным, проработанным и упорядоченным. Негативное пространство также можно использовать для создания &lt;a href=&quot;https://www.creativebloq.com/art/art-negative-space-8133765&quot;&gt;супер-крутых зрительных иллюзий&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Как понять, что вы нашли то самое соотношение позитивного и негативного пространства? Сложность в том, что здесь нет четких правил. Как говорит один наш профессиональный дизайнер: “В итоге все сводится не к количеству негативного пространства. Все сводится к балансу элементов и к удалению ненужного”.&lt;/p&gt;
+
+&lt;h2 id=&quot;Шрифты-в-графическом-дизайне&quot;&gt;Шрифты в графическом дизайне&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b121e/NHUV_qIwqaU.jpg&quot; alt=&quot;Шрифты в графическом дизайне&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Шрифты — это не только уйма веселья, но и огромная дизайнерская мощь. О шрифтах надо знать две основные вещи:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Не используйте слишком много шрифтов.&lt;/strong&gt; В большинстве случаев достаточно одного. Ну, может двух — если вы хотите добавить контраст (например, что-то рукописное для заголовка и простое и четкое для основного текста). Больше информации о подборе и использовании шрифтов вы найдете в нашей статье о &lt;a href=&quot;https://www.picmonkey.com/blog/font-pairing-like-a-pro&quot;&gt;шрифтовых парах&lt;/a&gt;. И еще, помните: и один шрифт может выглядеть интересно — достаточно поиграть с его размером, весом и расположением.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Помните о читабельности.&lt;/strong&gt; Если вы когда-нибудь пытались прочитать ярко-красный &lt;a href=&quot;https://www.picmonkey.com/blog/how-to-use-calligraphy-fonts&quot;&gt;рукописный&lt;/a&gt; шрифт размера 8, то знаете, насколько важна читабельность. Чтобы слова оставались четкими, обратите внимание на цвет, размер, интервалы и стиль шрифта, а также на протяжении всего процесса проектирования помните об итоговом размере дизайна.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;Правильный-размер&quot;&gt;Правильный размер&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b122f/Xokb4LRkyyA.jpg&quot; alt=&quot;Правильный размер в графическом дизайне&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Многим новичкам такие параметры, как размер и разрешение изображения, кажутся загадкой. Но в них стоит разобраться: вы же не хотите, чтобы картинки в дизайне были размыто-пиксельными, или наоборот — чтобы сайт грузился как во времена диал-апа из-за супер-высокого разрешения изображений.&lt;/p&gt;
+
+&lt;p&gt;Если вы создаете дизайн для печати, умножайте размер желаемого объекта в дюймах на 300 (обычно столько пикселей приходится на дюйм). То есть, посчитаем: если вы создаете нечто размером 5×7 дюймов, то нужно разрешение 1500×2100 пикселей. Используйте этот размер при работе с дизайном, чтобы потом не было проблем.&lt;/p&gt;
+
+&lt;p&gt;Если вы проектируете под дисплей, найдите баланс между размером дисплея (в пикселях) и размером файла (в мегабайтах), чтобы изображения отображались корректно и не замедляли работу сайта. В инструменте Picmonkey перед сохранением изображения вам предлагается три опции размера: Roger, Pierce и Sean (&lt;em&gt;Роджер, Пирс и Шон — имена актеров, исполнявших роль Джеймса Бонда — прим.перев&lt;/em&gt;), которые позволяют найти идеальный баланс размера файла и качества картинки. Кроме того, отредактировать размер своего творения можно при помощи инструментов Crop и Resize на вкладке Basic Edits. Все еще не чувствуете уверенности в этой теме? Почитайте нашу статью &lt;a href=&quot;https://www.picmonkey.com/blog/size-and-resize-an-image-like-a-pro&quot;&gt;про размеры&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;Наводим-красоту-в-изображениях-и-в-дизайне&quot;&gt;Наводим красоту в изображениях (и в дизайне)&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b123f/rNs-6H2D8QY.jpg&quot; alt=&quot;Базовые правки для фото, кадрирование&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Иногда стоит сделать несколько &lt;a href=&quot;https://www.picmonkey.com/blog/4-edits-you-should-make-to-almost-every-photo&quot;&gt;базовых правок&lt;/a&gt; — и изображение уже выглядит в разы более профессионально. Прежде чем вставлять фотографии в дизайн, их стоит “начистить до блеска” — подредактировать размер, насыщенность, резкость и т.п. &lt;a href=&quot;https://www.picmonkey.com/blog/introducing-custom-photo-effects&quot;&gt;Фото эффекты&lt;/a&gt; также помогут при создании согласованного корпоративного стиля.&lt;/p&gt;
+
+&lt;p&gt;Ваши улучшенные изображения не должны быть голыми. О нет, речь не о том, что на фото. В мире дизайна термин “голые изображения” (naked images) означает, что изображения вставлены как есть и размещены без определенной идеи. Чтобы избежать эффекта голых изображений, используйте границы, рамки и лейауты-сетки.&lt;/p&gt;
+
+&lt;h2 id=&quot;Вопросы-цвета&quot;&gt;Вопросы цвета&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b1283/tFNXQnMxLCQ.jpg&quot; alt=&quot;Цветовые палитры в графическом дизайне&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Скорее всего вам захочется ограничить количество цветов в дизайне — если, конечно, у вас не радужная волна в жизни. В большинстве случаев, достаточно двух основных цветов и одного акцентного. И постарайтесь не использовать более пяти оттенков.&lt;/p&gt;
+
+&lt;p&gt;Если у вас уже есть палитра корпоративных цветов, используйте ее. А если не можете определиться, какие цвета сочетаются, почитайте &lt;a href=&quot;https://www.picmonkey.com/blog/make-a-color-palette&quot;&gt;о создании цветовых палитр&lt;/a&gt; — это самый быстрый и простой способ разобраться в сочетании цветов, не углубляясь в теорию цвета.&lt;/p&gt;
+
+&lt;p&gt;Цвет также можно использовать для создания иерархии, о которой мы говорили в начале. Чтобы придать элементу больший визуальный вес, окрасьте его в цвет, отличный от остальных цветов в дизайне.&lt;/p&gt;
+
+&lt;h2 id=&quot;Думайте-кто-когда-и-где&quot;&gt;Думайте: кто, когда и где&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b128c/Q_OfSj4gN2E.jpg&quot; alt=&quot;Адекватность в графическом дизайне&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ваша аудитория, характер мероприятия и даже время года — все это может подсказать вам правильное направление дизайна. Шрифт &lt;em&gt;Exquisite Corpse&lt;/em&gt;, возможно, идеально подходит для &lt;a href=&quot;https://www.picmonkey.com/blog/make-killer-halloween-party-invitations-the-easy-way&quot;&gt;приглашений на Хэллоуин&lt;/a&gt;, но теряет свою крутизну, если использовать его на флаерах об игре в бинго в доме престарелых. Шрифты, цвета — да и все остальные элементы дизайна — пробуждают определенные эмоции. К примеру, красный повсюду в день Святого Валентина, потому что это цвет страсти. Шрифт Budmo Jiggler чаще всего выбирают для приглашений на детские праздники, потому что он веселый и игривый. Убедитесь, что эмоциональный посыл каждого элемента совпадает с общим настроением вашего дизайна.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B5%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2-d99c9ee9a31b&quot;&gt;© Источник&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Fri, 03 Aug 2018 14:57:05 +0300</pubDate>
+        <link>http://localhost:4000/design/2018/08/03/Basic-principles-of-graphic-design/</link>
+        <guid isPermaLink="true">http://localhost:4000/design/2018/08/03/Basic-principles-of-graphic-design/</guid>
+        
+        <category>Design</category>
+        
+        <category>Шрифт</category>
+        
+        <category>Цвета</category>
+        
+        
+        <category>Design</category>
         
       </item>
     
@@ -200,6 +365,8 @@ test.example.com. IN CNAME example.tld.
 
 &lt;p&gt;Пока я сижу под Windows - не могу найти минусов в моём любимом редакторе кода &lt;a href=&quot;https://ru.wikipedia.org/wiki/Visual_Studio_Code&quot;&gt;Visual Studio Code&lt;/a&gt;. Поэтому не забываем &lt;a href=&quot;https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf&quot;&gt;горячие клавиши&lt;/a&gt; и ускоряем процесс работы&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://nikomedvedev.ru/other/vscodeshortcuts/hotkeys.html&quot;&gt;горячие клавиши vscode&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;Шпаргалка-devhintsio&quot;&gt;Шпаргалка DevHints.io&lt;/h2&gt;
 
 &lt;p&gt;Коллекция разработчика Rico Sta Cruz (подписывайтесь на его твиттер &lt;a href=&quot;https://twitter.com/rstacruz&quot;&gt;@rstacruz&lt;/a&gt;)&lt;/p&gt;
@@ -217,8 +384,8 @@ test.example.com. IN CNAME example.tld.
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 05 Jul 2017 22:01:05 +0300</pubDate>
-        <link>http://localhost:4000/site/2017/07/05/Visual-Studio-Code/</link>
-        <guid isPermaLink="true">http://localhost:4000/site/2017/07/05/Visual-Studio-Code/</guid>
+        <link>http://localhost:4000/site/2017/07/05/Dev-Hints/</link>
+        <guid isPermaLink="true">http://localhost:4000/site/2017/07/05/Dev-Hints/</guid>
         
         <category>VSC</category>
         
@@ -294,7 +461,7 @@ test.example.com. IN CNAME example.tld.
         <category>полезные ссылки</category>
         
         
-        <category>smm</category>
+        <category>SMM</category>
         
       </item>
     
@@ -334,7 +501,7 @@ test.example.com. IN CNAME example.tld.
         <category>Library</category>
         
         
-        <category>programming</category>
+        <category>Programming</category>
         
       </item>
     
@@ -360,7 +527,7 @@ test.example.com. IN CNAME example.tld.
         <category>Sinatra</category>
         
         
-        <category>programming</category>
+        <category>Programming</category>
         
       </item>
     
@@ -413,7 +580,26 @@ test.example.com. IN CNAME example.tld.
         <category></category>
         
         
-        <category>programming</category>
+        <category>Programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Project Agile</title>
+        <description>&lt;p&gt;&lt;strong&gt;Project&lt;/strong&gt; —&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*St0mcTsgm7l_onVGFJUK5Q.png&quot; alt=&quot;Схема Agile проекта&quot; /&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 May 2017 20:24:22 +0300</pubDate>
+        <link>http://localhost:4000/project/2017/05/05/Project-Agile/</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2017/05/05/Project-Agile/</guid>
+        
+        <category>Project</category>
+        
+        <category>Agile</category>
+        
+        
+        <category>Project</category>
         
       </item>
     
@@ -448,114 +634,64 @@ test.example.com. IN CNAME example.tld.
         
       </item>
     
-      <item>
-        <title>Идея калькулятора для сайта</title>
-        <description>&lt;p&gt;Идея “как просто и легко рассказать своему любимому клиенту то, что ты уже давно и хорошо знаешь”!
-Например дать информацию о &lt;strong&gt;ценах на услуги&lt;/strong&gt; + подсчитать только &lt;strong&gt;то, что нужно&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&amp;amp;fit=crop&amp;amp;w=1050&amp;amp;q=80&quot; alt=&quot;калькулятор на сайте способен увеличить продажи&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;Что-главное&quot;&gt;Что главное&lt;/h1&gt;
-
-&lt;p&gt;В сети нередко калькулятор заманивает посетителя для получения его контакта в обмен на информацию о ценах. То есть цель - контакты посетителя. Настоящая &lt;em&gt;клиенториентированная&lt;/em&gt; компания покажет подсчёт сразу на сайте. Почта и телефон нам ещё понадобятся для детальных и важных сообщений, не занимайте их статичной и рутинной информацией.&lt;/p&gt;
-
-&lt;p&gt;Итак, цель калькулятора: &lt;strong&gt;Информирование клиента&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;Толк-от-калькулятора&quot;&gt;Толк от калькулятора&lt;/h2&gt;
-
-&lt;p&gt;Как узнать, нужен ли расчет для вашей сферы? Зайдите в &lt;a href=&quot;https://wordstat.yandex.ru/&quot; target=&quot;_blank&quot;&gt;Yandex.Wordstat&lt;/a&gt; и посмотрите, сколько запросов по вашей услуге со словами «калькулятор» «калькулятор», «расчет», «рассчитать», «онлайн» и подобными. Если это хотя бы низкочастотный запрос - значит потребность в нём есть.&lt;/p&gt;
-
-&lt;p&gt;Уже сформировался список сфер, для которых калькулятор практически необходим и позволяет приводить больше мотивированного трафика: Строительство, страхование, банковские услуги (кредиты, ипотеки), грузоперевозки, ремонтные и строительные работы, клининговые компании, мебель на заказ и т. п.&lt;/p&gt;
-
-&lt;h2 id=&quot;Подводные-камни&quot;&gt;Подводные камни&lt;/h2&gt;
-
-&lt;p&gt;Ознакомили с ценами, показали заботу и свой профессионализм, он провёл на сайте больше времени и может даже поделился ссылкой в соцсети! Звучит неплохо, но есть и шанс отпугнуть этого посетителя ненужной информацией или утомить сложными или мелкими деталями, дать неактуальную информацию или лишить себя живого общения, при котором можно задать наводящий вопрос и лучше понять клиента перед тем как объявлять цену. Из этого делаем выводы:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Старайтесь демонстрировать более выгодные цены при более выгодных для нас условиях сотрудничества, предложите скидку или порадуйте акцией.&lt;/li&gt;
-  &lt;li&gt;Интуитивно понятная, удобная форма подсчёта и уменьшение количества кликов (GUI)&lt;/li&gt;
-  &lt;li&gt;Всегда осведомляем, что цифра калькуляции приблизительная, и необходимо связаться для уточнения.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;Полезные-сервисы&quot;&gt;Полезные сервисы&lt;/h2&gt;
-
-&lt;p&gt;Нет смысла скрывать, что калькулятор сегодня создать можно легко без лишних затрат (&lt;a href=&quot;https://www.kakprosto.ru/kak-936864-kak-sdelat-kalkulyator-dlya-sayta-bez-programmista-chast-1-konstruktor-kalkulyatorov&quot; target=&quot;_blank&quot;&gt;например&lt;/a&gt;).
-Вот ещё несколько известных сервисов:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Moclients — конструктор калькулятора помогает собрать заявки.&lt;/li&gt;
-  &lt;li&gt;ucalc.pro, calccreator.com — производят реальные расчеты.&lt;/li&gt;
-  &lt;li&gt;zhitov.ru, stroy-calc.ru, o-builder.ru — строительные калькуляторы и расчет материалов.&lt;/li&gt;
-  &lt;li&gt;planetcalc.ru — много онлайн-калькуляторов в одном месте.&lt;/li&gt;
-  &lt;li&gt;wisewater.ru — калькулятор подбора оборудования по водоподготовке.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;Выводы&quot;&gt;Выводы&lt;/h2&gt;
-
-&lt;p&gt;Если вы чувствуете необходимость, протестируйте калькулятор для своего сайта. Продуманный и качественно исполненный, он положительно отразится на качестве обращений и коммуникации с клиентом.
-Насколько положительно? Что бы оценить пользу по факту — настраиваем цели в Яндекс Метрике/Google Analytics и отслеживаем эффективность!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Apr 2017 17:11:51 +0300</pubDate>
-        <link>http://localhost:4000/site/2017/04/06/increase-sales-with-calculator/</link>
-        <guid isPermaLink="true">http://localhost:4000/site/2017/04/06/increase-sales-with-calculator/</guid>
-        
-        <category>идеи</category>
-        
-        <category>калькулятор</category>
-        
-        <category>полезные ссылки</category>
-        
-        
-        <category>Site</category>
-        
-      </item>
-    
-      <item>
-        <title>Коллекция ссылок №1</title>
-        <description>&lt;h2 id=&quot;С-чего-стартовать-бизнес-в-интернете&quot;&gt;С чего стартовать бизнес в интернете?&lt;/h2&gt;
-
-&lt;p&gt;Вот список инструментов для названия своего дела в сети Интернет. Прилагается ссылка и описание.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://78.media.tumblr.com/c63e7dbe088ba65fa3ecba919bf8594c/tumblr_o6nnz8Glgm1tubinno1_1280.jpg&quot; alt=&quot;Ссылки для стартапа - с чего начать?&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;Генераторы-названий-и-имен&quot;&gt;Генераторы названий и имен&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://thenameapp.com/&quot; target=&quot;_blank&quot;&gt;The Name App&lt;/a&gt; – Быстрая проверка наличие свободных доменов и главных социалках (зарубежных).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://naminum.com&quot; target=&quot;_blank&quot;&gt;Naminum&lt;/a&gt; — бесплатный генератор, много префиксов и постфиксов для вашего односложного домена.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://shortdomainsearch.com/&quot; target=&quot;_blank&quot;&gt;Short Domain Search&lt;/a&gt; – Быстрый и удобный генератор для локаничного домена (3-6 символов) и проверки, что он не занят. Предлагает доменные зоны в качестве окончания вашего названия (Что-то типа &lt;a href=&quot;http://kengu.ru/&quot; target=&quot;_blank&quot;&gt;http://kengu.ru/&lt;/a&gt; )&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wordoid.com/&quot; target=&quot;_blank&quot;&gt;Wordoid&lt;/a&gt; – Этот ресурс подойдёт для зарубежного продукта, компании или домена. Можно удачно, например, для итальянского ресторана подобрать итальянское окончание имени. Так же подбирает на Испанском, Французком, Немецком и стандартном Английском языках.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hipsterbusiness.name&quot; target=&quot;_blank&quot;&gt;Hipster Business&lt;/a&gt; – Крышесносящий генератор двойных названий! Отлично подойдёт, если нужно дать название лавке коллекционных изделий, уникальной одежды или оружейному магазину.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.leandomainsearch.com&quot; target=&quot;_blank&quot;&gt;Lean Domain Search&lt;/a&gt; – Довольно универсальный подборщик подходящего домена, выдаёт длинный список разнообразных приписок по вашему запросу.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://domainr.com&quot; target=&quot;_blank&quot;&gt;Dominr&lt;/a&gt; – Быстро ознакомит с возможными вариантами, а так же сразу проверяет на доступность.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Напоминаю, что “условно-бесплатными” называются те сервисы, которые дают результат на вермя или в урезанном варианте, что бы вы могли попробовать и только потом решить, стоит ли платить.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;© &lt;a href=&quot;https://habrahabr.ru/post/323600/&quot; target=&quot;_blank&quot;&gt;Источник&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 04 Apr 2017 22:17:18 +0300</pubDate>
-        <link>http://localhost:4000/web/2017/04/04/name-generators-CLUE/</link>
-        <guid isPermaLink="true">http://localhost:4000/web/2017/04/04/name-generators-CLUE/</guid>
-        
-        <category>подборка</category>
-        
-        <category>стартап</category>
-        
-        <category>бренд</category>
-        
-        <category>название</category>
-        
-        <category>CLUE</category>
-        
-        
-        <category>Web</category>
-        
-      </item>
-    
   </channel>
 </rss>
+
+
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+    <div class="footer clearfix">
+  <div class="col-md-6">
+    Сделано на <a href="https://jekyllrb.com/">Jekyll</a> с <i class="fas fa-heart"></i>
+  </div>
+  <div class="col-md-6">
+    &lt; <a href="https://github.com/klimov-rv/klimov-rv.github.io">Github</a> &nbsp;<i class="fab fa-github-alt"></i> /&gt;
+  </div>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="/js/jquery.mmenu.min.all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script src="/js/script.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $("#my-menu").mmenu().on( "closed.mm", function() {
+            $(".menu-button").show();
+         });
+      $(".menu-button").click(function() {
+        $(".menu-button").hide();
+        $("#my-menu").trigger("open.mm");
+      });
+   });
+</script>
+
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+          _gaq.push(['_trackPageview']);
+  (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47298480 = new Ya.Metrika({ id:47298480, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47298480" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+    </body>
+</html>

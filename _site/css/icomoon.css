@@ -3095,3 +3095,28 @@
 .icon-IcoMoon:before {
   content: "\eaea";
 }
+.i25 {
+  font-size: 25px;
+}
+.i35 {
+  font-size: 35px;
+}
+.i45 {
+  font-size: 45px;
+}
+.i55 {
+  font-size: 55px;
+}
+.i-al-left {
+  text-align: left;
+}
+.i-al-center {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.i-al-right {
+  width: 100%;
+  text-align: right;
+  display: block;
+}

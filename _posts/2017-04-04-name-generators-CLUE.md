@@ -1,8 +1,6 @@
 ---
-layout:     post
 title:      Коллекция ссылок №1
 date:       2017-04-04 19:17:18
-author:     Климов Роман
 summary:    Сборник полезных ссылок выпуск №1 - Генераторы имени вашего бизнеса
 categories: Web
 thumbnail:  web

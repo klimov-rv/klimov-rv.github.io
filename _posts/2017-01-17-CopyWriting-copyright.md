@@ -1,8 +1,6 @@
 ---
-layout:     post
 title:      Копирайтинг
 date:       2017-01-17 11:56:55
-author:     Климов Роман
 summary:    Тема копирайта
 categories: Text
 thumbnail:  pencil-alt

@@ -8,23 +8,42 @@ make-smaller-titles: true
 <div class="container-fluid index">
     <div class="row">
 
-        <div class="col-md-12 main content-panel">
+        <div class="col-md-12 content-panel main">
+            <div class="gradient">
 
-            <!--<div class="gravatar">
-                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
-            </div>-->
+                <!--<div class="gravatar">
+                    <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
+                </div>-->
 
-            <h1 class="header author-header" itemprop="headline">
-                <p><span class="logo8250">&#8250;</span> <span class="blink">Project</span></p>
-            </h1>
+                <h1 class="header site-name" itemprop="headline">
+                    <span class="logo8250"><i class="fas fa-chevron-right"></i><!-- &#8250;--></span> 
+                    <span id="write-site-name"></span>
+                </h1>
 
-            <div class="author-text">
-                {{ site.title_description }}
+                <div class="author-text" id="write-site-desc">
+                    {{ site.title_description }}
+                </div>
+                
+
+                <!-- typed -->
+                <script src="{{ site.baseurl }}/js/typed.min.js"></script>
+                <script>
+
+                    var typed = new Typed('#write-site-name', {  
+                        strings: [
+                            'Klimov Project'
+                        ],
+                        typeSpeed: 130,
+                        cursorChar: '_'
+                    });
+
+                </script>
+
+                {% include social_links.html %}
             </div>
+        </div>
 
-            {% include social_links.html %}
-          </div>
-          <div class="col-md-12 content-panel">
+        <div class="col-md-12 content-panel">
 
             <div class="articles">
 

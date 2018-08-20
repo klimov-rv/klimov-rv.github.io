@@ -1,10 +1,8 @@
 ---
-layout:     post
 title:      Шаблон Чёрная Карта
 date:       2017-02-01 15:31:19
-author:     Климов Роман
 summary:    Чёрная Карта — дизайн в тёмном стиле для Jekyll ориентированный на удобное и быстрое чтение
-categories: jekyll
+categories: Jekyll
 thumbnail:  heart
 tags:
  - дизайн

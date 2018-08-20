@@ -27,20 +27,6 @@ layout: default
 
       <div class="author">
         <small><i>
-          {% if page.author %}
-          
-          <span itemprop="author">
-            {% if site.google_plus_link %}
-              <a rel="author" href="{{ site.google_plus_link }}">
-            {% endif %}
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ page.author }}</span>
-            </span>
-            {% if site.google_plus_link %}
-              </a>
-            {% endif %}
-          </span>
-          {% endif %}
           <span itemprop="datePublished" content="2014-08-28">{% include date_ru_locale.html date=page.date %}</span>
           {% if page.categories != empty %} на тему {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
@@ -133,6 +119,14 @@ layout: default
         </div>
       </div>
       {% endif %}
+      
+      <div class="blog-post">
+        {% if page.next %}
+          {% include post-summary.html post=page.next %}
+        {% elsif page.previous %}
+          {% include post-summary.html post=page.previous %}
+        {% endif %}
+      </div>
 
       {% if site.related_posts.length > 0 %}
       <div class="content-panel related clearfix">

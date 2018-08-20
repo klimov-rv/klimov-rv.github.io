@@ -1,8 +1,6 @@
 ---
-layout:     post
 title:      Идея калькулятора для сайта
 date:       2017-04-06 14:11:51
-author:     Климов Роман
 summary:    Как калькулятор на сайте способен увеличить продажи
 categories: Site
 thumbnail: Site

@@ -1,8 +1,6 @@
 ---
-layout:     post
 title:      Node.js первые шаги
 date:       2017-05-01 18:52:15
-author:     Климов Роман
 summary:    Учим современные JS технологии - Node.js и V8 
 categories: Site
 thumbnail:  Nodejs
