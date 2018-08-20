@@ -23,7 +23,7 @@ $dark:           #2D2D29;
 $medium:         #3B3B35;
 $light-medium:   #969696;
 $dark-blue:      #215A6D;
-$light-blue:     #3CA2A2;
+$light-blue:     lightseagreen;
 $green:          #92C7A3;
 $light:          #DFECE6;
 $white:          #FFFFFF;
@@ -41,7 +41,12 @@ $screen-lg-min: 1200px;
 /* Globals font - ​Tahoma (Roboto)  */
 
 ::selection {
-    background: $light-blue;
+	background: $light-blue;
+	color: black; 
+}
+::-moz-selection {
+	background: $light-blue;
+	color: black; 
 }
 
 html {
@@ -57,10 +62,6 @@ body {
 	font-size: 16px;
 	height: 100%;
 	width: 100%;
-}
-body::selection {
-	color: rgb(18, 151, 184);
-	background: rgb(48, 64, 71);
 }
 
 a, a:active {
@@ -346,6 +347,24 @@ pre {
 		b {
 			font-size: 32px;
 		}
+
+		// Пример разделения li элементов
+
+		// .portfolio-social li:not(:last-child)::after {
+			// 	height: 40px;
+			// 	background-color: #dee2e6;
+		// }
+		// .footer-social li:not(:last-child)::after, .portfolio-social li:not(:last-child)::after {
+			// 	content: '';
+			// 	position: absolute;
+			// 	top: 50%;
+			// 	right: 0px;
+			// 	-webkit-transform: translate(50%, -50%) rotate(25deg);
+			// 	transform: translate(50%, -50%) rotate(25deg);
+			// 	width: 2px;
+			// 	height: 100%;
+			// 	background-color: #dee2e6;
+		// }
 	}
 
 	.links {
@@ -403,7 +422,7 @@ pre {
 	}
 
 	.copyright {
-		margin-top: 50px;
+		margin-top: 57px 0 0;
 		text-align: center;
 	}
 
@@ -962,10 +981,15 @@ td{
     padding: 2px;
     border:1px solid $dark-blue;;
 }
-
 .main {
-	color: #000;
-	background: currentColor;
+    background-image: url("../images/compress/photo-sea-compress.jpg");
+    background-size: cover;
+    padding: 0;
+}
+.gradient {
+    color: white;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75));
+    padding: 40px;
 }
 
 @keyframes blink {

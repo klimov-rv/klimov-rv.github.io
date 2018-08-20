@@ -1,6 +1,22 @@
 [
   
   {
+    "title"    : "Как определить успешный дизайн?",
+    "category" : "",
+    "tags"     : "Design, Шрифт, Цвета",
+    "url"      : "/design/2018/08/17/success-in-design/",
+    "date"     : "2018-08-17 19:17:07 +0300"
+    } ,
+    
+  {
+    "title"    : "Основные принципы дизайна",
+    "category" : "",
+    "tags"     : "Design, Шрифт, Цвета",
+    "url"      : "/design/2018/08/03/Basic-principles-of-graphic-design/",
+    "date"     : "2018-08-03 14:57:05 +0300"
+    } ,
+    
+  {
     "title"    : "CNAME для домена на Github",
     "category" : "",
     "tags"     : "CNAME, ЗонаDNS, canonical, aliases",

@@ -7,7 +7,12 @@
 /* Responsive sizes */
 /* Globals font - ​Tahoma (Roboto)  */
 ::selection {
-  background: #3CA2A2; }
+  background: lightseagreen;
+  color: black; }
+
+::-moz-selection {
+  background: lightseagreen;
+  color: black; }
 
 html {
   height: 100%;
@@ -23,7 +28,7 @@ body {
   width: 100%; }
 
 a, a:active {
-  color: #3CA2A2;
+  color: lightseagreen;
   text-decoration: none; }
 
 a:hover {
@@ -108,7 +113,7 @@ pre {
   padding-right: 30px;
   margin-top: 20px;
   box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-  border-bottom: 5px solid #3CA2A2; }
+  border-bottom: 5px solid lightseagreen; }
 
 .content-panel-clean {
   padding: 0px; }
@@ -118,7 +123,7 @@ pre {
 #my-menu a, #my-menu a:active {
   color: #FFFFFF; }
 #my-menu a:hover {
-  color: #3CA2A2; }
+  color: lightseagreen; }
 #my-menu .pages .fa {
   margin-right: 10px; }
 
@@ -182,11 +187,11 @@ pre {
   .index .categories {
     font-size: 22px; }
   .index .content-panel:nth-of-type(1) {
-    border-bottom: 10px solid #3CA2A2; }
+    border-bottom: 10px solid lightseagreen; }
   .index .site-name {
     font-family: Roboto, sans-serif;
     letter-spacing: 2.5px;
-    color: #3CA2A2;
+    color: lightseagreen;
     margin-top: 0px;
     padding-top: 15px;
     font-size: 30px; }
@@ -227,7 +232,7 @@ pre {
     font-size: 20px; }
     .index .articles h2 {
       margin-bottom: 30px;
-      color: #3CA2A2;
+      color: lightseagreen;
       font-size: 26px; }
     .index .articles ul {
       padding: 0px; }
@@ -247,9 +252,9 @@ pre {
       color: #FFFFFF;
       white-space: nowrap; }
     .index .articles a:hover {
-      color: #3CA2A2; }
+      color: lightseagreen; }
   .index .copyright {
-    margin-top: 50px;
+    margin-top: 57px 0 0;
     text-align: center; }
   .index .links a, .index .links a:active {
     color: #FFFFFF; }
@@ -262,7 +267,7 @@ pre {
     .index .menu a, .index .menu a:active {
       color: #FFFFFF; }
     .index .menu a:hover {
-      color: #3CA2A2; }
+      color: lightseagreen; }
     .index .menu ul {
       margin-bottom: 30px;
       padding-left: 10px; }
@@ -338,7 +343,7 @@ pre {
     .single .menu a, .single .menu a:active {
       color: #FFFFFF; }
     .single .menu a:hover {
-      color: #3CA2A2; }
+      color: lightseagreen; }
     .single .menu h4 {
       margin-top: 20px; }
     .single .menu .share {
@@ -485,7 +490,7 @@ pre {
         .single .article .content .tags a, .single .article .content .tags a:active {
           color: #FFFFFF; }
         .single .article .content .tags a:hover {
-          color: #3CA2A2; }
+          color: lightseagreen; }
       .single .article .content .share {
         margin-top: 20px;
         margin-bottom: 10px;
@@ -545,7 +550,7 @@ pre {
 .error .error-text {
   margin-top: 30px; }
   .error .error-text a {
-    color: #3CA2A2;
+    color: lightseagreen;
     font-size: 14px; }
 .error .links {
   font-size: 1em; }
@@ -574,8 +579,8 @@ pre {
     margin-bottom: 20px; }
 
 .btn-categories {
-  background-color: #3CA2A2;
-  border-color: #3CA2A2;
+  background-color: lightseagreen;
+  border-color: lightseagreen;
   color: #FFFFFF; }
   .btn-categories:hover {
     background-color: #215A6D;
@@ -591,10 +596,10 @@ pre {
     color: #FFFFFF; }
 
 .dropdown-menu {
-  background-color: #3CA2A2;
+  background-color: lightseagreen;
   color: #FFFFFF; }
   .dropdown-menu > li > a {
-    background-color: #3CA2A2;
+    background-color: lightseagreen;
     color: #FFFFFF; }
     .dropdown-menu > li > a:hover {
       background-color: #215A6D;
@@ -627,8 +632,14 @@ td {
   border: 1px solid #215A6D; }
 
 .main {
-  color: #000;
-  background: currentColor; }
+  background-image: url("../images/compress/photo-sea-compress.jpg");
+  background-size: cover;
+  padding: 0; }
+
+.gradient {
+  color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75));
+  padding: 40px; }
 
 @keyframes blink {
   0% {
