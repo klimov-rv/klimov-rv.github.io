@@ -1,9 +1,9 @@
 # Site settings
 title: "KlimovProject — Мой прожектор в WEB-разработках"
 email: Klimov.RV@yandex.ru
-description: "Первый официальный проект любого вебмастера - это его собственный сайт "
+description: "Официальный сайт хорошего вебмастера"
 baseurl: ""
-url: "/"
+url: ""
 title_description: "Блог, как хороший пример статического сайта <br/> 
 на простом и быстром Jekyll. Здесь собраны мысли, 
 идеи и заметки о моих разработках, моё <a href=\"/portfolio/\">портфолио</a>.<br/><br/>
