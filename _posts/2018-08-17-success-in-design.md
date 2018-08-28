@@ -113,5 +113,5 @@ _____
 [17]: https://dribbble.com/Volnichenko
 [18]: https://cdn-images-1.medium.com/max/1000/1*ZiXkqWpe9RK6Ll0dRnNLZg.png
 [19]: https://dribbble.com/Dewizka
-[20]: https://i.imgur.com/QMeLa6I.png
+[20]: http://images.klimovproject.ru/post-img/QMeLa6I.png
 [21]: https://medium.com/ux-power-tools/10-ways-to-measure-your-success-in-design-7b3bc1762803

@@ -5,7 +5,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KlimovProject — Мой прожектор в WEB-разработках</title>
-<meta name="description" content="Официальный сайт хорошего вебмастера">
+<meta name="description" content="Первый официальный проект любого вебмастера - это его собственный сайт ">
 <meta name="yandex-verification" content="233a2b0e615a3e40" />
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -54,7 +54,7 @@
     </ul>
 
     <div class="links">
-  <a href="https://t.me/klimovrv" target="_new"><i class="fab fa-telegram-plane"></i></a>
+  <a href="https://t-do.ru/klimovrv" target="_new"><i class="fab fa-telegram-plane"></i></a>
   <a href="http://stackexchange.com/users/10611498/%d0%a0%d0%be%d0%bc%d0%b0%d0%bd-%d0%9a%d0%bb%d0%b8%d0%bc%d0%be%d0%b2" target="_new"><i class="fab fa-stack-overflow"></i></a>
   <a href="https://www.twitter.com/KlimovRV" target="_new"><i class="fab fa-twitter"></i></a>
   <a href="https://www.instagram.com/klimov.rv" target="_new"><i class="fab fa-instagram"></i></a>
@@ -86,11 +86,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KlimovProject — Мой прожектор в WEB-разработках</title>
-    <description>Официальный сайт хорошего вебмастера</description>
+    <description>Первый официальный проект любого вебмастера - это его собственный сайт </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 Aug 2018 22:11:22 +0300</pubDate>
-    <lastBuildDate>Tue, 21 Aug 2018 22:11:22 +0300</lastBuildDate>
+    <pubDate>Wed, 29 Aug 2018 01:46:42 +0300</pubDate>
+    <lastBuildDate>Wed, 29 Aug 2018 01:46:42 +0300</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
     
       <item>
@@ -169,7 +169,7 @@
 
 &lt;p&gt;Дизайн создаётся не для одного человека. Действительно сложно заинтересовать и удовлетворить всех, к кому вы обращаетесь своей работой. И если вы делаете максимум, чтобы удовлетворить их потребности и учесть все аспекты, то вы получите соответсвенную отдачу!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/QMeLa6I.png&quot; alt=&quot;Группы ЦА дизайна&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.klimovproject.ru/post-img/QMeLa6I.png&quot; alt=&quot;Группы ЦА дизайна&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;10-Удовлетворение-работой&quot;&gt;10. Удовлетворение работой&lt;/h2&gt;
 
