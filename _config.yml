@@ -4,9 +4,8 @@ email: Klimov.RV@yandex.ru
 description: "Первый официальный проект любого вебмастера - это его собственный сайт "
 baseurl: ""
 url: "/"
-title_description: "Блог, как хороший пример статического сайта <br/> 
-на простом и быстром Jekyll. Здесь собраны мысли, 
-идеи и заметки о моих разработках, моё <a href=\"/portfolio/\">портфолио <i class=\"fas fa-hand-point-right\" aria-hidden=\"true\"></i></a>."
+title_description: "Блог, как хороший пример статического сайта <br/> Здесь в свободной форме собраны мысли, 
+идеи и заметки о моих разработках, а так же моё <a href=\"/portfolio/\">портфолио <i class=\"fas fa-hand-point-right\" aria-hidden=\"true\"></i></a>."
 google_analytics: ""
 disqus_account: 
 addthis_id: 

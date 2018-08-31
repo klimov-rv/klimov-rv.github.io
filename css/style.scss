@@ -467,9 +467,17 @@ pre {
 }
 
 .container-wide {
+	
 	padding: 30px 0px 0px 0px;
 	width: 970px;
 	max-width: 970px;
+
+	@media (max-width: $screen-md-min) {
+		width: 570px;
+	}
+	@media (max-width: $screen-sm-min) {
+		width: 350px;
+	}
 	
 	.header {
 		margin-top: 10px;
@@ -1015,143 +1023,163 @@ td{
     padding: 40px;
 }
 
-.grid {
-
+.portfolio {
+	text-align: center;
+}
+.grid {	
 	display: grid;
+
+	@media (max-width: $screen-lg-min) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@media (max-width: $screen-md-min) {
+		grid-template-columns: 1fr;
+	}
+
 	grid-template-columns: 1fr 1fr 1fr;
-	
 	grid-gap: 30px;
 	color: #444;
 }
 .grid-item {
-    // font-size: 150%;
-    // background-image: url("../images/portfolio/wally-website.png");
-	// background-size: cover;
-	position: relative;
-    min-height: 150px;
-	background-position: center top;
-	
-		-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .06);
-		-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .06);
-		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .06);
-	
-}
-.grid-item {
     width: 100%;
-    float: left;
     overflow: hidden;
+	position: relative;
+    min-height: 350px;
+	cursor: pointer;
+	
+		-webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.17);
+		-moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.17);
+		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.17);
+	
 }
-.stuff {
-    list-style: none;
-    color: rgba(0, 0, 0, .3);
-		margin: 0;
-		padding: 0;
-		padding-top: 0px;
-		
-		backdrop-filter: blur(3px);
-}
-.stuff small {
-    width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-    padding-top: 13px;
-    display: block;
+.grid-item, .bg-2 {
+	background-position: center top;
+	background-size: cover;
 }
 .a {
 	grid-column: 1 / span 2;
+	background-image: url("../images/portfolio/moda-website-compressed.jpg");
+	@media (max-width: $screen-lg-min) {
+		grid-column: 1;
+	}
+	@media (max-width: $screen-md-min) {
+		grid-column: 1;
+	}
 }
 .b {
 	grid-column: 3 ;
-	grid-row: 1 / span 2;
+	background-image: url("../images/portfolio/mair-website-compressed.jpg");
+	@media (max-width: $screen-lg-min) {
+		grid-column: 2;
+	}
+	@media (max-width: $screen-md-min) {
+		grid-column: 1;
+		grid-row: 2 ;
+	}
 }
 .c {
 	grid-column: 1 ;
 	grid-row: 2 ;
+	background-image: url("../images/portfolio/wally-website-compressed.jpg");
+	@media (max-width: $screen-lg-min) {
+		grid-column: 1;
+	}
+	@media (max-width: $screen-md-min) {
+		grid-column: 1;
+		grid-row: 3 ;
+	}
 }
 .d {
-	grid-column: 2 ;
+	grid-column: 2 / span 2;
 	grid-row: 2 ;
+	background-image: url("../images/portfolio/monte-website-compressed.jpg");
+	@media (max-width: $screen-lg-min) {
+		grid-column: 2;
+	}
+	@media (max-width: $screen-md-min) {
+		grid-column: 1;
+		grid-row: 4 ;
+	}
 }
 
-article, .glass::before {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-  }
-  
-  .glass {
-	position: relative;
-	  background-color: white;
-	  padding: 10px 30px;
-	  min-height: 317px;
-  }
-  
-  .glass::before {
-	z-index: -1;
-	display: block;
-	position: absolute;
-	content: ' ';
-  }
-  
-  /* backgrounds */
+.bg-2 {
+	opacity: 0;
+}
 
-  .a {
-    background-image: url("../images/portfolio/monte-website-compressed.jpg");
-  }
-  .a .glass::before {
+.a .bg-2 {
+	background-image: url("../images/portfolio/moda-website-blurred.jpg");
+}
+
+.b .bg-2 {
+	background-image: url("../images/portfolio/mair-website-blurred.jpg");
+}
+
+.c .bg-2 {
+	background-image: url("../images/portfolio/wally-website-blurred.jpg");
+}
+
+.d .bg-2{
 	background-image: url("../images/portfolio/monte-website-blurred.jpg");
-	}
-  .b {
-    background-image: url("../images/portfolio/moda-website-compressed.jpg");
-  }
-  .b .glass::before {
-    background-image: url("../images/portfolio/moda-website-blurred.jpg");
-  }
-  .c {
-    background-image: url("../images/portfolio/mair-website-compressed.jpg");
-  }
-  .c .glass::before {
-    background-image: url("../images/portfolio/mair-website-blurred.jpg");
-  }
-  .d {
-    background-image: url("../images/portfolio/wally-website-compressed.jpg");
-  }
-  .d .glass::before {
-    background-image: url("../images/portfolio/wally-website-blurred.jpg");
-  }
-  .grid-item, .glass::before {
-	background-size: cover;
-    background-position: center top;
-  }
-  
-  .glass::before {
+}
+
+.work-title {
+	text-shadow: 0px 1px 1px rgb(0, 89, 100);
+	position: absolute;
+	width: 100%;
+	line-height: 50px;
+	vertical-align: middle;
+	top: calc(50% - 45px);
+	left: 0;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #20b2aa;
+	z-index: 1;
+	transition: top .5s ease;
+}
+
+
+.bg-2 {
+	position: absolute;
 	top: 0;
 	left: 0;
-    opacity: 0.3;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	transition: opacity .35s;
 }
-  
-  
-  /* transformations */
-  .glass.down {
-	transform: translateY(100%) translateY(-110px) translateZ(0);
-  }
-  
-  .glass.down::before {
-	transform: translateY(-100%) translateY(110px) translateZ(0);
-  }
-  
-  .glass.up, .glass.up::before {
-	transform: translateY(0) translateZ(0);
-  }
-  
-  /* transitions */
-  .glass, .glass::before {
-	transition: transform 0.5s ease-out;
-  }
-  
- article > h3 {
-	 
- }
-  
+
+.grid-item:hover .work-title {
+	top: calc(50% - 75px);
+	text-shadow: none;
+	color: white;
+}
+
+.grid-item:hover .bg-2, .grid-item:hover .button {
+	opacity: 1;
+}
+
+.button {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 55%;
+	text-align: center;
+	opacity: 0;
+	transition: opacity .35s ease;
+}
+
+.button a {
+	width: auto;
+	padding: 15px 50px;
+	text-align: center;
+	color: white;
+	border-top: solid 2px #20b2aa;
+	z-index: 1;
+}
   
 @keyframes blink {
 	0% { opacity:1; }
