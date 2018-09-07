@@ -22,7 +22,7 @@ $darker:         #21211E;
 $dark:           #2D2D29;
 $medium:         #3B3B35;
 $light-medium:   #969696;
-$dark-blue:      #215A6D;
+$bright-blue:    #83E2D2;
 $light-blue:     lightseagreen;
 $green:          #92C7A3;
 $light:          #DFECE6;
@@ -70,8 +70,15 @@ a, a:active {
 }
 
 a:hover {
-	color: $dark-blue;
+	color: $bright-blue;
 	text-decoration: none;
+}
+
+img:hover {
+	-webkit-transform: scale(1.07);
+	-ms-transform: scale(1.07);
+	transform: scale(1.07);
+	transition: transform .35s ease;
 }
 
 p {
@@ -93,7 +100,7 @@ pre {
 	animation: blink 1.3s linear infinite; 
 }
 .navbar, .nav {
-	background-color: $dark-blue;
+	background-color: $bright-blue;
 
 	.navbar-toggle {
 		margin-top: 10px;
@@ -108,7 +115,7 @@ pre {
 		}
 
 		a:hover {
-			color: $dark-blue;
+			color: $bright-blue;
 			text-decoration: none;
 		}
 	}
@@ -172,7 +179,13 @@ pre {
 	border-bottom: 5px solid $light-blue;
 	
 	@media (max-width: $screen-sm-min) {
-		margin-top: 0px;
+		margin-top: 0;
+	}
+
+	&.portfolio {
+		@media (max-width: $screen-sm-min) {
+			padding: 0;
+		}
 	}
 }
 .content-panel-clean {
@@ -307,12 +320,17 @@ pre {
 		margin-top: 0px;
 		padding-top: 15px;
 		font-size: 30px;
+		
+		text-shadow: 0px 3px 5px #212121;
+		-moz-text-shadow: 0px 3px 5px #212121;
+		-webkit-text-shadow: 0px 3px 5px #212121;
 
 		.blink {
 			&:after {
 				content: "_";
 				color: white;
 				margin-left: 7px;
+				-moz-animation: blink 1.3s linear infinite; 
 				-webkit-animation: blink 1.3s linear infinite; 
 				animation: blink 1.3s linear infinite; 
 			}
@@ -395,6 +413,7 @@ pre {
 
 				a:hover {
 					color: $light-medium;
+					text-decoration: none;
 				}
 
 				small {
@@ -422,6 +441,7 @@ pre {
 
 		a:hover {
 			color: $light-blue;
+			text-decoration: none;
 		}
 	}
 
@@ -476,7 +496,7 @@ pre {
 		width: 570px;
 	}
 	@media (max-width: $screen-sm-min) {
-		width: 350px;
+		width: 100%;
 	}
 	
 	.header {
@@ -586,7 +606,7 @@ pre {
 
 	.menu {
 
-		background-color: $dark-blue;
+		background-color: $bright-blue;
 
 		a, a:active {
 			color: $white;
@@ -846,7 +866,7 @@ pre {
 		}
 
 		a:hover {
-			color: $dark-blue;
+			color: $bright-blue;
 		}
 	}
 
@@ -955,18 +975,18 @@ pre {
 	border-color: $light-blue;
 	color: $white;
 	&:hover {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $bright-blue;
+		border-color: $bright-blue;
 		color: $white;
 	}
 	&:active {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $bright-blue;
+		border-color: $bright-blue;
 		color: $white;
 	}
 	&:focus {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $bright-blue;
+		border-color: $bright-blue;
 		color: $white;
 	}
 }
@@ -978,7 +998,7 @@ pre {
 		background-color: $light-blue;
 		color: $white;
 		&:hover {
-			background-color: $dark-blue;
+			background-color: $bright-blue;
 			color: $white;
 		}
 	}
@@ -1010,16 +1030,16 @@ th{
 
 td{
     padding: 2px;
-    border:1px solid $dark-blue;;
+    border:1px solid $bright-blue;;
 }
 .main {
-    background-image: url("../images/compress/photo-sea-compress.jpg");
+    background-image: url("http://elitefon.ru/images/201504/elitefon.ru_39257.jpg");
     background-size: cover;
 	padding: 0;
 }
 .gradient {
     color: white;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75));
+    background-image: radial-gradient(rgba(69, 69, 69, 0.7), rgba(4, 4, 4, 0.8));
     padding: 40px;
 }
 
@@ -1028,6 +1048,7 @@ td{
 }
 .grid {	
 	display: grid;
+	grid-gap: 30px;
 
 	@media (max-width: $screen-lg-min) {
 		grid-template-columns: 1fr 1fr;
@@ -1038,7 +1059,6 @@ td{
 	}
 
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 30px;
 	color: #444;
 }
 .grid-item {
@@ -1047,19 +1067,24 @@ td{
 	position: relative;
     min-height: 350px;
 	cursor: pointer;
-	
-		-webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.17);
-		-moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.17);
-		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.17);
-	
 }
+
+.grid-item:hover {
+	background: none;
+}
+.grid-item:hover .bg-2 {
+	-moz-animation: animatedBackground 5.3s linear infinite; 
+	-webkit-animation: animatedBackground 5.3s linear infinite; 
+	animation: animatedBackground 5.3s linear infinite; 
+}
+
 .grid-item, .bg-2 {
 	background-position: center top;
 	background-size: cover;
 }
 .a {
 	grid-column: 1 / span 2;
-	background-image: url("../images/portfolio/moda-website-compressed.jpg");
+	background-image: url("../images/portfolio/moda-website-blurred.jpg");
 	@media (max-width: $screen-lg-min) {
 		grid-column: 1;
 	}
@@ -1069,7 +1094,7 @@ td{
 }
 .b {
 	grid-column: 3 ;
-	background-image: url("../images/portfolio/mair-website-compressed.jpg");
+	background-image: url("../images/portfolio/mair-website-blurred.jpg");
 	@media (max-width: $screen-lg-min) {
 		grid-column: 2;
 	}
@@ -1081,7 +1106,7 @@ td{
 .c {
 	grid-column: 1 ;
 	grid-row: 2 ;
-	background-image: url("../images/portfolio/wally-website-compressed.jpg");
+	background-image: url("../images/portfolio/wally-website-blurred.jpg");
 	@media (max-width: $screen-lg-min) {
 		grid-column: 1;
 	}
@@ -1093,7 +1118,7 @@ td{
 .d {
 	grid-column: 2 / span 2;
 	grid-row: 2 ;
-	background-image: url("../images/portfolio/monte-website-compressed.jpg");
+	background-image: url("../images/portfolio/monte-website-blurred.jpg");
 	@media (max-width: $screen-lg-min) {
 		grid-column: 2;
 	}
@@ -1108,26 +1133,25 @@ td{
 }
 
 .a .bg-2 {
-	background-image: url("../images/portfolio/moda-website-blurred.jpg");
+	background-image: url("../images/portfolio/moda-website-compressed.jpg");
 }
 
 .b .bg-2 {
-	background-image: url("../images/portfolio/mair-website-blurred.jpg");
+	background-image: url("../images/portfolio/mair-website-compressed.jpg");
 }
 
 .c .bg-2 {
-	background-image: url("../images/portfolio/wally-website-blurred.jpg");
+	background-image: url("../images/portfolio/wally-website-compressed.jpg");
 }
 
 .d .bg-2{
-	background-image: url("../images/portfolio/monte-website-blurred.jpg");
+	background-image: url("../images/portfolio/monte-website-compressed.jpg");
 }
 
 .work-title {
-	text-shadow: 0px 1px 1px rgb(0, 89, 100);
 	position: absolute;
 	width: 100%;
-	line-height: 50px;
+	line-height: 47px;
 	vertical-align: middle;
 	top: calc(50% - 45px);
 	left: 0;
@@ -1135,11 +1159,10 @@ td{
 	font-size: 30px;
 	text-align: center;
 	text-transform: uppercase;
-	color: #20b2aa;
+	color: $light-blue;
 	z-index: 1;
 	transition: top .5s ease;
 }
-
 
 .bg-2 {
 	position: absolute;
@@ -1153,9 +1176,9 @@ td{
 }
 
 .grid-item:hover .work-title {
-	top: calc(50% - 75px);
+	top: 0;
 	text-shadow: none;
-	color: white;
+	color: $light-blue;
 }
 
 .grid-item:hover .bg-2, .grid-item:hover .button {
@@ -1163,24 +1186,30 @@ td{
 }
 
 .button {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	top: 55%;
-	text-align: center;
-	opacity: 0;
-	transition: opacity .35s ease;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    background: #444;
+    height: 40px;
+    padding: 10px 0 0;
 }
 
 .button a {
-	width: auto;
-	padding: 15px 50px;
-	text-align: center;
-	color: white;
-	border-top: solid 2px #20b2aa;
-	z-index: 1;
+    width: auto;
+    padding: 10px 15px;
+    text-align: center;
+    color: $light-blue;
+    z-index: 1;
 }
-  
+
+.button a:first-child {
+    border-right: 1px solid white;
+}
+
 @keyframes blink {
 	0% { opacity:1; }
 	50% { opacity:0; }
@@ -1211,8 +1240,11 @@ td{
     0% {
         background-position: 0 0
     }
+    90% {
+        background-position: 0 bottom
+    }
     100% {
-        background-position: -600px 600px
+        background-position: 0 0
     }
 }
 /* Mozilla Firefox 5.0+ */
@@ -1220,8 +1252,11 @@ td{
     0% {
         background-position: 0 0
     }
+    90% {
+        background-position: 0 bottom
+    }
     100% {
-        background-position: -600px 600px
+        background-position: 0 0
     }
 }
 /* Safari 4.0+, Chrome 4.0+ */
@@ -1229,8 +1264,11 @@ td{
     0% {
         background-position: 0 0
     }
+    90% {
+        background-position: 0 bottom
+    }
     100% {
-        background-position: -600px 600px
+        background-position: 0 0
     }
 }
 /* Opera 12.0+ */
@@ -1238,7 +1276,10 @@ td{
     0% {
         background-position: 0 0
     }
+    90% {
+        background-position: 0 bottom
+    }
     100% {
-        background-position: -600px 600px
+        background-position: 0 0
     }
 }
