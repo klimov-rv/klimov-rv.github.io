@@ -2,6 +2,24 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>http://localhost:4000/bitrix/2019/05/15/wordpress-access/</loc>
+      
+        <lastmod>2019-05-15T15:16:15+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/bitrix/2019/05/01/Bitrix-hints-in-admin-panel/</loc>
+      
+        <lastmod>2019-05-01T18:28:12+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/design/2018/08/17/success-in-design/</loc>
       
         <lastmod>2018-08-17T19:17:07+03:00</lastmod>
@@ -14,6 +32,15 @@
       <loc>http://localhost:4000/design/2018/08/03/Basic-principles-of-graphic-design/</loc>
       
         <lastmod>2018-08-03T14:57:05+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/css/2018/07/13/info-blocks-for-site/</loc>
+      
+        <lastmod>2018-07-13T15:15:10+03:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>

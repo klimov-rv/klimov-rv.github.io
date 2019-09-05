@@ -32,14 +32,14 @@ a, a:active {
   text-decoration: none; }
 
 a:hover {
-  color: #83E2D2;
+  color: #A5F1E4;
   text-decoration: none; }
 
 img:hover {
-  -webkit-transform: scale(1.07);
-  -ms-transform: scale(1.07);
-  transform: scale(1.07);
-  transition: transform .35s ease; }
+  -webkit-transform: scale(1.17);
+  -ms-transform: scale(1.17);
+  transform: scale(1.17);
+  transition: transform .15s ease; }
 
 p {
   margin-top: 1em;
@@ -58,7 +58,7 @@ pre {
   animation: blink 1.3s linear infinite; }
 
 .navbar, .nav {
-  background-color: #83E2D2; }
+  background-color: #A5F1E4; }
   .navbar .navbar-toggle, .nav .navbar-toggle {
     margin-top: 10px;
     padding-top: 0px;
@@ -66,7 +66,7 @@ pre {
   .navbar li a, .navbar li a:active, .nav li a, .nav li a:active {
     color: #FFFFFF; }
   .navbar li a:hover, .nav li a:hover {
-    color: #83E2D2;
+    color: #A5F1E4;
     text-decoration: none; }
 
 .clearfix:after {
@@ -352,6 +352,10 @@ pre {
         padding-left: 30px;
         padding-right: 30px; } }
 
+.blog-post {
+  height: 19px;
+  text-align: right; }
+
 .thumb {
   margin-top: 20px;
   margin-bottom: 0px;
@@ -379,7 +383,7 @@ pre {
       .single p {
         margin-bottom: 30px; } }
   .single .menu {
-    background-color: #83E2D2; }
+    background-color: #A5F1E4; }
     .single .menu a, .single .menu a:active {
       color: #FFFFFF; }
     .single .menu a:hover {
@@ -554,7 +558,7 @@ pre {
       background-color: #21211E;
       box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2); }
     .related .related-header a:hover {
-      color: #83E2D2; }
+      color: #A5F1E4; }
   .related .title {
     padding-top: 20px;
     font-size: 24px;
@@ -623,16 +627,16 @@ pre {
   border-color: lightseagreen;
   color: #FFFFFF; }
   .btn-categories:hover {
-    background-color: #83E2D2;
-    border-color: #83E2D2;
+    background-color: #A5F1E4;
+    border-color: #A5F1E4;
     color: #FFFFFF; }
   .btn-categories:active {
-    background-color: #83E2D2;
-    border-color: #83E2D2;
+    background-color: #A5F1E4;
+    border-color: #A5F1E4;
     color: #FFFFFF; }
   .btn-categories:focus {
-    background-color: #83E2D2;
-    border-color: #83E2D2;
+    background-color: #A5F1E4;
+    border-color: #A5F1E4;
     color: #FFFFFF; }
 
 .dropdown-menu {
@@ -642,7 +646,7 @@ pre {
     background-color: lightseagreen;
     color: #FFFFFF; }
     .dropdown-menu > li > a:hover {
-      background-color: #83E2D2;
+      background-color: #A5F1E4;
       color: #FFFFFF; }
 
 table {
@@ -669,7 +673,7 @@ th {
 
 td {
   padding: 2px;
-  border: 1px solid #83E2D2; }
+  border: 1px solid #A5F1E4; }
 
 .main {
   background-image: url("http://elitefon.ru/images/201504/elitefon.ru_39257.jpg");
@@ -701,23 +705,30 @@ td {
   overflow: hidden;
   position: relative;
   min-height: 350px;
+  max-height: 550px;
   cursor: pointer; }
 
-.grid-item:hover {
-  background: none; }
+.grid-item img {
+  -moz-filter: blur(30px);
+  -webkit-filter: blur(30px);
+  filter: blur(30px);
+  margin: 0 auto;
+  top: 0;
+  left: -7%;
+  position: absolute; }
 
-.grid-item:hover .bg-2 {
-  -moz-animation: animatedBackground 5.3s linear infinite;
-  -webkit-animation: animatedBackground 5.3s linear infinite;
-  animation: animatedBackground 5.3s linear infinite; }
+.grid-item:hover img {
+  -moz-filter: none;
+  -webkit-filter: none;
+  filter: none;
+  transition: filter .5s ease; }
 
-.grid-item, .bg-2 {
+.grid-item {
   background-position: center top;
   background-size: cover; }
 
 .a {
-  grid-column: 1 / span 2;
-  background-image: url("../images/portfolio/moda-website-blurred.jpg"); }
+  grid-column: 1 / span 2; }
   @media (max-width: 1200px) {
     .a {
       grid-column: 1; } }
@@ -726,8 +737,7 @@ td {
       grid-column: 1; } }
 
 .b {
-  grid-column: 3;
-  background-image: url("../images/portfolio/mair-website-blurred.jpg"); }
+  grid-column: 3; }
   @media (max-width: 1200px) {
     .b {
       grid-column: 2; } }
@@ -738,8 +748,7 @@ td {
 
 .c {
   grid-column: 1;
-  grid-row: 2;
-  background-image: url("../images/portfolio/wally-website-blurred.jpg"); }
+  grid-row: 2; }
   @media (max-width: 1200px) {
     .c {
       grid-column: 1; } }
@@ -750,8 +759,7 @@ td {
 
 .d {
   grid-column: 2 / span 2;
-  grid-row: 2;
-  background-image: url("../images/portfolio/monte-website-blurred.jpg"); }
+  grid-row: 2; }
   @media (max-width: 1200px) {
     .d {
       grid-column: 2; } }
@@ -759,21 +767,6 @@ td {
     .d {
       grid-column: 1;
       grid-row: 4; } }
-
-.bg-2 {
-  opacity: 0; }
-
-.a .bg-2 {
-  background-image: url("../images/portfolio/moda-website-compressed.jpg"); }
-
-.b .bg-2 {
-  background-image: url("../images/portfolio/mair-website-compressed.jpg"); }
-
-.c .bg-2 {
-  background-image: url("../images/portfolio/wally-website-compressed.jpg"); }
-
-.d .bg-2 {
-  background-image: url("../images/portfolio/monte-website-compressed.jpg"); }
 
 .work-title {
   position: absolute;
@@ -790,22 +783,12 @@ td {
   z-index: 1;
   transition: top .5s ease; }
 
-.bg-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  transition: opacity .35s; }
-
 .grid-item:hover .work-title {
   top: 0;
   text-shadow: none;
   color: lightseagreen; }
 
-.grid-item:hover .bg-2, .grid-item:hover .button {
+.grid-item:hover .button {
   opacity: 1; }
 
 .button {
@@ -865,34 +848,3 @@ td {
     opacity: 0; }
   100% {
     opacity: 1; } }
-@keyframes animatedBackground {
-  0% {
-    background-position: 0 0; }
-  90% {
-    background-position: 0 bottom; }
-  100% {
-    background-position: 0 0; } }
-/* Mozilla Firefox 5.0+ */
-@-moz-keyframes animatedBackground {
-  0% {
-    background-position: 0 0; }
-  90% {
-    background-position: 0 bottom; }
-  100% {
-    background-position: 0 0; } }
-/* Safari 4.0+, Chrome 4.0+ */
-@-webkit-keyframes animatedBackground {
-  0% {
-    background-position: 0 0; }
-  90% {
-    background-position: 0 bottom; }
-  100% {
-    background-position: 0 0; } }
-/* Opera 12.0+ */
-@-o-keyframes animatedBackground {
-  0% {
-    background-position: 0 0; }
-  90% {
-    background-position: 0 bottom; }
-  100% {
-    background-position: 0 0; } }

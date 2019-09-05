@@ -1,6 +1,22 @@
 [
   
   {
+    "title"    : "Wordpress заявил о своих правах ;)",
+    "category" : "",
+    "tags"     : "Wordpress, access, Linux",
+    "url"      : "/bitrix/2019/05/15/wordpress-access/",
+    "date"     : "2019-05-15 15:16:15 +0300"
+    } ,
+    
+  {
+    "title"    : "Bitrix. Напоминалки по админ панели",
+    "category" : "",
+    "tags"     : "Bitrix, Шаблоны, Админка",
+    "url"      : "/bitrix/2019/05/01/Bitrix-hints-in-admin-panel/",
+    "date"     : "2019-05-01 18:28:12 +0300"
+    } ,
+    
+  {
     "title"    : "Как определить успешный дизайн?",
     "category" : "",
     "tags"     : "Design, Шрифт, Цвета",
@@ -17,6 +33,14 @@
     } ,
     
   {
+    "title"    : "Инфо блоки на сайт",
+    "category" : "",
+    "tags"     : "animate, css, practices",
+    "url"      : "/css/2018/07/13/info-blocks-for-site/",
+    "date"     : "2018-07-13 15:15:10 +0300"
+    } ,
+    
+  {
     "title"    : "CNAME для домена на Github",
     "category" : "",
     "tags"     : "CNAME, ЗонаDNS, canonical, aliases",
@@ -25,7 +49,7 @@
     } ,
     
   {
-    "title"    : "Шпаргалка",
+    "title"    : "Сайт со &quot;шпорами&quot;",
     "category" : "",
     "tags"     : "VSC, shortcuts, cheatsheets",
     "url"      : "/site/2017/07/05/Dev-Hints/",
