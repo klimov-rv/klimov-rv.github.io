@@ -91,7 +91,7 @@
   {
     "title"    : "Project Agile",
     "category" : "",
-    "tags"     : "Project, Agile",
+    "tags"     : "Project, Agile, CRM",
     "url"      : "/project/2017/05/05/Project-Agile/",
     "date"     : "2017-05-05 20:24:22 +0300"
     } ,
@@ -129,6 +129,14 @@
     } ,
     
   {
+    "title"    : "Копирайтинг",
+    "category" : "",
+    "tags"     : "Text, Copywriting, Copyright",
+    "url"      : "/text/2017/02/17/CopyWriting-copyright/",
+    "date"     : "2017-02-17 14:56:55 +0300"
+    } ,
+    
+  {
     "title"    : "Использование Markdown",
     "category" : "",
     "tags"     : "Markdown, Text, Syntax",
@@ -161,27 +169,19 @@
     } ,
     
   {
+    "title"    : "CMS vs SSG",
+    "category" : "",
+    "tags"     : "CMS, SSG",
+    "url"      : "/site/2017/02/02/SSG-vs-CMS/",
+    "date"     : "2017-02-02 14:57:05 +0300"
+    } ,
+    
+  {
     "title"    : "Шаблон Чёрная Карта",
     "category" : "",
     "tags"     : "дизайн, статика, carte, noire",
     "url"      : "/jekyll/2017/02/01/welcome-to-carte-noir/",
     "date"     : "2017-02-01 18:31:19 +0300"
-    } ,
-    
-  {
-    "title"    : "Копирайтинг",
-    "category" : "",
-    "tags"     : "Text, Copywriting, Copyright",
-    "url"      : "/text/2017/01/17/CopyWriting-copyright/",
-    "date"     : "2017-01-17 14:56:55 +0300"
-    } ,
-    
-  {
-    "title"    : "CMS vs SSG",
-    "category" : "",
-    "tags"     : "CMS, SSG",
-    "url"      : "/site/2017/01/13/SSG-vs-CMS/",
-    "date"     : "2017-01-13 14:57:05 +0300"
     } ,
     
   {

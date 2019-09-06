@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KlimovProject — CMS vs SSG</title>
+    <meta name="description" content="Первый официальный проект любого вебмастера - это его собственный сайт ">
+    <meta name="yandex-verification" content="233a2b0e615a3e40" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/icomoon.css" />
+    <!-- Тест светлого оформления на основе icomoon demo файла -->
+    <!--  <link rel="stylesheet" type="text/css" media="all" href="http://icons.klimovproject.ru/icomoon/Font/demo-files/icomoon-free.css" /> -->
+    <!-- devicons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" type="text/css" media="all" href="/css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" href="/css/highlightjs.piperita.css">
+
+    <!-- Favicons generated at http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="KlimovProject — Мой прожектор в WEB-разработках" />
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>CMS vs SSG | KlimovProject — Мой прожектор в WEB-разработках</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="CMS vs SSG" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Первый официальный проект любого вебмастера - это его собственный сайт" />
+<meta property="og:description" content="Первый официальный проект любого вебмастера - это его собственный сайт" />
+<link rel="canonical" href="http://localhost:4000/site/2017/02/02/SSG-vs-CMS/" />
+<meta property="og:url" content="http://localhost:4000/site/2017/02/02/SSG-vs-CMS/" />
+<meta property="og:site_name" content="KlimovProject — Мой прожектор в WEB-разработках" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-02-02T14:57:05+03:00" />
+<script type="application/ld+json">
+{"description":"Первый официальный проект любого вебмастера - это его собственный сайт","@type":"BlogPosting","url":"http://localhost:4000/site/2017/02/02/SSG-vs-CMS/","headline":"CMS vs SSG","dateModified":"2017-02-02T14:57:05+03:00","datePublished":"2017-02-02T14:57:05+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/site/2017/02/02/SSG-vs-CMS/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+     
+    
+
+</head>
+
+    <body>
+
+    <nav id="my-menu">
+  <div>
+    <p>Навигация</p>
+
+    <ul class="pages">
+      <li><a href="/"><i class="fa fa-home"></i> Главная</a></li>
+      <li><a href="/posts/"><i class="fa fa-archive"></i> Лента</a></li>
+      <li><a href="/portfolio/"><i class="fa fa-briefcase"></i> Портфолио</a></li>
+      <li><a href="/calendar/"><i class="fa fa-calendar "></i> Календарь</a></li>
+      <li><a href="/search/"><i class="fa fa-search"></i> Поиск</a></li>
+    </ul>
+
+    <div class="links">
+  
+  <a href="https://t-do.ru/klimovrv" target="_new"><i class="fab fa-telegram-plane"></i></a> 
+  
+  <a href="https://www.twitter.com/KlimovRV" target="_new"><i class="fab fa-twitter"></i></a> 
+  
+  <a href="https://www.instagram.com/klimov.rv" target="_new"><i class="fab fa-instagram"></i></a> 
+   
+  <a href="https://plus.google.com/113740816105565942618" target="_new"><i class="fab fa-google-plus-g"></i></a> 
+  <a href="https://www.facebook.com/profile.php?id=100012300218634" target="_new"><i class="fab fa-facebook"></i></a> 
+  <a href="https://github.com/klimov-rv" target="_new"><i class="fab fa-github-alt"></i></a> 
+  
+  
+  <a href="http://stackexchange.com/users/10611498/%d0%a0%d0%be%d0%bc%d0%b0%d0%bd-%d0%9a%d0%bb%d0%b8%d0%bc%d0%be%d0%b2" target="_new"><i class="fab fa-stack-overflow"></i></a> 
+  <a href="/feed.xml" target="_new"><i class="fas fa-rss"></i></a>
+</div>
+  </div>
+</nav>
+<div class="menu-button" href="#menu"><i class="fas fa-bars"></i></div>
+
+    <div class="page-content">
+      <div class="wrap">
+      
+
+<div class="container-fluid single">
+  <div class="row">
+
+    <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
+      
+      <div class="thumb">
+        <img itemprop="image" class="svg-image" src="https://i.imgur.com/dVrv5u5.png" alt="Thumbnail: Site" />
+      </div>
+      
+
+      <h1 class="header" itemprop="name">CMS vs SSG</h1>
+
+      <div class="author">
+        <small><i>
+          <span itemprop="datePublished" content="2014-08-28">
+2
+февраля
+  
+2017</span>
+           на тему Site
+        </i></small>
+      </div>
+
+      <div class="read-time">
+        <small>
+          Чтение на 5 мин.
+        </small>
+      </div>
+
+      <div class="content-panel content">
+
+        
+
+        <span itemprop="articleBody"><p><img src="http://klimovproject.ru/images/post-hero/thinking-about-SSG.png" alt="Разбираем преимущества SGG" /></p>
+
+<p>Все кто впервые задумывается о бизнесе в интернете обычно стоит перед выбором:</p>
+
+<ol>
+  <li>Решиться на серьёзные затраты, нанимая разработчиков и дизайнеров</li>
+  <li>Начать изучать основы HTML и CSS самостоятельно</li>
+  <li>Использовать различные <strong>CMS</strong> (Content Management System)</li>
+</ol>
+
+<h1 id="Что-же-выбрать-cms-или-ssg">Что же выбрать CMS или SSG</h1>
+
+<p>Первый вариант зависит от бюджета, а 2ый и 3ий более привлекательны в силу наименьших затрат, это понятно. Но из 2 и 3 варианта многие выбирают именно CMS (Wordpress/Joomla), не подозревая, что есть в природе такой зверь, как <strong>SSG</strong> (Static Site Generator). А он между прочим имеет огромные преимущества и активно захватывает свою нишу. Например данный блог создан на Jekyll - <a href="https://www.staticgen.com/">самом популярном</a> статическом генераторе с 2015 года!</p>
+
+<h2 id="Плюсы-ssg">Плюсы SSG</h2>
+
+<ol>
+  <li>
+    <p>Минимальные нагрузки</p>
+
+    <p><img src="http://watchfit.com/wp-content/uploads/2016/09/42329412_l-1024x682.jpg" alt="нагрузки при работе сайтов на CMS и SSG" /></p>
+
+    <p>Многие CMS приложения предлагают встроенные (или в виде плагинов) системы кэширования, чтобы обеспечить генерирование страниц и использование их повторно, если необходимо. Это эффективно, но лишние действия все равно имеют место быть: например, при проверке файлов кэша и повторной генерации страниц.</p>
+
+    <p>В то же время статические сайты предварительно кэшируют страницы, и срок жизни такого кэша вечен. Файлы также могут быть сжаты для еще меньшей нагрузки. Вот и получается, что при использовании одного и того же шаблона статический сайт всегда будет работать лучше, чем сайт построенный на CMS.</p>
+  </li>
+  <li>
+    <p><strong>Высокая безопасность</strong></p>
+
+    <p>Что нужно для установки WordPress:</p>
+
+    <ul>
+      <li>совместимая операционная система типа Ubuntu или CentOS</li>
+      <li>веб-сервер — например, Apache или NGINX</li>
+      <li>PHP с необходимыми расширениями</li>
+      <li>MySQL</li>
+      <li>сам WordPress</li>
+      <li>шаблон (тема)
+ Все это должно быть установлено и настроено. На самом деле WordPress — не самая прихотливая штука, ведь существуют приложения, у которых зависимостей в разы больше, но даже этого списка достаточно, чтобы при обновлении всего одной из перечисленных частей списка, сломалось все.</li>
+    </ul>
+
+    <p>В то же время, статический сайт — очень легкий и может быть размещен на любом сервере, который в состоянии отдавать файлы. И вам больше ничего не нужно устанавливать, настраивать и обновлять.</p>
+  </li>
+  <li>
+    <p><strong>Надёжность</strong></p>
+
+    <p>CMS — это целый комплекс, с огромным количеством перемещаемых частей и «точек отказа». Запуская сайт на вордпрессе, не зависимо от того, колько времени он уже проработал, вы точно хотя бы раз столкнетесь с этой страшной фразой «Failed to establish a database connection». Опыт подсказывает, что непредвиденные проблемы в CMS могут возникнуть в результате внезапного скачка трафика, из-за чего может рухнуть база данных или разорваться активные соединения.</p>
+
+    <p>В это же время, обслуживание статического сайта менее напряженное, так как сервер просто должен отдавать HTML файлы. Конечно, в этой ситуации тоже можно положить сервер, но это будет сложнее: нужно в разы больше одновременных запросов.</p>
+  </li>
+  <li>
+    <p><strong>Высокая безопасность</strong></p>
+
+    <p>Можно выделить море причин, по которым кто-то решит атаковать ваш сайт: угон трафика, мошенническая реклама, ссылки и пр.</p>
+
+    <p>CMS сам дает поле для таких атак. Самым очевидным тонким местом является форма входа: она безопасна настолько, насколько безопасен самый слабый пароль одного из пользователей. Имейте в виду, что код любой страницы выполняется на сервере, что уже предполагает потенциальные дыры — например, отправку спама через контактную форму. Поначалу это может быть не очевидным, ведь лучшие преступники долго остаются незамеченными.</p>
+
+    <p>У статического сайта очень мало или вообще нет функциональности на стороне сервера. Вы не можете получить доступ с помощью скриптов или за счет дыр в безопасности базы данных. У кого-то, возможно, и получится получить доступ с помощью SSH или FTP, но им нужно будет очень постараться, чтобы принести вред больше, чем порча страниц или загрузка файлов. Быстрая команда «git status» или, на крайний случай, простая проверка папки сможет быстро выявить следы несанкционированного доступа. Вам просто будет необходимо изменить пароли, удалитьвесь сайт полностью и восстановить все заново.</p>
+  </li>
+  <li>
+    <p><strong>Управление контентом</strong></p>
+
+    <p>Вы неделями разрабатываете симпатичные темы для CMS, но как только сайт переходит в пользование клиенту, все ломается за считанные минуты. Было такое? Использовать CMS не всегда легко, так как она предоставляет некоторую власть при редактировании контента. Вы, конечно, можете ограничить или заблокировать права на установку плагинов для клиента, но это никак не помешает ему изменить шрифты, добавить странных, красивых на его взгляд, цветов, залить плохую фотографию и каким-то образом исказить макет.</p>
+
+    <p>В случае статического сайта чаще всего используются Markdown файлы. Их использование ограничивает возможности пользователей, в результате они делают меньше ошибок, и страница отображается в первозданном виде. А для удобного редактирования файлов можно пользоваться удобным сервисом StackEdit.</p>
+  </li>
+  <li>
+    <p><strong>Контроль версий и тестирование</strong></p>
+
+    <p>Содержание базы данных непостоянно. CMS позволяет пользователям добавлять, изменять или удалять содержимое по их желанию. Вы можете создавать резервные копии баз данных, но даже если делать это регулярно, все равно существует шанс потерять часть данных.</p>
+
+    <p>Статический сайт более безопасен, если, конечно, предположить, что весь контент хранится в Markdown файлах и вы используете систему контроля версий типа Git. И даже после сохранения измененных файлов сделанные изменения можно легко «откатить». Тестирование тоже упрощаетсч, т.к. сайт может быть собран и просмотрен где угодно, даже на компьютере клиента.</p>
+
+    <p>Потратив чуть больше усилий, вы можете сделать систему для разворачивания сайта на промежуточном сервере, а после добавления и апрува нового содержимого, можно будет автоматически переносить на главный сервер.</p>
+  </li>
+  <li>
+    <p><strong>Гибкость</strong></p>
+
+    <p>CMS, как правило, ограничивает ваши возможности, потому что все привязано к конкретным полям в базе данных. Если вы захотите добавить виджет, например, Twitter на какие-то страницы, нужен будет плагин, шорткод или что-то еще.</p>
+
+    <p>В статическом сайте можно вставить виджет непосредственно в файл в виде фрагмента кода. Есть совсем небольшие ограничения, т.к. вы освобождены от тех, что накладывает CMS.</p>
+  </li>
+</ol>
+
+<h2 id="Минусы-ssg-в-сравнении-с-cms">Минусы SSG в сравнении с CMS</h2>
+
+<ol>
+  <li>
+    <p><strong>Отсутствие классической “админки”</strong></p>
+
+    <p>То есть нет интерфейса для редактирования “как в Word” или безумного WYSIWYG-редактора. Посты нужно писать в файлах определённого типа, в определённом формате вручную.
+ Поиск удобного решения этой проблемы - в процессе. В данный момент тестируется сервис <a href="https://cloudcannon.com/">CloudCannon</a>, который предоставляет админку вместе с хостингом, но не русифицирован.
+ Так же есть плагин <a href="https://jekyll.github.io/jekyll-admin/">Jekyll Admin</a></p>
+  </li>
+  <li>
+    <p><strong>Родовое отсутствие динамического контента</strong></p>
+
+    <p>Вместо динамических модулей приходится использовать сторонние сервисы, такие как:</p>
+  </li>
+</ol>
+
+<ul>
+  <li><a href="https://www.uservoice.com/">UserVoice.com</a> - для обратной связи</li>
+  <li><a href="https://www.formspree.io/">Formspree.io</a> - для форм отправки запросов на почту</li>
+  <li><a href="https://www.algolia.com/">Algolia.com</a> - для продвинутого поиска (стандартный может не подойти)</li>
+  <li><a href="https://www.hypercomments.com/">HyperComments.com</a> - для функции комментирования</li>
+</ul>
+
+<p>И конечно же интернет-магазин на SSG не запустишь, но это уже другая ниша. Если же решать вопрос создания небольшого сайта для портфолио фотографа или сайта-визитки агентства услуг - то Jekyll подойдёт идеально!</p>
+
+<p><a href="http://www.dejurka.ru/articless/seven-yes-to-static-sites-generators/">© Источник</a></p>
+</span>
+
+        
+
+        
+
+        
+        <div class="tags">
+          <small>
+          <i class="fas fa-tags"></i>
+            CMS, SSG
+          </small>
+        </div>
+        
+
+      </div>
+
+      <div class="blog-post">
+        
+          <div class="post-content">
+	<span class="read-next"><a href="/design/2017/02/04/new-icons-moon/">Читать далее &rarr;</a></span>
+</div>
+        
+      </div>
+
+      <div class="content-panel feedback">
+        Живите мирно и процветайте <i class="fas fa-hand-spock"></i><br />
+        Пишите мне в <i class="fab fa-telegram-plane"></i> telegram <a href="https://t.me/klimovrv">@klimovrv</a>
+      </div>
+
+      
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div class="footer clearfix">
+  <div class="col-md-6">
+    Сделано на <a href="https://jekyllrb.com/">Jekyll</a> с <i class="fas fa-heart"></i>
+  </div>
+  <div class="col-md-6">
+    &lt; <a href="https://github.com/klimov-rv/klimov-rv.github.io">Github</a> &nbsp;<i class="fab fa-github-alt"></i> /&gt;
+  </div>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="/js/jquery.mmenu.min.all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script src="/js/script.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $("#my-menu").mmenu().on( "closed.mm", function() {
+            $(".menu-button").show();
+         });
+      $(".menu-button").click(function() {
+        $(".menu-button").hide();
+        $("#my-menu").trigger("open.mm");
+      });
+   });
+</script>
+
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+          _gaq.push(['_trackPageview']);
+  (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47298480 = new Ya.Metrika({ id:47298480, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47298480" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+    </body>
+</html>

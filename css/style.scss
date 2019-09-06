@@ -288,7 +288,7 @@ pre {
 
 	@media (min-width: $screen-sm-min) {
 		width: 700px;
-		max-width:700px;
+		max-width: 700px;
 		padding: 30px 0px 0px 0px;
 	}
 
@@ -321,9 +321,9 @@ pre {
 		padding-top: 15px;
 		font-size: 30px;
 		
-		text-shadow: 0px 3px 5px #212121;
-		-moz-text-shadow: 0px 3px 5px #212121;
-		-webkit-text-shadow: 0px 3px 5px #212121;
+		text-shadow: 0px 5px 7px #000;
+		-moz-text-shadow: 0px 5px 7px #000;
+		-webkit-text-shadow: 0px 5px 7px #000;
 
 		.blink {
 			&:after {
@@ -1028,23 +1028,23 @@ table{
 }
 
 th{
-    padding: 2px;
-    border:2px solid $darker;;
+    padding: 13px 15px;
+    border:0px solid $darker;;
 }
 
 td{
-    padding: 2px;
-    border:1px solid $bright-blue;;
+    padding: 13px 15px;
+    border: 0px solid #456862;
 }
 .main {
-    background-image: url("http://elitefon.ru/images/201504/elitefon.ru_39257.jpg");
+    background-image: url("/images/inpost/shutterstock_238100266-979x1024.jpg");
     background-size: cover;
 	padding: 0;
 }
 .gradient {
     color: white;
-    background-image: radial-gradient(rgba(69, 69, 69, 0.7), rgba(4, 4, 4, 0.8));
-    padding: 40px;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(4, 4, 4, 0.7));
+    padding: 170px 40px 45px;
 }
 
 .portfolio {

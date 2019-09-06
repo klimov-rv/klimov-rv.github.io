@@ -5,8 +5,8 @@
     <description>Первый официальный проект любого вебмастера - это его собственный сайт </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Sep 2019 17:38:43 +0300</pubDate>
-    <lastBuildDate>Thu, 05 Sep 2019 17:38:43 +0300</lastBuildDate>
+    <pubDate>Fri, 06 Sep 2019 18:07:30 +0300</pubDate>
+    <lastBuildDate>Fri, 06 Sep 2019 18:07:30 +0300</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -459,9 +459,11 @@ test.example.com. IN CNAME example.tld.
     
       <item>
         <title>Сайт со &quot;шпорами&quot;</title>
-        <description>&lt;h2 id=&quot;Ссылки-на-вспомогательные-клавиши&quot;&gt;Ссылки на вспомогательные клавиши&lt;/h2&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/images/inpost/46057546984_f04e9d1762_o.jpg&quot; alt=&quot;Заметки&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Пока я сижу под Windows - не могу найти минусов в моём любимом редакторе кода &lt;a href=&quot;https://ru.wikipedia.org/wiki/Visual_Studio_Code&quot;&gt;Visual Studio Code&lt;/a&gt;. Поэтому не забываем &lt;a href=&quot;https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf&quot;&gt;горячие клавиши&lt;/a&gt; и ускоряем процесс работы&lt;/p&gt;
+&lt;h2 id=&quot;Ссылки-на-вспомогательные-клавиши&quot;&gt;Ссылки на вспомогательные клавиши&lt;/h2&gt;
+
+&lt;p&gt;Любимый редактор кода под Windows - &lt;a href=&quot;https://ru.wikipedia.org/wiki/Visual_Studio_Code&quot;&gt;Visual Studio Code&lt;/a&gt;. &lt;a href=&quot;https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf&quot;&gt;Горячие клавиши&lt;/a&gt; этой программы очень сильно ускоряют процесс работы. Запоминаем, пользуемся&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://nikomedvedev.ru/other/vscodeshortcuts/hotkeys.html&quot;&gt;горячие клавиши vscode&lt;/a&gt;&lt;/p&gt;
 
@@ -499,13 +501,27 @@ test.example.com. IN CNAME example.tld.
     
       <item>
         <title>Полезные SMM-сервисы</title>
-        <description>&lt;p&gt;Представим, что вы как и я перестали верить в выгоду от самостоятельной раскрутки вручную в соцсетях и 
-решили воспользоваться каким-либо удобным сервисом для экономии времени и увеличения траффика.&lt;/p&gt;
+        <description>&lt;p&gt;Представим, что вы как и я перестали верить в выгоду от самостоятельной раскрутки вручную в соцсетях и решили воспользоваться каким-либо удобным сервисом для экономии времени и увеличения траффика.&lt;/p&gt;
 
-&lt;p&gt;Возникает вопрос &lt;strong&gt;как выбрать стоящий из огромного выбора рекламных предложений?&lt;/strong&gt; Начнём с этих ссылок, которые я сам решил попробовать по рекомендации “лофтблоггеров” на их &lt;a href=&quot;https://youtu.be/iV2YqZk0DRw&quot;&gt;трансляции&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Возникает вопрос &lt;strong&gt;как выбрать стоящий из огромного выбора рекламных предложений?&lt;/strong&gt; Начнём с этих ссылок, которые я сам решил попробовать&lt;/p&gt;
 
-&lt;p&gt;Ссылки
- ————————&lt;/p&gt;
+&lt;h3 id=&quot;Мои-ссылки&quot;&gt;Мои ссылки&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://elama.ru/&quot;&gt;eLama&lt;/a&gt; - бесплатно (1 кампания в Директе, 1 кампания в Ads)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inpost/tarif-elama.png&quot; alt=&quot;Тариф еЛама&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Если больше компаний - от 500 руб/мес&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;Рекомендации-лофтблоггеров&quot;&gt;Рекомендации “лофтблоггеров”&lt;/h3&gt;
+
+&lt;p&gt;Список с &lt;a href=&quot;https://youtu.be/iV2YqZk0DRw&quot;&gt;трансляции&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -525,25 +541,47 @@ test.example.com. IN CNAME example.tld.
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;-Важно-&quot;&gt;! Важно !&lt;/h2&gt;
+&lt;h3 id=&quot;Рекомендации-smm&quot;&gt;Рекомендации SMM&lt;/h3&gt;
+
+&lt;hr /&gt;
+
 &lt;p&gt;Ограничения по спам блокировкам:
-Инстаграмм 
-    - просто ограничение без бана 
-    - 3 месяца аккаунт отлежаться 
+Инстаграмм
+    - просто ограничение без бана
+    - 3 месяца аккаунт отлежаться
     - 20-30 подписок и лайков в день&lt;/p&gt;
 
-&lt;h2 id=&quot;Тактика-постинга&quot;&gt;Тактика постинга:&lt;/h2&gt;
+&lt;h3 id=&quot;Тактика-постинга&quot;&gt;Тактика постинга&lt;/h3&gt;
+
+&lt;hr /&gt;
+
 &lt;ol&gt;
   &lt;li&gt;Общая цель соцсети - &lt;em&gt;развлекательный контент&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Эволюция паблика -&amp;gt; установка &lt;em&gt;цели&lt;/em&gt;, уроки каждый день&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;Общая-стратегия-маркетинга&quot;&gt;Общая стратегия маркетинга:&lt;/h2&gt;
+&lt;h3 id=&quot;Общая-стратегия-маркетинга&quot;&gt;Общая стратегия маркетинга&lt;/h3&gt;
+
+&lt;hr /&gt;
+
 &lt;ol&gt;
   &lt;li&gt;СЕО-оптимизация сайта на котором собираются ваши потенциальные клиенты&lt;/li&gt;
   &lt;li&gt;Индивидуальная проверка на “скрытую нишу” - полезная практика маркетинга&lt;/li&gt;
-  &lt;li&gt;Постараться увеличить сбыт товаров &lt;a href=&quot;//textbooks.studio/ekonomicheskaya-teoriya-uchebnik/163-strategiya-marketinga.html&quot;&gt;СТРАТЕГИЯ МАРКЕТИНГА&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Постараться увеличить сбыт товаров&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h2 id=&quot;Принципы-Маркетинга&quot;&gt;Принципы Маркетинга&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;В маркетинге принято соблюдение следующих пяти основных принципов: 
+
+1. производство и продажа товаров должны соответствовать потребностям покупателей, рыночной ситуации и возможностям компании; 
+2. полное удовлетворение потребностей покупателей и соответствие современному техническому и художественному уровню; 
+3. присутствие на рынке на момент наиболее эффективно возможной реализации продукции; 
+4. постоянное обновление выпускаемой или реализуемой продукции; 
+5. единство стратегии и тактики для быстрого реагирования на изменяющийся спрос.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;//dic.academic.ru/dic.nsf/business/10724&quot;&gt;Принципы Маркетинга&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Jun 2017 14:04:18 +0300</pubDate>
         <link>http://localhost:4000/smm/2017/06/06/SMM-Promotion-links/</link>
