@@ -1130,7 +1130,7 @@ td{
 	color: #bdbdbd;
 	padding: 25px 0;
 
-	.grid-item {
+	.grid-item2 {
 		background-position: center top;
 		background-size: cover;
 	}
@@ -1143,8 +1143,8 @@ td{
 	.c {
 
 	}
-	.d {
-
+	.d {    
+		grid-column: 1 / span 3;
 	}
 
 }
@@ -1182,23 +1182,23 @@ td{
 
 
 .work-title {
-	position: absolute;
-	width: 100%;
-	line-height: 47px;
-	vertical-align: middle;
-	top: calc(50% - 45px);
-	left: 0;
-	font-weight: 700;
-	font-size: 30px;
-	text-align: center;
-	text-transform: uppercase;
-	color: $light-blue;
-	z-index: 1;
-	transition: top .5s ease;
+    position: absolute;
+    width: 100%;
+    line-height: 47px;
+    vertical-align: middle;
+    top: calc(50% - 45px);
+    left: 0;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #52c6bf;
+    z-index: 1;
+    transition: top .5s ease;
 }
 
 .grid-item:hover .work-title {
-	top: 0;
+	top: -155px;
 	text-shadow: none;
 	color: $light-blue;
 }

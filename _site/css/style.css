@@ -753,9 +753,11 @@ td {
   @media (max-width: 992px) {
     .grid2 {
       grid-template-columns: 1fr; } }
-  .grid2 .grid-item {
+  .grid2 .grid-item2 {
     background-position: center top;
     background-size: cover; }
+  .grid2 .d {
+    grid-column: 1 / span 3; }
 
 .grid-item {
   width: 100%;
@@ -791,16 +793,16 @@ td {
   vertical-align: middle;
   top: calc(50% - 45px);
   left: 0;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 400;
+  font-size: 21px;
   text-align: center;
   text-transform: uppercase;
-  color: lightseagreen;
+  color: #52c6bf;
   z-index: 1;
   transition: top .5s ease; }
 
 .grid-item:hover .work-title {
-  top: 0;
+  top: -155px;
   text-shadow: none;
   color: lightseagreen; }
 
