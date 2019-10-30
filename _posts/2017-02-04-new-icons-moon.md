@@ -137,7 +137,7 @@ P.P.S.
 [3]: https://simpleicons.org/
 [4]: https://icomoon.io/#preview-free
 [5]: https://icomoon.io/app/#/select/library
-[6]: http://images.klimovproject.ru/post-hero/icons-on-site.jpg
+[6]: http://hosting.klimovproject.ru/imagehost/icons-on-site.jpg
 [7]: http://icons.klimovproject.ru/icomoon_icons/
 [8]: https://image.prntscr.com/image/e4C1nGfVTDWt9KqP7A3h9g.png
 [9]: https://image.prntscr.com/image/P4ndd8f8Q_WKFcVBE1Bc-g.png
@@ -147,6 +147,6 @@ P.P.S.
 [15]: https://www.utf8icons.com/
 [16]: /jekyll/2017/02/04/using-thumbnails/
 [17]: /design/2017/02/06/SVG-usage/
-[18]: http://images.klimovproject.ru/post-hero/brands.png
+[18]: http://hosting.klimovproject.ru/imagehost/brands.png
 [19]: http://konpa.github.io/devicon/
 [20]: https://cssicon.space
