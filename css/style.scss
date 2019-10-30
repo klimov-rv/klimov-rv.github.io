@@ -1029,7 +1029,7 @@ table{
 
 th{
     padding: 13px 15px;
-    border:0px solid $darker;;
+    border:0px solid $darker;
 }
 
 td{
@@ -1043,7 +1043,7 @@ td{
 }
 .gradient {
     color: white;
-    background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(4, 4, 4, 0.7));
+    background-image: radial-gradient(rgba(255,255,255,0.3), rgba(4,4,4,0.9));
     padding: 170px 40px 45px;
 }
 
@@ -1052,7 +1052,7 @@ td{
 }
 .grid {	
 	display: grid;
-	grid-gap: 30px;
+	grid-gap: 0px;
 
 	@media (max-width: $screen-lg-min) {
 		grid-template-columns: 1fr 1fr;
@@ -1116,7 +1116,7 @@ td{
 }
 .grid2 {	
 	display: grid;
-	grid-gap: 30px;
+	grid-gap: 0px;
 
 	@media (max-width: $screen-lg-min) {
 		grid-template-columns: 1fr 1fr;

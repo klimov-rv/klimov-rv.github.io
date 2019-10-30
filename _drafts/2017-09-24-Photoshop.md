@@ -11,3 +11,6 @@ tags:
 ---
 
 http://stasmox.blogspot.ru/?view=mosaic
+
+wordpress checkout fix https://toster.ru/q/352260
+http://wpcommerce.ru/threads/kak-udalit-funkciju-dostavka-po-drugomu-adresu-na-stranice-oplata.2034/

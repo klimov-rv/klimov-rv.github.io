@@ -682,7 +682,7 @@ td {
 
 .gradient {
   color: white;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(4, 4, 4, 0.7));
+  background-image: radial-gradient(rgba(255, 255, 255, 0.3), rgba(4, 4, 4, 0.9));
   padding: 170px 40px 45px; }
 
 .portfolio {
@@ -690,7 +690,7 @@ td {
 
 .grid {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 0px;
   grid-template-columns: 1fr 1fr 1fr;
   color: #bdbdbd;
   padding: 25px 0; }
@@ -743,7 +743,7 @@ td {
 
 .grid2 {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 0px;
   grid-template-columns: 1fr 1fr 1fr;
   color: #bdbdbd;
   padding: 25px 0; }
