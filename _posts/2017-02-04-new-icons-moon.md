@@ -1,7 +1,7 @@
 ---
 title: Новые иконки на сайт
 date: '2017-02-04 14:41:22 +0300'
-summary: Как я сипользую иконки для своего проекта
+summary: Как я использую иконки для своего проекта
 categories: Design
 thumbnail: Icomoon
 tags:
@@ -11,7 +11,7 @@ tags:
 ---
 # Иконки на сайте
 
-Когда арсенала таблиц [UTF8][15] и библиотеки [Font Awersome][1] стало недостаточно и пришлось его расширять - наткнулся на приличный и удобный сервис [Icomoon.io][2]. 
+Когда арсенала таблиц [UTF8][15] и библиотеки [Font Awersome][1] стало недостаточно - самое время использовать сервис [Icomoon.io][2].
 
 ![Пост klimovproject — Иконки на сайт ][6]
 
@@ -33,23 +33,18 @@ tags:
 
 Удобно выбрать все иконки из библиотеки можно так
 
-![Выбор иконки в библиотеке Icomoon][10]
+![Выбор иконки в библиотеке Icomoon][9]
 
 Можно просто скачать SVG или PNG файлы, для этого пользуемся этой кнопкой слева (обращаем внимание на настройки <i class="fas fa-cog"></i>)
-
-![Иконки Icomoon — выбор варианта для загрузки][11]
-
 По своему опыту могу сказать, что легче менять цвет, размер, добавлять тени и т.п. если работать с иконками в формате шрифта, для этого нажимаем на <span class="icon icon-font"></span>**Generate Font** справа.
 
-![Выгрузка иконок Icomoon в fonts][9]
+![Иконки Icomoon — выбор варианта для загрузки][10]
 
 В соответствии с настройками получаем архив с собранной автоматически демкой, что бы посмотреть как можно подключать данный пак. Для этого откройте `demo.html` в вашем браузере
 
-![Иконки Icomoon — сгенерированная демка][12]
-
 ### Использование SVG <span class="icon icon-svg"></span>
 
-Как результат, скачав и разместив файлы **SVG-иконок** (например в →  `/images/icomoon/SVG/`), теперь я просто указываю путь до них в файле `thumbnail.yml`
+Как результат, скачав и разместив файлы **SVG-иконок** (например в →  `/images/icomoon/SVG/`) на своём сервере, я просто указываю путь, например так:
 
 ```yml
 Ruby:               "/images/icomoon/SVG/ruby.svg"
@@ -57,45 +52,10 @@ Rails:              "/images/icomoon/SVG/rails.svg"
 Icomoon:            "/images/icomoon/SVG/IcoMoon.svg"
 ```
 
-На выходе — для постов на тему языка `Ruby`, фреймворка `Rails` или описания самого сервиса `Icomoon` у меня есть оформление и оно прекрасно ознакамливает с темой текста.
+Теперь для постов на тему языка `Ruby`, фреймворка `Rails` или описания самого сервиса `Icomoon` у меня есть оформление и сразу ознакамливает с темой текста.
 Более подробно о том как используется код читайте в <span class="icon icomoon-images"></span> [посте о миниатюрах][16]
 
-### Иконки в самом тексте
-
-Для этого вариантов масса
-
-- Например, как обычную картинку `.jpg`, `.png` и подобные
-
-```html
-<img href="/images/icomoon/SVG/ruby.svg"></img>
-```
-
-- Хотите продолжить традиции Font Awesome?
-
-    1. Скачайте иконки в формате шрифта
-    2. Расположите файлы шрифта в директории сайта
-    3. Укажите в своём файле стилей `.css` подключение шрифта
-
-```css
-@font-face {
-font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot?4sisvj');
-    src:  url('fonts/icomoon.eot?4sisvj#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?4sisvj') format('truetype'),
-        url('fonts/icomoon.woff?4sisvj') format('woff'),
-        url('fonts/icomoon.svg?4sisvj#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-```
-
-- Можем легко теперь использовать HTML код для получения результата (приведённый ниже код отображает такой символ — <span class="icon icon-font"></span>)
-
-```html
-<span class="icon icon-font"></span>
-```
-
-### Тестируем
+### Тест - Icomoon
 
 <table>
     <tr>
@@ -123,14 +83,9 @@ font-family: 'icomoon';
 
 ### PS
 
-Если заинтересовала тема вставки именно SVG, вам [сюда][17]!
-P.P.S.
-Обзавёлся собственной библиотекой иконок на [поддомене icons][7] и пишу этот пост
-Проверьте так же, нет ли нужной вам иконки среди тех, которые можно реализовать с помощью [чистого CSS][20]
+Если заинтересовала тема вставки именно SVG, вам [сюда][11]!
 
-### Почему не стоит использовать изображения для иконок
-
-![тестовая картинка][18]
+Проверьте так же, нет ли нужной вам иконки среди тех, которые можно реализовать с помощью [чистого CSS][12]
 
 [1]: https://fontawesome.com/icons?d=gallery&m=free
 [2]: https://icomoon.io/
@@ -139,14 +94,8 @@ P.P.S.
 [5]: https://icomoon.io/app/#/select/library
 [6]: http://hosting.klimovproject.ru/imagehost/icons-on-site.jpg
 [7]: http://icons.klimovproject.ru/icomoon_icons/
-[8]: https://image.prntscr.com/image/e4C1nGfVTDWt9KqP7A3h9g.png
-[9]: https://image.prntscr.com/image/P4ndd8f8Q_WKFcVBE1Bc-g.png
-[10]: https://image.prntscr.com/image/Bknnkqz_TruVBSBycA6bTg.png
-[11]: https://image.prntscr.com/image/VIMoNb7LScG63JuttBhF1Q.png
-[12]: https://image.prntscr.com/image/AVtDpnkURFq_5AtuxQUdqg.png
-[15]: https://www.utf8icons.com/
-[16]: /jekyll/2017/02/04/using-thumbnails/
-[17]: /design/2017/02/06/SVG-usage/
-[18]: http://hosting.klimovproject.ru/imagehost/brands.png
-[19]: http://konpa.github.io/devicon/
-[20]: https://cssicon.space
+[8]: http://hosting.klimovproject.ru/imagehost/icons-icomon-library.png
+[9]: http://hosting.klimovproject.ru/imagehost/icomoon-select-all.png
+[10]: http://hosting.klimovproject.ru/imagehost/icons-icomon-import-variants.png
+[11]: /design/2017/02/06/SVG-usage/
+[12]: https://cssicon.space

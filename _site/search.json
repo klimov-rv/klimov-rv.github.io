@@ -121,7 +121,15 @@
     } ,
     
   {
-    "title"    : "Коллекция ссылок №1",
+    "title"    : "Коллекция ссылок №2",
+    "category" : "",
+    "tags"     : "подборка, стартап, бренд, название, CLUE",
+    "url"      : "/web/2017/04/05/CLUE-web-design-links/",
+    "date"     : "2017-04-05 15:12:11 +0300"
+    } ,
+    
+  {
+    "title"    : "Коллекция ссылок ч.1",
     "category" : "",
     "tags"     : "подборка, стартап, бренд, название, CLUE",
     "url"      : "/web/2017/04/04/name-generators-CLUE/",
@@ -150,6 +158,14 @@
     "tags"     : "icons, SVG, fonts, icons8",
     "url"      : "/design/2017/02/06/SVG-usage/",
     "date"     : "2017-02-06 21:51:02 +0300"
+    } ,
+    
+  {
+    "title"    : "Иконки в самом тексте",
+    "category" : "",
+    "tags"     : "icons, SVG, fonts",
+    "url"      : "/design/2017/02/05/icons-in-text/",
+    "date"     : "2017-02-05 15:51:21 +0300"
     } ,
     
   {

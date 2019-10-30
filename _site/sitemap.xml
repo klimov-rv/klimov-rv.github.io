@@ -137,6 +137,15 @@
     </url>
   
     <url>
+      <loc>http://localhost:4000/web/2017/04/05/CLUE-web-design-links/</loc>
+      
+        <lastmod>2017-04-05T15:12:11+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/web/2017/04/04/name-generators-CLUE/</loc>
       
         <lastmod>2017-04-04T22:17:18+03:00</lastmod>
@@ -167,6 +176,15 @@
       <loc>http://localhost:4000/design/2017/02/06/SVG-usage/</loc>
       
         <lastmod>2017-02-06T21:51:02+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/design/2017/02/05/icons-in-text/</loc>
+      
+        <lastmod>2017-02-05T15:51:21+03:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>

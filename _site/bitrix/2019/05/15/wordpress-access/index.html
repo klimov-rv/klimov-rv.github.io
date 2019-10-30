@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
     <head>
     <meta charset="utf-8" />
@@ -125,22 +125,22 @@
 
         <span itemprop="articleBody"><h2 id="Настройка-прав-wordpress-после-переноса-сайта">Настройка прав Wordpress после переноса сайта</h2>
 
-<p>После переноса интернет магазина <a href="http://elite-instrument.ru/">elite-instrument</a> у его движка wordpress возникли вопросы о своих правах на новом месте. Поэтому почитав информацию <a href="https://sysadmin.ru/articles/zagruzhennyj-fajl-ne-udalos-peremestit-v-wp-contentuploads">здесь</a>, <a href="https://toster.ru/q/229810">здесь</a> и <a href="http://loco.ru/materials/610-wordpress-neobhodim-dostup-k-vashemu-serveru">здесь</a>, помог ему найти себя</p>
+<p>После переноса интернет магазина <a href="http://elite-instrument.ru/">elite-instrument</a> у его движка wordpress возникли вопросы о своих правах на новом месте.</p>
 
-<blockquote>
-  <p>Причин проблем конечно может быть несколько - недостаточно места, другой владелец папки, неправильный фтп клиент.</p>
-</blockquote>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Загруженный файл не удалось переместить в wp-content/uploads...
+</code></pre></div></div>
 
-<p>А поступить лучше таким образом:
-На большинстве хостингов, необходимо просто сменить владельца директории Uploads на www-data (подойдет для nginx и apache) и дать ему права 755. Сделать это можно следующими командами:</p>
+<p>В интернете часто встречаются с подобным, почитав информацию <a href="https://sysadmin.ru/articles/zagruzhennyj-fajl-ne-udalos-peremestit-v-wp-contentuploads">здесь</a>, <a href="https://toster.ru/q/229810">здесь</a> и <a href="http://loco.ru/materials/610-wordpress-neobhodim-dostup-k-vashemu-serveru">здесь</a>, помог ему найти себя:
+Сменить владельца директории <strong>Uploads</strong> на <em>www-data</em> (подойдет для nginx и apache) и дать ему права 755. Сделать это можно следующими командами:</p>
 
-<p><code class="highlighter-rouge">sudo chown -R www-data /srv/www/sysadmin.ru/wp-content/uploads/</code></p>
+<p><code class="highlighter-rouge">sudo chown -R www-data /srv/www/mysite.ru/wp-content/uploads/</code></p>
 
 <p>Этой командой мы меняем владельца директории uploads (и всех вложенных в нее) на www-data.</p>
 
-<p><code class="highlighter-rouge">sudo chmod -R 755 /srv/www/sysadmin.ru/wp-content/uploads/</code></p>
+<p><code class="highlighter-rouge">sudo chmod -R 755 /srv/www/mysite.ru/wp-content/uploads/</code></p>
 
-<hr />
+<p><strong>chmod</strong> и <strong>chown</strong> очень полезные и часто встречающиеся в администрировании сайта команды Linux, рекомендуются для запоминания 
+_____</p>
 
 </span>
 
