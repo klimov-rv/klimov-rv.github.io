@@ -57,12 +57,6 @@ font-family: 'icomoon';
 
 <table>
     <tr>
-        <td><span class="icon icon-git2 i35">git2</span></td>
-    </tr>
-    <tr>
-        <td><span class="icon icon-html5 i35">html5</span></td>
-    </tr>
-    <tr>
         <td><span class="icon icon-ubuntu i35">ubuntu</span></td>
     </tr>
 </table>
@@ -74,16 +68,45 @@ font-family: 'icomoon';
 
 {% highlight css %}
 
-.icon-ubuntu::before {
+.icon-ubuntu:before {
     content: "\ec58";
     color: #e95420;
-    vertical-align: top; /* по верхнюю границу */
     vertical-align: middle; /* по середине */
-    vertical-align: bottom; /* по нижнюю границу */
+    /* vertical-align: top;  по верхнюю границу */
+    /* vertical-align: bottom;  по нижнюю границу */
 }
 {% endhighlight %}
 
-Попробуте, должно получиться!
+Отступы справа и слева, как обычно "маржинами", например:
+
+{% highlight css %}
+
+.icon-ubuntu {
+    padding: 0 15px;
+}
+{% endhighlight %}
+
+Попробуте, должно получиться ровно и красиво!
+
+<style>
+
+#correct-variant td {
+    padding: 13px 20px 17px;
+}
+#correct-variant .icon-ubuntu::before {
+    content: "\ec58";
+    color: #e95420;
+    vertical-align: middle;
+    padding: 0px 15px 0 0;
+    font-size: 43px;
+}
+</style>
+
+<table id="correct-variant">
+    <tr>
+        <td><span class="icon icon-ubuntu i35">ubuntu</span></td>
+    </tr>
+</table>
 
 [1]: http://hosting.klimovproject.ru/imagehost/icons-on-site2.png
 [2]: https://fontawesome.com/icons

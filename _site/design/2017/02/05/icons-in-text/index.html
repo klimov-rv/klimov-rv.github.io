@@ -115,7 +115,7 @@
 
       <div class="read-time">
         <small>
-          Чтение на 1 мин.
+          Чтение на 2 мин.
         </small>
       </div>
 
@@ -169,12 +169,6 @@
 
 <table>
     <tr>
-        <td><span class="icon icon-git2 i35">git2</span></td>
-    </tr>
-    <tr>
-        <td><span class="icon icon-html5 i35">html5</span></td>
-    </tr>
-    <tr>
         <td><span class="icon icon-ubuntu i35">ubuntu</span></td>
     </tr>
 </table>
@@ -184,15 +178,41 @@
 <p>Вертикальное выравнивание сделаем с помощью редко используемого свойства <code class="highlighter-rouge">vertical-align</code>
 Например:</p>
 
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.icon-ubuntu</span><span class="nd">::before</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.icon-ubuntu</span><span class="nd">:before</span> <span class="p">{</span>
     <span class="nl">content</span><span class="p">:</span> <span class="s1">"\ec58"</span><span class="p">;</span>
     <span class="nl">color</span><span class="p">:</span> <span class="m">#e95420</span><span class="p">;</span>
-    <span class="nl">vertical-align</span><span class="p">:</span> <span class="nb">top</span><span class="p">;</span> <span class="c">/* по верхнюю границу */</span>
     <span class="nl">vertical-align</span><span class="p">:</span> <span class="nb">middle</span><span class="p">;</span> <span class="c">/* по середине */</span>
-    <span class="nl">vertical-align</span><span class="p">:</span> <span class="nb">bottom</span><span class="p">;</span> <span class="c">/* по нижнюю границу */</span>
+    <span class="c">/* vertical-align: top;  по верхнюю границу */</span>
+    <span class="c">/* vertical-align: bottom;  по нижнюю границу */</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Попробуте, должно получиться!</p>
+<p>Отступы справа и слева, как обычно “маржинами”, например:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.icon-ubuntu</span> <span class="p">{</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">15px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Попробуте, должно получиться ровно и красиво!</p>
+
+<style>
+
+#correct-variant td {
+    padding: 13px 20px 17px;
+}
+#correct-variant .icon-ubuntu::before {
+    content: "\ec58";
+    color: #e95420;
+    vertical-align: middle;
+    padding: 0px 15px 0 0;
+    font-size: 43px;
+}
+</style>
+
+<table id="correct-variant">
+    <tr>
+        <td><span class="icon icon-ubuntu i35">ubuntu</span></td>
+    </tr>
+</table>
 
 </span>
 
