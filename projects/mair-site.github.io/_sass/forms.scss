@@ -1,0 +1,351 @@
+input[type=checkbox] {
+    float: left;
+    width: auto;
+    height: 26px;
+}
+
+.main-form {
+	display: none;
+}
+.main-form, .secondary-form {
+    width: 325px;
+    padding: 10px;
+    margin: 0 auto;
+	z-index: 1;
+	background-color: white;
+	box-shadow: 0 0.4rem 2.8rem rgba(40, 40, 40, 0.4);
+	border-radius: 5px;
+	overflow: visible;
+	text-align: center;	
+
+	
+	.button { 
+		width: 100%;
+		background: $brand-color none repeat scroll 0 0;
+		box-shadow: 0 5px 0 0 $brand-color-shadow;
+		border: 0px solid;
+		padding: 18px 0px;
+		display: inline-block;
+		color: white;
+		font-size: 18px;
+		font-weight: 600;
+		text-transform: uppercase;
+		text-decoration: none;
+		outline: medium none;
+
+		&:hover {
+			background: rgb(255, 176, 48) none repeat scroll 0 0;
+			box-shadow: 0 5px 0 0 rgb(204, 126, 0);
+			color: #fff;
+		}
+
+		// &:active {
+		// 	background: rgb(194, 87, 0);
+		// 	box-shadow: 0 3px 0 0 #D78600;
+		// 	color: #fff;
+		// 	transform: translateY(3px);
+		// 	outline: medium none;
+		// }
+	}
+
+	.emergency-call {
+		background: #ff484b none repeat scroll 0 0;
+		box-shadow: 0 6px 0 0 #d01e37;
+		width: 100%;
+		
+		transition: all .15s ease-in-out;
+		-webkit-transition: all .15s ease-in-out;
+		-moz-transition: all .15s ease-in-out;
+		-ms-transition: all .15s ease-in-out;
+		-o-transition: all .15s ease-in-out;
+		&:hover {
+			background: #f37678 none repeat scroll 0 0;
+			color: #fff;
+		}
+	}
+
+
+	&.sale-action {
+		animation: fade-slide-down 1s 0.5s ease forwards;
+		opacity: 0;
+
+		&.fixed {
+			position: fixed;
+			z-index: 1000;
+			right: 50px;
+			bottom: 50px;
+		}
+	}
+
+	ul {
+		margin: 15px 0;
+		padding: 0;
+	}
+	.tel {
+		font-size: 2.3rem;
+		color: $brand-color;
+	}
+	.form-title {
+		color: #262626;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 30px;
+		margin: 0;
+		padding-bottom: 20px;
+	}
+	.ui.divider {
+		font-size: .8rem;
+		margin: 1rem 0;
+		line-height: 1;
+		height: 0;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: .05em;
+		color: rgba(0,0,0,.85);
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		
+		&:before {
+			background-image: url(../images/divider.png);
+			background-position: right 1em top 50%;
+			content: '';
+			display: table-cell;
+			position: relative;
+			top: 50%;
+			width: 50%;
+			background-repeat: no-repeat;
+		}
+		&:after {
+			background-image: url(../images/divider.png);
+			background-position: left 1em top 50%;
+			content: '';
+			display: table-cell;
+			position: relative;
+			top: 50%;
+			width: 50%;
+			background-repeat: no-repeat;
+		}
+		.horizontal {
+			display: table;
+			white-space: nowrap;
+			height: auto;
+			margin: '';
+			line-height: 1;
+			text-align: center;
+		}
+	}
+}
+.bt-form:active {
+    margin: 23px 0 0;
+    outline: medium none;
+}
+.bt-form:focus {
+    outline: medium none;
+}
+.tel {
+	font-family: $strong-font;
+	white-space: nowrap;
+    color: #181716;
+    display: inline-block;
+    font-size: 1.7rem;
+    margin: 0;
+    text-decoration: none;
+	padding: 4px 0px;
+	display: inline;
+	
+	a:hover {
+		color: $alt-hover-active;
+	}
+	
+	span {
+		text-decoration: underline;
+
+		&.font-fix {
+			font-family: $header-font;
+			color: inherit;
+			font-weight: 500;
+			text-decoration: none;
+		}
+	}
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.mainform-popup {
+	display: none;
+}
+.q-form {
+	letter-spacing: 2px;
+
+	label {
+		float: left;
+		text-align: left;
+		width: 90%;
+		margin: 0 0 10px 10px;
+		font-size: 15px;
+		letter-spacing: normal;
+	}
+}
+
+input[type=submit] {
+	color: #fff;
+	text-decoration: none;
+	padding: 20px 0;
+	border: 0px solid;
+	border-radius: 7px;
+	transition: 0.2s ease-in-out;
+	background: $brand-color;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	border: 0px solid $brand-color;
+	background: $hover-brand-color;
+}
+
+input[type=submit]:active {
+	transform: translateY(1px);
+}
+
+textarea,
+input,
+button,
+select {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+input[type=submit] {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.7px;
+    font-size: 17px;
+}
+
+label,
+input,
+textarea {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+textarea {
+	resize: vertical;
+	height: 180px;
+}
+
+label {
+	margin: 30px 0 10px 0;
+	font-size: 1.2em;
+}
+
+input,
+textarea {
+	padding: 20px;
+	font-size: 1.2em;
+	border-radius: 3px;
+	transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	outline: none;
+	border: 1px solid #DDD;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+textarea:focus {
+	box-shadow: 0 0 5px $brand-color;
+	border: 1px solid $brand-color;
+}
+
+.input-form, .form__textarea {
+    width: 100%;
+    padding: 14px;
+	margin: 21px 0;
+	color: gray;
+}
+.input-form {
+    position: relative;
+    display: block;
+    font-size: 23px;
+	padding-left: 15%;
+}
+
+.input-form[type=phone] {
+	background: white url(../images/telephone.svg) 5% center no-repeat;
+}
+.input-form[type=name] {
+	background: white url(../images/man.svg) 5% center no-repeat;
+}
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 0px solid transparent;
+	border-radius: 7px;
+	letter-spacing: 1.5px;
+
+	&.calc-btn {
+
+		background:rgb(54, 54, 54) none repeat scroll 0 0;
+		box-shadow: 0 6px 0 0 #1b1b1b;
+	
+		&:hover {
+			background: rgb(80, 80, 80) none repeat scroll 0 0;
+			box-shadow: 0 6px 0 0 #353535;
+			color: #fff;
+			text-decoration: underline;
+		}
+	}
+}
+
+input[type=tel] {
+    width: 85%;
+    height: 40px;
+    font-size: 1.3rem;
+    color: #505050;
+    text-indent: 20px;
+    margin: 30px auto 20px;
+}
+.stuff {
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin: 0 0 0;
+	text-align: center;
+
+	label {
+		margin: 20px 0;
+		font-size: 21px;
+		width: 100%;
+		font-weight: bold;
+	}
+	input[type=submit] {
+		padding: 20px 0;
+	}
+}
+
+// main-form animated

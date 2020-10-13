@@ -1,0 +1,42 @@
+{% case page.title %}
+	{% when 'Сборка мебели' %}
+
+		{% include main-form.html template='visible' %}
+
+		<!-- 
+			<b>Скидка</b>  — 5% при заказе с сайта
+		 -->
+
+	{% when 'Квартирный переезд' %}
+
+		{% include main-form.html template='visible' %}
+
+		<!-- 
+			По России
+			По Москве и МО
+	
+			<a>Смотреть таблицу цен</a>
+		 -->
+
+	{% when 'Муж на час' %}
+
+		{% include main-form.html template='visible' %}
+
+		<!-- 
+			Почасовая оплата — <b> 450 руб/ч</b>*
+			*Минимальный заказ - <b>4 часа</b> 
+		-->
+
+	{% when 'Цены' %}
+	
+		<div>
+			{% include icon-additional.html icon='price' %}
+		</div>
+
+	{% when 'Сообщение успешно отправлено' %}
+	
+		<div>
+			{% include icon-additional.html icon='success' %}
+		</div>
+
+{% endcase %}

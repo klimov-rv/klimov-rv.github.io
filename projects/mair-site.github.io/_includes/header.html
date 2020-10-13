@@ -1,0 +1,61 @@
+<div class="container">
+	<a class="company-name col-xs-2 col-sm-4 col-md-2 col-lg-2" href="{{ site.baseurl }}/">
+		<img class="hidden-xs" src="{{ site.baseurl }}/images/logo.svg" alt="МАИР">
+		<img class="visible-xs" src="{{ site.baseurl }}/images/logo-mair-mini.png" alt="МАИР">
+	</a> 
+	
+
+	<div class="header-center-block col-xs-7 col-sm-4 col-md-3 col-md-push-7">
+					
+		<div class="tel">
+			<a href="tel:+7{{ site.site_phone_code }}{{ site.site_phone }}">
+				<span class="font-fix"> +</span><span>7 {{ site.site_phone_code }} {{ site.site_phone }}</span>
+			</a>
+		</div>
+		<div class="tel">
+			<a href="tel:+7{{ site.site_phone_code2 }}{{ site.site_phone2 }}">
+				<span class="font-fix"> +</span><span>7 {{ site.site_phone_code2 }} {{ site.site_phone2 }}</span>
+			</a>
+		</div>
+		
+	</div>	
+
+
+	<span class="nav-toggle col-xs-3 col-sm-offset-2 col-sm-2 hidden-md hidden-lg" id="open-nav">&#9776;</span>
+	<div class="clearfix visible-xs visible-sm"></div>
+	<nav class="top col-xs-12 col-sm-4 col-md-7 col-md-pull-3">
+		<ul class="menu">
+			
+			{% for link in site.data.navigation.links %}
+				{% assign class = "" %}
+				{% if link.highlight %}
+					{% assign class = class | append: " highlight" %}
+				{% endif %}
+	
+				{% if link.url == page.url %}
+					{% assign class = class | append: " active" %}
+				{% endif %}
+
+				{% if link.url == null %}
+					<li class="menu__list"><a class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.text }}
+							<span class="caret">
+					</a>
+						<ul class="menu__drop">
+							{% for sublink in link.submenu %}
+								<li><a href="{{ site.baseurl }}{{ sublink.url }}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ sublink.text }}
+								</a></li>
+							{% endfor %}
+						</ul>
+					</li>
+				{% else %}
+					<li><a href="{{ site.baseurl }}{{ link.url }}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.text }}
+					</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
+	
+
+</div>
+
+

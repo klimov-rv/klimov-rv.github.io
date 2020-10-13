@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<section class="hero" style="background-image: url({% include relative-src.html src=page.hero_img %})">
+	<div class="container sale-page" {% if page.full_width %}style="max-width: 100%"{% endif %}>
+		<div class="col-xs-12 col-sm-12 col-md-6 left-part">
+			<h1>Московская сервисная компания</h1>
+			<p class="subtext">
+				<br>Качественно выполняем <a href="/portfolio/">работы</a> для создания уюта в вашем доме!
+			</p>
+		</div>
+		
+		<div id="main-form-popup" class="main-form sale-action hidden-xs hidden-sm col-md-offset-1 col-md-4 col-lg-offset-2 col-lg-3">
+			<ul>
+				<li>
+					<div class="form-title">Вызов мастера <br>
+					</div>
+					<a href="tel:+749523104608" class="tel">
+						<span><span class="font-fix"> +</span>7 495 231 0460 </span>
+					</a> 
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<form class="q-form" method="POST" action="https://formspree.io/info@mair.moscow" >
+			
+						<input type="hidden" name="_language" value="ru" />
+						<input type="hidden" name="_format" value="plain" />
+						<input type="hidden" name="_next" value="/success">
+						<input type="hidden" name="_subject" value="Обратный звонок сайта mair.moscow">
+						<div class="ui horizontal divider">или</div>
+						
+				
+						<div>
+							<input class="input-form et" id="input-phone" type="phone" name="phone" maxlength="20" placeholder="+7 (___) ___-____" required> 
+							
+							<span>
+								<input id="licenses_popup" name="licenses_popup" checked="checked" value="Y" aria-required="true" type="checkbox" required> 
+								<label for="licenses_popup">
+									Я согласен на <a href="/personal_data" target="_blank">обработку персональных данных</a>
+								</label>
+							</span>
+						</div>
+		
+						<button type="submit" class="btn button make-call">
+							Перезвоните мне
+						</button>
+					</form>
+				</li> 
+			</ul>
+		</div> 
+
+	</div>
+</section>
+{{ content }}

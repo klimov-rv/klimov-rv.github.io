@@ -1,0 +1,180 @@
+---
+layout: main-page
+title: Квартирный переезд
+heading: Квартирный переезд
+subtitle: Доверьте переезд нам!     
+hero_img: /images/hero-img/moovingovie-uslugi.jpg
+permalink: /kvartirnyiy-pereezd/
+---
+<section class="patterned">
+    <div class="container halves">
+        <h2 class="editable centered">Стоимость квартирного переезда</h2>	
+        <div>
+            <table border="3" cellpadding="0" cellspacing="0" class="price-table" style="width: 100%; background:  transparent;border-color: transparent;">
+                <tbody>
+                    <tr>
+                        <td><span>•	Цена оговаривается индивидуально</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+            </p>
+            <p class="subtext">Выбор транспорта<br />
+                    и кол-во грузчиков оговаривается индивидуально
+            </p>
+            <p class="subtext">Ориентировочные цены в   <br />
+                <a href="/price/#transportation">прайсе на грузоперевозки &rarr;</a>
+            </p>
+        </div>
+        <div>
+            <img src="/images/services/pereezd/kvartirnyi_pereezd.png" alt="Квартирный переезд">
+            
+        </div>
+    </div>
+</section>
+
+{% include promo-action.html 
+    caption="Не хотите заниматься этим самостоятельно?"
+    subtext=""
+    call_action_text="Предоставьте все хлопоты нам!"
+    button_text="Обратный звонок" %}
+
+<section class="casual">
+	<div class="container halves">
+        <h2 class="centered">Услуга квартирный переезд</h2>
+        <div>
+            <ul class="image-grid">
+                <li><img src="/images/services/pereezd/moving-smile-marking.jpg"> </li>
+            </ul>
+        </div>
+        <div>
+            <p>Если вы накопили имущество, то переезд может стать тяжёлой задачей!</p>
+            <p>Что бы зря не беспокоиться — самое разумное, поступательно сделать следующие действия:</p>
+            <ul>
+                <li>найти мувинговую компанию</li>
+                <li>определить дату переезда</li>
+                <li>согласовать погрузочно-разгрузочные работы</li>
+                <li>самостоятельно упаковать личные вещи.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="casual-white">
+    <div class="container halves">
+        <h3 class="centered">Перевозка габаритного имущества</h3>
+        <div>
+            <ul class="image-grid">
+                <li><img src="/images/services/pereezd/pereezd2-mair.png"> </li>            <blockquote>
+                Часто перед/после переезда требуется собрать и разобрать мебели, а она тоже требует навыков, поэтому предлагаем <a href="/sborka-mebeli/">услуги сборки нашими мастеров &rarr;</a></blockquote>
+            </ul>
+        </div>
+        <div>
+            <p>Компания подберет вид грузового транспорта.
+            </p>
+            <p> Перемещение мебели вверх-вниз лестницы выполняется умелыми работниками. Так же они разберут, вынесут мебель, а по приезду — поднимут, и аккуратно расставят в нужные места. Все это предусмотренно стоимостью услуг. </p> 
+            <p>Аккуратная упаковка мебели — исключает сколы, царапины на ней. Упаковка бытовой техники, мебели производится оборачиванием пленочно-пузырчатой пленкой. Скотчем скрепляются открывающиеся створки.</p>
+            
+        </div>
+    </div>
+</section>
+<section class="order-stages infographic">
+        <div class="container">
+            <div class="st_bl_wrap">
+                <div class="st_bl_in">
+                    <h2 class="editable centered">Как сделать заказ?</h2>				
+                    <ul class="st_bl_items">
+                        {% for column in site.data.icons %}
+                            {% if column.title == 'howto-delivery' %}
+                                {% for svgs in column.svgs %}
+                                <li class="st_bl_item col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="st_bl_pic">
+                                        {% include icon-howto.html icon=svgs.svg %}
+                                        <br />
+                                        {{ svgs.name }}
+                                    </div>
+                                    {% unless svgs.svg == '4step' %}
+                                        <img class="arrow hidden-sm hidden-xs" src="/images/arrow-r.png">
+                                    {% endunless %}
+                                </li>
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    {% include promo-action.html 
+        caption="Нет времени на чтение?"
+        subtext=""
+        call_action_text="Закажите бесплатную консультацию!"
+        button_text="Обратный звонок" %}
+
+<section class="casual">
+    <div class="container halves">
+        <h3 class="centered"> Упаковка вещей</h3>
+        <div> 
+            <p>Что советуем выполнить:</p>
+            <ul>
+                <li>Приобрести картонные ящики размерами 40 х 60. Запастись скотчем, п/э пакетами, рулонной упаковочной пленкой, маркером, газетами, нарвать листы журналов.</li>
+                <li>Сортировка вещей разного назначения - разные коробки. Воспользоваться предварительно полиэтиленовыми пакетами. Отдать устаревшие вещи.</li>
+                <li>Укладку производить плотно. Заполнять пустоты мелкими вещами. Коробки нельзя распирать. Соблюдать предельный килограммовый вес (30).</li>
+               
+            </ul>
+        </div>
+        <div>
+            <ul class="image-grid">
+                <li><img src="/images/services/pereezd/pereezd1.jpg"> </li>
+            </ul>
+        </div>
+       
+        <ul> 
+            <li>Посуду, хрупкие вещи обернуть полотенцами, бумагой, тканью. Особенно хрупкие - расположить вблизи центральной части ящика. Тарелки переслоить бумагой.</li>
+            <li>Флаконы загерметизировать (обернуть стрейч-пленкой, заклеить скотчем), поставить вертикально, сделать снаружи тары метки «верх», «низ».</li>
+            <li>Укладка книг - использовать малогабаритные картонные ящики. Книги пересмотреть, оставить нужные, лишние раздать.</li>
+            <li>Цветы – применить плотные коробки, поставить, отметить снаружи «верх».</li>
+            <li>Первостепенные предметы обихода сложить вместе.</li>
+            <li>Коробки проклеить скотчем, дно уплотнить, сделать ручку.</li>
+            <li>Прикрепить цветные маркеры (указание комнаты размещения).</li>
+            <li>Мелкие предметы - задействовать мебельные выдвижные ящики. Использовать материалы для упаковки: стрейч-пленку, газеты, мелкие вещички.</li>
+            <li>Маркировка коробок (номер, назначение имущества) – обязательный этап.</li>
+            <li>Подробное перечисление содержимого - использовать тетрадь (быстрее отыщутся нужные вещи).</li>
+           
+            <ul class="image-grid">
+                <li><img src="/images/services/pereezd/apartament-moving.jpg"> </li>
+            </ul>
+            <div class="image-grid">
+            </div>
+            <li>Коробки расположить компактно (нужно подготовить комнату).</li>
+            <li>Драгоценности, документы - перевезти ручной кладью.</li>
+            <li>Сделать опись имущества. Инвентаризация предметов – важный этап прибывшего груза.</li>
+        </ul>
+
+        <p>Грамотное выполнение услуг профессионалами, правильные подготовительные работы сделают квартирный переезд спокойным, радостным.</p>
+        <p>Если не хотите заниматься этим самостоятельно, закажите квартирный переезд у нас!</p>
+
+    </div>
+</section>
+
+
+
+<section class="end-form">
+    <div class="container">
+        <form class="q-form col-lg-6 col-md-6" method="POST" action="https://formspree.io/info@mair.moscow" >
+            <h2 class="editable">Заказать переезд</h2>
+
+            <input type="hidden" name="_next" value="/success">
+            <input type="hidden" name="_language" value="ru" />
+            <input type="hidden" name="_format" value="plain" />
+            <input type="hidden" name="_subject" value="Вопрос со страницы КВАРТИРНЫЙ ПЕРЕЕЗД">
+            
+            <input class="input-form" type="name" name="name" placeholder="Ваше имя" required>
+			<input class="input-form" type="phone" name="phone" placeholder="Ваш телефон" required>
+            <textarea class="form__textarea" name="message" placeholder="Ваше сообщение" required></textarea>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</section>

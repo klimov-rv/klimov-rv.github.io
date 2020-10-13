@@ -1,0 +1,26 @@
+links:
+- text: Услуги
+  url: null
+  submenu:
+    - text: Сборка мебели
+      url: /sborka-mebeli/
+    - text: Квартирный переезд
+      url: /kvartirnyiy-pereezd/
+    - text: Муж на час
+      url: /muzh-na-chas/
+    - text: Строительство
+      url: /stroitelstvo-remont/
+- text: Цены
+  url: /price/
+- text: О нас
+  url: null
+  submenu:
+    - text: Работы
+      url: /portfolio/
+    - text: Наш блог
+      url: /blog/
+    - text: Контакты
+      url: /contacts/
+- text: Сотрудничество
+  url: /partnership/
+
