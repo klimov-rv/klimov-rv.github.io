@@ -2,7 +2,16 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://localhost:4000/bitrix/2019/05/15/wordpress-access/</loc>
+      <loc>http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/</loc>
+      
+        <lastmod>2020-10-01T20:17:12+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/wordpress/2019/05/15/wordpress-access/</loc>
       
         <lastmod>2019-05-15T15:16:15+03:00</lastmod>
       
@@ -244,6 +253,8 @@
       <priority>1.0</priority>
     </url>
   
+  
+    
   
     
   

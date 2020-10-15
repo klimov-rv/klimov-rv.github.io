@@ -31,9 +31,9 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="KlimovProject — Мой прожектор в WEB-разработках" />
-    <!-- Begin Jekyll SEO tag v2.5.0 -->
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>CMS vs SSG | KlimovProject — Мой прожектор в WEB-разработках</title>
-<meta name="generator" content="Jekyll v3.8.3" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="CMS vs SSG" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Первый официальный проект любого вебмастера - это его собственный сайт" />
@@ -44,7 +44,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2017-02-02T14:57:05+03:00" />
 <script type="application/ld+json">
-{"description":"Первый официальный проект любого вебмастера - это его собственный сайт","@type":"BlogPosting","url":"http://localhost:4000/site/2017/02/02/SSG-vs-CMS/","headline":"CMS vs SSG","dateModified":"2017-02-02T14:57:05+03:00","datePublished":"2017-02-02T14:57:05+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/site/2017/02/02/SSG-vs-CMS/"},"@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/site/2017/02/02/SSG-vs-CMS/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/site/2017/02/02/SSG-vs-CMS/"},"headline":"CMS vs SSG","dateModified":"2017-02-02T14:57:05+03:00","datePublished":"2017-02-02T14:57:05+03:00","description":"Первый официальный проект любого вебмастера - это его собственный сайт","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
      
@@ -133,11 +133,11 @@
   <li>Использовать различные <strong>CMS</strong> (Content Management System)</li>
 </ol>
 
-<h1 id="Что-же-выбрать-cms-или-ssg">Что же выбрать CMS или SSG</h1>
+<h1 id="что-же-выбрать-cms-или-ssg">Что же выбрать CMS или SSG</h1>
 
 <p>Первый вариант зависит от бюджета, а 2ый и 3ий более привлекательны в силу наименьших затрат, это понятно. Но из 2 и 3 варианта многие выбирают именно CMS (Wordpress/Joomla), не подозревая, что есть в природе такой зверь, как <strong>SSG</strong> (Static Site Generator). А он между прочим имеет огромные преимущества и активно захватывает свою нишу. Например данный блог создан на Jekyll - <a href="https://www.staticgen.com/">самом популярном</a> статическом генераторе с 2015 года!</p>
 
-<h2 id="Плюсы-ssg">Плюсы SSG</h2>
+<h2 id="плюсы-ssg">Плюсы SSG</h2>
 
 <ol>
   <li>
@@ -147,10 +147,13 @@
 
     <p>Многие CMS приложения предлагают встроенные (или в виде плагинов) системы кэширования, чтобы обеспечить генерирование страниц и использование их повторно, если необходимо. Это эффективно, но лишние действия все равно имеют место быть: например, при проверке файлов кэша и повторной генерации страниц.</p>
 
-    <p>В то же время статические сайты предварительно кэшируют страницы, и срок жизни такого кэша вечен. Файлы также могут быть сжаты для еще меньшей нагрузки. Вот и получается, что при использовании одного и того же шаблона статический сайт всегда будет работать лучше, чем сайт построенный на CMS.</p>
+    <p>В то же время статические сайты предварительно кэшируют страницы, и срок жизни такого кэша вечен. Файлы также могут быть сжаты для еще меньшей нагрузки. Вот и получается, что при использовании одного и того же шаблона статический сайт всегда будет работать лучше, чем сайт построенный на CMS.
+ Мой сайт на google pagespeed выдаёт отличный <a href="https://developers.google.com/speed/pagespeed/insights/?url=klimovproject.ru&amp;tab=desktop">результат</a></p>
+
+    <p><img src="www.hosting.klimovproject.ru/imagehost/google_pagespeed_klimovproject.png" alt="google pagespeed klimovproject" /></p>
   </li>
   <li>
-    <p><strong>Высокая безопасность</strong></p>
+    <p>Высокая безопасность</p>
 
     <p>Что нужно для установки WordPress:</p>
 
@@ -207,7 +210,7 @@
   </li>
 </ol>
 
-<h2 id="Минусы-ssg-в-сравнении-с-cms">Минусы SSG в сравнении с CMS</h2>
+<h2 id="минусы-ssg-в-сравнении-с-cms">Минусы SSG в сравнении с CMS</h2>
 
 <ol>
   <li>

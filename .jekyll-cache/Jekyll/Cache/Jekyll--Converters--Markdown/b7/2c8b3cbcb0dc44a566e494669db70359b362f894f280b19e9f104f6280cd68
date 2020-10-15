@@ -1,0 +1,14 @@
+I"�<h1 id="nodejs-первые-шаги---командная-строка">Node.js первые шаги - командная строка</h1>
+
+<p>Открываем папку в терминале:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>platformio-ide-terminal
+</code></pre></div></div>
+
+<p>Плагин для установки терминала в редакторе</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>platformio-ide-terminal
+</code></pre></div></div>
+
+<p>https://repl.it/@klimov_rv/FrillySugaryInternalcommand</p>
+
+<iframe height="400px" width="100%" src="https://repl.it/@klimov_rv/FrillySugaryInternalcommand?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+:ET

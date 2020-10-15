@@ -1,0 +1,92 @@
+I"s<p>Не в тесте, а в теКсте, и я говорю не про смайлики 🙃</p>
+
+<p>Это часто встречающаяся задача например в интернет-магазинах в блоке “контакты”, где по стандарту телефон, почту и время работы оформляют иконками</p>
+
+<p><img src="http://hosting.klimovproject.ru/imagehost/icons-on-site2.png" alt="Иконки контактов в текстах " /></p>
+
+<h3 id="какие-есть-варианты">Какие есть варианты</h3>
+
+<p>Самое простое что можно сделать – это вставить иконку как изображение <code class="language-plaintext highlighter-rouge">.jpg</code>, <code class="language-plaintext highlighter-rouge">.png</code></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">href=</span><span class="s">"/images/icomoon/SVG/ruby.svg"</span><span class="nt">&gt;&lt;/img&gt;</span>
+</code></pre></div></div>
+
+<p>Очень модный приём вставки иконок Font Awesome</p>
+
+<ol>
+  <li><a href="https://fontawesome.com/icons">Скачайте</a> иконки в формате шрифта</li>
+  <li>Расположите файлы шрифта в директории сайта*</li>
+  <li>Добавьте файлы стилей FontAwesome в теги <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code></li>
+  <li>Укажите в своём файле стилей <code class="language-plaintext highlighter-rouge">.css</code> подключение шрифта</li>
+</ol>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@font-face</span> <span class="p">{</span>
+<span class="nl">font-family</span><span class="p">:</span> <span class="s2">'icomoon'</span><span class="p">;</span>
+    <span class="nl">src</span><span class="p">:</span>  <span class="sx">url('fonts/icomoon.eot?4sisvj')</span><span class="p">;</span>
+    <span class="nl">src</span><span class="p">:</span>  <span class="sx">url('fonts/icomoon.eot?4sisvj#iefix')</span> <span class="n">format</span><span class="p">(</span><span class="s2">'embedded-opentype'</span><span class="p">),</span>
+        <span class="sx">url('fonts/icomoon.ttf?4sisvj')</span> <span class="n">format</span><span class="p">(</span><span class="s2">'truetype'</span><span class="p">),</span>
+        <span class="sx">url('fonts/icomoon.woff?4sisvj')</span> <span class="n">format</span><span class="p">(</span><span class="s2">'woff'</span><span class="p">),</span>
+        <span class="sx">url('fonts/icomoon.svg?4sisvj#icomoon')</span> <span class="n">format</span><span class="p">(</span><span class="s2">'svg'</span><span class="p">);</span>
+    <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">normal</span><span class="p">;</span>
+    <span class="nl">font-style</span><span class="p">:</span> <span class="nb">normal</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>*Тут главное не запутатся с относительными путями
+После чего можем использовать HTML код для получения результата. Вот интересный пример: приведённый ниже код отображает данный символ — <span class="icon icon-font"></span>)</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon icon-font"</span><span class="nt">&gt;&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h3 id="тестируем">Тестируем</h3>
+
+<p>На практике возникает проблема позиционирования, так как высота картинки не часто совпадает с высотой текста:</p>
+
+<table>
+    <tr>
+        <td><span class="icon icon-ubuntu i35">ubuntu</span></td>
+    </tr>
+</table>
+
+<h3 id="позиционирвание">Позиционирвание</h3>
+
+<p>Вертикальное выравнивание сделаем с помощью редко используемого свойства <code class="language-plaintext highlighter-rouge">vertical-align</code>
+Например:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.icon-ubuntu</span><span class="nd">:before</span> <span class="p">{</span>
+    <span class="nl">content</span><span class="p">:</span> <span class="s1">"\ec58"</span><span class="p">;</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="m">#e95420</span><span class="p">;</span>
+    <span class="nl">vertical-align</span><span class="p">:</span> <span class="nb">middle</span><span class="p">;</span> <span class="c">/* по середине */</span>
+    <span class="c">/* vertical-align: top;  по верхнюю границу */</span>
+    <span class="c">/* vertical-align: bottom;  по нижнюю границу */</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Отступы справа и слева, как обычно “маржинами”, например:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.icon-ubuntu</span> <span class="p">{</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">15px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Попробуте, должно получиться ровно и красиво!</p>
+
+<style>
+
+#correct-variant td {
+    padding: 13px 20px 17px;
+}
+#correct-variant .icon-ubuntu::before {
+    content: "\ec58";
+    color: #e95420;
+    vertical-align: middle;
+    padding: 0px 15px 0 0;
+    font-size: 43px;
+}
+</style>
+
+<table id="correct-variant">
+    <tr>
+        <td><span class="icon icon-ubuntu i35">ubuntu</span></td>
+    </tr>
+</table>
+
+:ET

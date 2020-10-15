@@ -1052,10 +1052,12 @@ td{
 
 .portfolio {
 	text-align: center;
+	background-color: transparent;
+	box-shadow: none;
 }
 .grid {	
 	display: grid;
-	grid-gap: 0px;
+	grid-gap: 15px;
 
 	@media (max-width: $screen-lg-min) {
 		grid-template-columns: 1fr 1fr;
@@ -1119,7 +1121,7 @@ td{
 }
 .grid2 {	
 	display: grid;
-	grid-gap: 0px;
+	grid-gap: 15px;
 
 	@media (max-width: $screen-lg-min) {
 		grid-template-columns: 1fr 1fr;

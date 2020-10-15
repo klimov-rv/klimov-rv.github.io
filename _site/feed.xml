@@ -5,15 +5,61 @@
     <description>Первый официальный проект любого вебмастера - это его собственный сайт </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Oct 2019 10:54:23 +0300</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2019 10:54:23 +0300</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Thu, 15 Oct 2020 19:06:40 +0300</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2020 19:06:40 +0300</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>В каком случае выбирать 1С-Битрикс?</title>
+        <description>&lt;h2 id=&quot;объединение-css-и-js-файлов&quot;&gt;Объединение CSS и JS-файлов&lt;/h2&gt;
+
+&lt;p&gt;Рабочий стол -&amp;gt; Настройки -&amp;gt; Настройки продукта -&amp;gt; Настройки модулей -&amp;gt; Главный модуль -&amp;gt; Оптимизация CSS&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inpost/bitrix_css_js_optimise_main_module.png&quot; alt=&quot;Объединение CSS и JS-файлов&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;настройка-seo-для-каталога&quot;&gt;Настройка SEO для каталога&lt;/h2&gt;
+
+&lt;p&gt;Рабочий стол -&amp;gt; Контент -&amp;gt; Инфоблоки -&amp;gt; Типы инфоблоков -&amp;gt; Каталоги -&amp;gt; _&lt;ваш_каталог&gt;_ -&amp;gt; Вкладка SEO&lt;/ваш_каталог&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inpost/bitrix_seo_properties.png&quot; alt=&quot;Настройки СЕО Битрикс&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;шаблоны&quot;&gt;Шаблоны&lt;/h2&gt;
+
+&lt;p&gt;Настройки -&amp;gt; Настройки продукта -&amp;gt; Сайты -&amp;gt; Шаблоны сайтов&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inpost/bitrix_templates_in_admin_panel.png&quot; alt=&quot;шаблоны bitrix&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;лучше-не-нажимать-эту-кнопку-без-дела&quot;&gt;Лучше не нажимать эту кнопку без дела&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inpost/delete_button_for_new_site.png&quot; alt=&quot;Отключение проблемной кнопки&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;После удаления кнопки вы сможете запустить мастер создания нового решения в панели управления, используя страницу с мастерами или формой добавления нового сайта.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inpost/create_additional_site.png&quot; alt=&quot;Добавить дополнительный сайт&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Thu, 01 Oct 2020 20:17:12 +0300</pubDate>
+        <link>http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/</link>
+        <guid isPermaLink="true">http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/</guid>
+        
+        <category>Bitrix</category>
+        
+        <category>Шаблоны</category>
+        
+        <category>Админка</category>
+        
+        
+        <category>Bitrix</category>
+        
+      </item>
     
       <item>
         <title>Wordpress заявил о своих правах ;)</title>
-        <description>&lt;h2 id=&quot;Настройка-прав-wordpress-после-переноса-сайта&quot;&gt;Настройка прав Wordpress после переноса сайта&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;настройка-прав-wordpress-после-переноса-сайта&quot;&gt;Настройка прав Wordpress после переноса сайта&lt;/h2&gt;
 
-&lt;p&gt;После переноса интернет магазина &lt;a href=&quot;http://elite-instrument.ru/&quot;&gt;elite-instrument&lt;/a&gt; у его движка wordpress возникли вопросы о своих правах на новом месте.&lt;/p&gt;
+&lt;p&gt;После переноса интернет магазина &lt;a href=&quot;http://elite-instrument.ru/&quot; target=&quot;_blank&quot;&gt;elite-instrument&lt;/a&gt; у его движка wordpress возникли вопросы о своих правах на новом месте.&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Загруженный файл не удалось переместить в wp-content/uploads...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -21,19 +67,19 @@
 &lt;p&gt;В интернете часто встречаются с подобным, почитав информацию &lt;a href=&quot;https://sysadmin.ru/articles/zagruzhennyj-fajl-ne-udalos-peremestit-v-wp-contentuploads&quot;&gt;здесь&lt;/a&gt;, &lt;a href=&quot;https://toster.ru/q/229810&quot;&gt;здесь&lt;/a&gt; и &lt;a href=&quot;http://loco.ru/materials/610-wordpress-neobhodim-dostup-k-vashemu-serveru&quot;&gt;здесь&lt;/a&gt;, помог ему найти себя:
 Сменить владельца директории &lt;strong&gt;Uploads&lt;/strong&gt; на &lt;em&gt;www-data&lt;/em&gt; (подойдет для nginx и apache) и дать ему права 755. Сделать это можно следующими командами:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo chown -R www-data /srv/www/mysite.ru/wp-content/uploads/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo chown -R www-data /srv/www/mysite.ru/wp-content/uploads/&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Этой командой мы меняем владельца директории uploads (и всех вложенных в нее) на www-data.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo chmod -R 755 /srv/www/mysite.ru/wp-content/uploads/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo chmod -R 755 /srv/www/mysite.ru/wp-content/uploads/&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;chmod&lt;/strong&gt; и &lt;strong&gt;chown&lt;/strong&gt; очень полезные и часто встречающиеся в администрировании сайта команды Linux, рекомендуются для запоминания 
 _____&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 15 May 2019 15:16:15 +0300</pubDate>
-        <link>http://localhost:4000/bitrix/2019/05/15/wordpress-access/</link>
-        <guid isPermaLink="true">http://localhost:4000/bitrix/2019/05/15/wordpress-access/</guid>
+        <link>http://localhost:4000/wordpress/2019/05/15/wordpress-access/</link>
+        <guid isPermaLink="true">http://localhost:4000/wordpress/2019/05/15/wordpress-access/</guid>
         
         <category>Wordpress</category>
         
@@ -42,31 +88,31 @@ _____&lt;/p&gt;
         <category>Linux</category>
         
         
-        <category>Bitrix</category>
+        <category>Wordpress</category>
         
       </item>
     
       <item>
         <title>Bitrix. Напоминалки по админ панели</title>
-        <description>&lt;h2 id=&quot;Объединение-css-и-js-файлов&quot;&gt;Объединение CSS и JS-файлов&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;объединение-css-и-js-файлов&quot;&gt;Объединение CSS и JS-файлов&lt;/h2&gt;
 
 &lt;p&gt;Рабочий стол -&amp;gt; Настройки -&amp;gt; Настройки продукта -&amp;gt; Настройки модулей -&amp;gt; Главный модуль -&amp;gt; Оптимизация CSS&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/inpost/bitrix_css_js_optimise_main_module.png&quot; alt=&quot;Объединение CSS и JS-файлов&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;Настройка-seo-для-каталога&quot;&gt;Настройка SEO для каталога&lt;/h2&gt;
+&lt;h2 id=&quot;настройка-seo-для-каталога&quot;&gt;Настройка SEO для каталога&lt;/h2&gt;
 
 &lt;p&gt;Рабочий стол -&amp;gt; Контент -&amp;gt; Инфоблоки -&amp;gt; Типы инфоблоков -&amp;gt; Каталоги -&amp;gt; _&lt;ваш_каталог&gt;_ -&amp;gt; Вкладка SEO&lt;/ваш_каталог&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/inpost/bitrix_seo_properties.png&quot; alt=&quot;Настройки СЕО Битрикс&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;Шаблоны&quot;&gt;Шаблоны&lt;/h2&gt;
+&lt;h2 id=&quot;шаблоны&quot;&gt;Шаблоны&lt;/h2&gt;
 
 &lt;p&gt;Настройки -&amp;gt; Настройки продукта -&amp;gt; Сайты -&amp;gt; Шаблоны сайтов&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/inpost/bitrix_templates_in_admin_panel.png&quot; alt=&quot;шаблоны bitrix&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;Лучше-не-нажимать-эту-кнопку-без-дела&quot;&gt;Лучше не нажимать эту кнопку без дела&lt;/h2&gt;
+&lt;h2 id=&quot;лучше-не-нажимать-эту-кнопку-без-дела&quot;&gt;Лучше не нажимать эту кнопку без дела&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/inpost/delete_button_for_new_site.png&quot; alt=&quot;Отключение проблемной кнопки&quot; /&gt;&lt;/p&gt;
 
@@ -94,7 +140,7 @@ _____&lt;/p&gt;
     
       <item>
         <title>Как определить успешный дизайн?</title>
-        <description>&lt;h1 id=&quot;Чек-лист-для-оценки-дизайна&quot;&gt;Чек-лист для оценки дизайна&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;чек-лист-для-оценки-дизайна&quot;&gt;Чек-лист для оценки дизайна&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://medium.com/ux-power-tools/how-to-succeed-at-your-new-design-job-8d6ac44bcffd&quot;&gt;Делая свои первые шаги в любой профессии&lt;/a&gt; (особенно если она творческая), и столкнувшись с первыми неудачами очень легко скатиться до &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC_%D1%81%D0%B0%D0%BC%D0%BE%D0%B7%D0%B2%D0%B0%D0%BD%D1%86%D0%B0&quot;&gt;синдрома “самозванца”&lt;/a&gt;.&lt;/p&gt;
 
@@ -108,69 +154,69 @@ _____&lt;/p&gt;
 &lt;p&gt;Давай подумаем, с тех пор как Dribbblе распространился на огромнейшую аудиторию, он заставил тебя почувствовать какой же дерьмовый ты дизайнер, и как ты мог расти и оценивать свои дизайнерские успехи без прочтения сотен книг.
 Существует так много разных способов измерить личный рост и успех, и я хотел бы осветить несколько из них в данной статье.&lt;/p&gt;
 
-&lt;h2 id=&quot;1-Решаешь-ли-ты-проблему&quot;&gt;1. Решаешь ли ты проблему&lt;/h2&gt;
+&lt;h2 id=&quot;1-решаешь-ли-ты-проблему&quot;&gt;1. Решаешь ли ты проблему&lt;/h2&gt;
 
 &lt;p&gt;Дизайн не ограничивает себя только пикселем и цветом. По сути, все дело в решении проблем. Если вы определили реальную проблему и предложили лучшее решение (каким бы маргинальным оно ни было), то вы преуспели!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*trBHemjWjBVbBClbo_1LtA.gif&quot; alt=&quot;Теодор Христов для Lobster'а&quot; /&gt;
 Теодор &lt;a href=&quot;https://dribbble.com/Teodor&quot;&gt;Христов&lt;/a&gt; для &lt;a href=&quot;https://dribbble.com/lobsterstudio&quot;&gt;Lobster&lt;/a&gt;‘а&lt;/p&gt;
 
-&lt;h2 id=&quot;2-Проверка-с-точки-зрения-пользователя&quot;&gt;2. Проверка с точки зрения пользователя&lt;/h2&gt;
+&lt;h2 id=&quot;2-проверка-с-точки-зрения-пользователя&quot;&gt;2. Проверка с точки зрения пользователя&lt;/h2&gt;
 
 &lt;p&gt;Помни, что ты не разрабатываешь решение только для того, чтобы поставить галочку «сделано» в своем ежедневнике или для своей статьи на Dribbble. Относись к своему клиенту, так как бы ты хотел, что бы отнеслись к тебе лично! Каждый заказ принимай как последний! Твоя работа должна олицетворять уважение и почтение к своей профессии. Тогда тебя будет ждать успех! Поверь рано или поздно, самое важное действовать!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/0*3qwPhHU1-Okxq_ve.png&quot; alt=&quot;outcrowd&quot; /&gt;
 &lt;a href=&quot;https://dribbble.com/outcrowd&quot;&gt;Ouctcrowd&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;3-Эта-версия-лучше-чем-предыдущая&quot;&gt;3. Эта версия лучше, чем предыдущая&lt;/h2&gt;
+&lt;h2 id=&quot;3-эта-версия-лучше-чем-предыдущая&quot;&gt;3. Эта версия лучше, чем предыдущая&lt;/h2&gt;
 
 &lt;p&gt;В духе самосовершенствования и профессионального роста, просто практикуя свое ремесло, ты становишься лучше - это и есть показатель твоих достижений! Многие думают: “почему я раньше не делал так хорошо” и начинают корить себя за это. Но ведь если твой &lt;em&gt;новый проект&lt;/em&gt; лучше и креативнее &lt;em&gt;предыдущего&lt;/em&gt;, то это отлично! Ты развиваешься в правильном направлении.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*mhvnt_vCWxfmnfZKyioSMg.png&quot; alt=&quot;by Jorik Feskens&quot; /&gt;
 &lt;a href=&quot;https://dribbble.com/Animotioners&quot;&gt;Жорик Фескенс&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;4-Ты-был-более-эффективен-чем-в-прошлый-раз&quot;&gt;4. Ты был более эффективен, чем в прошлый раз&lt;/h2&gt;
+&lt;h2 id=&quot;4-ты-был-более-эффективен-чем-в-прошлый-раз&quot;&gt;4. Ты был более эффективен, чем в прошлый раз&lt;/h2&gt;
 
 &lt;p&gt;Процесс так же важен, как и конечный результат, потому что это твой путь, тропинка, которую ты протаптываешь к своему новому творению. Если твой путь со временем сокращается, становиться легче, более прямым, чем на прошлой неделе, то ты преуспел!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/0*WS42EDfZrS0WrS2t.png&quot; alt=&quot;by Tristan Kromopawiro&quot; /&gt;
 &lt;a href=&quot;https://dribbble.com/Triskro_Studio&quot;&gt;Тристан Кромопавиро&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;5-Работа-выглядит-более-согласованно-и-целостно&quot;&gt;5. Работа выглядит более согласованно и целостно&lt;/h2&gt;
+&lt;h2 id=&quot;5-работа-выглядит-более-согласованно-и-целостно&quot;&gt;5. Работа выглядит более согласованно и целостно&lt;/h2&gt;
 
 &lt;p&gt;Профессиональные повара, очевидно, умеют создавать вкусные блюда. Но что более впечатляюще, так это способность воспроизводить этот высокий уровень совершенства снова и снова. Если ваш дизайн целостный и чист, то вы безусловно сделали работу лучше!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*MlOzaHRyI1Hxd8JnkusPzA.png&quot; alt=&quot;by Tyler Poyant&quot; /&gt;
 &lt;a href=&quot;https://dribbble.com/tylerpoyant&quot;&gt;Тайлер Поянт&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;6-Ты-затратил-меньше-усилий&quot;&gt;6. Ты затратил меньше усилий&lt;/h2&gt;
+&lt;h2 id=&quot;6-ты-затратил-меньше-усилий&quot;&gt;6. Ты затратил меньше усилий&lt;/h2&gt;
 
 &lt;p&gt;Дизайн не всегда должен быть аддитивным. В то время как ты исследуешь свой путь, ты можешь отсечь некоторые ненужные действия, сконцентрироваться на главных вещах. Если ты сделал процесс более эффективным или производительным за счет улучшения и оптимизации, не думай что ты “поспешил”. Наоборот, я могу тебя поздравить, тебе удалось улучшить свой дизайн!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*2YJ9nzBWo6vFWhAjcLL5Ww.png&quot; alt=&quot;Даша на Dribble&quot; /&gt;
 &lt;a href=&quot;https://dribbble.com/Volnichenko&quot;&gt;Даша&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;7-Ты-вдохновил-клиента&quot;&gt;7. Ты вдохновил клиента&lt;/h2&gt;
+&lt;h2 id=&quot;7-ты-вдохновил-клиента&quot;&gt;7. Ты вдохновил клиента&lt;/h2&gt;
 
 &lt;p&gt;Ты можешь достичь успеха не нарисовав ни одного макета, помогая свежими идеями или иным подходом находя выход из, порой, неразрешимых задач. Если ты помог клиенту выйти за пределы «привычных» рамок и начать двигаться в новом направлении – это уже успех!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*xdwZRE1gCA1AnXmNzLG8Yg.png&quot; alt=&quot;by Maggie Moore&quot; /&gt;
 &lt;a href=&quot;https://dribbble.com/maggiemoore&quot;&gt;Мэгги Мур&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;8-Были-ли-учтены-просьбы-и-правки&quot;&gt;8. Были ли учтены просьбы и правки&lt;/h2&gt;
+&lt;h2 id=&quot;8-были-ли-учтены-просьбы-и-правки&quot;&gt;8. Были ли учтены просьбы и правки&lt;/h2&gt;
 
 &lt;p&gt;Успех дизайна - это не только &lt;em&gt;личностный рост&lt;/em&gt;, но и тактический. Научиться быть открытым и положительно принимать критику - трудный навык, но он необходим для развития. Если ты оставил в стороне свою гордость и прислушивался ко мнению со стороны, то ты на пути к настоящему успеху!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*ZiXkqWpe9RK6Ll0dRnNLZg.png&quot; alt=&quot;by Iza Dudzik&quot; /&gt;
 &lt;a href=&quot;https://dribbble.com/Dewizka&quot;&gt;Иза Дудзик&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;9-Вложил-ли-ты-все-силы&quot;&gt;9. Вложил ли ты все силы&lt;/h2&gt;
+&lt;h2 id=&quot;9-вложил-ли-ты-все-силы&quot;&gt;9. Вложил ли ты все силы&lt;/h2&gt;
 
 &lt;p&gt;Дизайн создаётся не для одного человека. Действительно сложно заинтересовать и удовлетворить всех, к кому вы обращаетесь своей работой. И если вы делаете максимум, чтобы удовлетворить их потребности и учесть все аспекты, то вы получите соответсвенную отдачу!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://images.klimovproject.ru/post-img/QMeLa6I.png&quot; alt=&quot;Группы ЦА дизайна&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;10-Удовлетворение-работой&quot;&gt;10. Удовлетворение работой&lt;/h2&gt;
+&lt;h2 id=&quot;10-удовлетворение-работой&quot;&gt;10. Удовлетворение работой&lt;/h2&gt;
 
 &lt;p&gt;Мне нравится верить, что все люди всех профессий должны испытывать чувство гордости за свою работу. Если вы отработали, создали что-то, и остались довольны тем, что получилось, то вы преуспели.&lt;/p&gt;
 
@@ -196,13 +242,13 @@ _____&lt;/p&gt;
     
       <item>
         <title>Основные принципы дизайна</title>
-        <description>&lt;h1 id=&quot;Дизайн-для-недизайнеров&quot;&gt;Дизайн для недизайнеров&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;дизайн-для-недизайнеров&quot;&gt;Дизайн для недизайнеров&lt;/h1&gt;
 
 &lt;p&gt;Возможно, вы вызвались сделать приглашения на корпоративную вечеринку в попытке (наконец-то!) добиться расположения начальника. Или вы ушли в предпринимательство и теперь самостоятельно занимаетесь созданием всех маркетинговых материалов для вашего молодого бизнеса. В любом случае, вам нужно создать дизайн. И если вы в этой области новичок, то, скорее всего, ваши первые попытки были не очень удачными. Возможно вы сейчас думаете, что достигли пика своей художественной карьеры в 5 лет, когда мама повесила ваш рисунок на холодильник.&lt;/p&gt;
 
 &lt;p&gt;Но, новички, не спешите нервничать из-за творческого кризиса! Вот вам несколько профессиональных советов по графическому дизайну: с их помощью вы выполните поставленную задачу и начнете думать как дизайнер. Если хотите, можете сразу применять полученные знания на практике: для этого откройте пустой холст в приложении &lt;a href=&quot;https://www.picmonkey.com/#go/design/&quot;&gt;Design&lt;/a&gt; или найдите себе подходящий &lt;a href=&quot;https://www.picmonkey.com/#templates&quot;&gt;шаблон&lt;/a&gt; и приступайте к редактированию.&lt;/p&gt;
 
-&lt;h2 id=&quot;Слава-иерархии-в-графическом-дизайне&quot;&gt;Слава иерархии в графическом дизайне!&lt;/h2&gt;
+&lt;h2 id=&quot;слава-иерархии-в-графическом-дизайне&quot;&gt;Слава иерархии в графическом дизайне!&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b11a9/18qD-VXwlfs.jpg&quot; alt=&quot;Визуальный вес в графическом дизайне&quot; /&gt;&lt;/p&gt;
 
@@ -221,7 +267,7 @@ _____&lt;/p&gt;
 
 &lt;p&gt;Самый лучший вариант — когда в дизайне один доминирующий элемент. Но их может быть и два (например, крупный заголовок и кнопка-призыв к действию) — главное, чтобы остальная композиция была сбалансирована. Обычно доминирующим элементом делают самую важную часть сообщения. Эта идея применима ко всем визуальным элементам, а также к текстам (подробнее об этом читайте в нашей статье об &lt;a href=&quot;https://www.picmonkey.com/blog/whos-your-daddy-creating-font-hierarchy&quot;&gt;иерархии шрифтов&lt;/a&gt;).&lt;/p&gt;
 
-&lt;h2 id=&quot;Осознание-пространства&quot;&gt;Осознание пространства&lt;/h2&gt;
+&lt;h2 id=&quot;осознание-пространства&quot;&gt;Осознание пространства&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b1215/0eGE8Htefz8.jpg&quot; alt=&quot;Пространство в графическом дизайне&quot; /&gt;&lt;/p&gt;
 
@@ -229,7 +275,7 @@ _____&lt;/p&gt;
 
 &lt;p&gt;Как понять, что вы нашли то самое соотношение позитивного и негативного пространства? Сложность в том, что здесь нет четких правил. Как говорит один наш профессиональный дизайнер: “В итоге все сводится не к количеству негативного пространства. Все сводится к балансу элементов и к удалению ненужного”.&lt;/p&gt;
 
-&lt;h2 id=&quot;Шрифты-в-графическом-дизайне&quot;&gt;Шрифты в графическом дизайне&lt;/h2&gt;
+&lt;h2 id=&quot;шрифты-в-графическом-дизайне&quot;&gt;Шрифты в графическом дизайне&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b121e/NHUV_qIwqaU.jpg&quot; alt=&quot;Шрифты в графическом дизайне&quot; /&gt;&lt;/p&gt;
 
@@ -244,7 +290,7 @@ _____&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;Правильный-размер&quot;&gt;Правильный размер&lt;/h2&gt;
+&lt;h2 id=&quot;правильный-размер&quot;&gt;Правильный размер&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b122f/Xokb4LRkyyA.jpg&quot; alt=&quot;Правильный размер в графическом дизайне&quot; /&gt;&lt;/p&gt;
 
@@ -254,7 +300,7 @@ _____&lt;/p&gt;
 
 &lt;p&gt;Если вы проектируете под дисплей, найдите баланс между размером дисплея (в пикселях) и размером файла (в мегабайтах), чтобы изображения отображались корректно и не замедляли работу сайта. В инструменте Picmonkey перед сохранением изображения вам предлагается три опции размера: Roger, Pierce и Sean (&lt;em&gt;Роджер, Пирс и Шон — имена актеров, исполнявших роль Джеймса Бонда — прим.перев&lt;/em&gt;), которые позволяют найти идеальный баланс размера файла и качества картинки. Кроме того, отредактировать размер своего творения можно при помощи инструментов Crop и Resize на вкладке Basic Edits. Все еще не чувствуете уверенности в этой теме? Почитайте нашу статью &lt;a href=&quot;https://www.picmonkey.com/blog/size-and-resize-an-image-like-a-pro&quot;&gt;про размеры&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;Наводим-красоту-в-изображениях-и-в-дизайне&quot;&gt;Наводим красоту в изображениях (и в дизайне)&lt;/h2&gt;
+&lt;h2 id=&quot;наводим-красоту-в-изображениях-и-в-дизайне&quot;&gt;Наводим красоту в изображениях (и в дизайне)&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b123f/rNs-6H2D8QY.jpg&quot; alt=&quot;Базовые правки для фото, кадрирование&quot; /&gt;&lt;/p&gt;
 
@@ -262,7 +308,7 @@ _____&lt;/p&gt;
 
 &lt;p&gt;Ваши улучшенные изображения не должны быть голыми. О нет, речь не о том, что на фото. В мире дизайна термин “голые изображения” (naked images) означает, что изображения вставлены как есть и размещены без определенной идеи. Чтобы избежать эффекта голых изображений, используйте границы, рамки и лейауты-сетки.&lt;/p&gt;
 
-&lt;h2 id=&quot;Вопросы-цвета&quot;&gt;Вопросы цвета&lt;/h2&gt;
+&lt;h2 id=&quot;вопросы-цвета&quot;&gt;Вопросы цвета&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b1283/tFNXQnMxLCQ.jpg&quot; alt=&quot;Цветовые палитры в графическом дизайне&quot; /&gt;&lt;/p&gt;
 
@@ -272,7 +318,7 @@ _____&lt;/p&gt;
 
 &lt;p&gt;Цвет также можно использовать для создания иерархии, о которой мы говорили в начале. Чтобы придать элементу больший визуальный вес, окрасьте его в цвет, отличный от остальных цветов в дизайне.&lt;/p&gt;
 
-&lt;h2 id=&quot;Думайте-кто-когда-и-где&quot;&gt;Думайте: кто, когда и где&lt;/h2&gt;
+&lt;h2 id=&quot;думайте-кто-когда-и-где&quot;&gt;Думайте: кто, когда и где&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://pp.userapi.com/c847021/v847021994/b128c/Q_OfSj4gN2E.jpg&quot; alt=&quot;Адекватность в графическом дизайне&quot; /&gt;&lt;/p&gt;
 
@@ -300,7 +346,7 @@ _____&lt;/p&gt;
     
       <item>
         <title>Инфо блоки на сайт</title>
-        <description>&lt;h2 id=&quot;Прикрутил-симпатичную-и-простую-анимацию-в-проекте&quot;&gt;Прикрутил симпатичную и простую анимацию в проекте&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;прикрутил-симпатичную-и-простую-анимацию-в-проекте&quot;&gt;Прикрутил симпатичную и простую анимацию в проекте&lt;/h2&gt;
 
 &lt;p&gt;Оживил галерею на сайте проекта &lt;a href=&quot;/mair.github.io/&quot;&gt;mair.moscow&lt;/a&gt;
 &lt;img src=&quot;/images/inpost/123.gif&quot; alt=&quot;Анимация на сайте клиента&quot; /&gt;&lt;/p&gt;
@@ -308,7 +354,7 @@ _____&lt;/p&gt;
 &lt;p&gt;Использовал библиотеку &lt;a href=&quot;https://tympanus.net/Tutorials/CaptionHoverEffects/index2.html&quot;&gt;tympanus&lt;/a&gt;.
 &lt;img src=&quot;/images/inpost/4567.gif&quot; alt=&quot;Пример css анимации&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;Упрощённый-код-css&quot;&gt;Упрощённый код CSS&lt;/h2&gt;
+&lt;h2 id=&quot;упрощённый-код-css&quot;&gt;Упрощённый код CSS&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.hover-block&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 	&lt;span class=&quot;nl&quot;&gt;-webkit-transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translateY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-90px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -333,7 +379,7 @@ _____&lt;/p&gt;
 	&lt;span class=&quot;nl&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;Упрощённый-код-html&quot;&gt;Упрощённый код HTML&lt;/h2&gt;
+&lt;h2 id=&quot;упрощённый-код-html&quot;&gt;Упрощённый код HTML&lt;/h2&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
@@ -399,7 +445,7 @@ _____&lt;/p&gt;
     
       <item>
         <title>CNAME для домена на Github</title>
-        <description>&lt;h1 id=&quot;Что-такое-cname-Запись&quot;&gt;Что такое [CNAME] Запись&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;что-такое-cname-запись&quot;&gt;Что такое [CNAME] Запись&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;[CNAME] Запись&lt;/strong&gt; или &lt;strong&gt;Каноническая Запись Доменного Имени&lt;/strong&gt; указывает на то, что доменное имя или поддомен является алиасом (псевдонимом) другого, канонического доменного имени.&lt;/p&gt;
 
@@ -407,33 +453,33 @@ _____&lt;/p&gt;
   &lt;p&gt;Значение &lt;strong&gt;CNAME&lt;/strong&gt; записи всегда является доменным именем.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;Для-чего-служит-cname-Запись&quot;&gt;Для чего служит [CNAME] Запись&lt;/h2&gt;
+&lt;h2 id=&quot;для-чего-служит-cname-запись&quot;&gt;Для чего служит [CNAME] Запись&lt;/h2&gt;
 
 &lt;p&gt;[CNAME] Записи полезны тем, что они позволяют настраивать алиасы (псевдонимы) сервера, без использования его IP адреса.&lt;/p&gt;
 
-&lt;p&gt;Например, &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt; может иметь [CNAME] Запись, указывающую на &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Например, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt; может иметь [CNAME] Запись, указывающую на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Таким образом, если Вы наберете в браузере, &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt;, Вы будете перенаправленный на &lt;em&gt;CNAME&lt;/em&gt; — &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Таким образом, если Вы наберете в браузере, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt;, Вы будете перенаправленный на &lt;em&gt;CNAME&lt;/em&gt; — &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;Как-проверить-cname-Запись&quot;&gt;Как проверить [CNAME] Запись&lt;/h3&gt;
+&lt;h3 id=&quot;как-проверить-cname-запись&quot;&gt;Как проверить [CNAME] Запись&lt;/h3&gt;
 
-&lt;p&gt;Используйте команду &lt;code class=&quot;highlighter-rouge&quot;&gt;dig&lt;/code&gt;, чтобы узнать [CNAME] Запись:&lt;/p&gt;
+&lt;p&gt;Используйте команду &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dig&lt;/code&gt;, чтобы узнать [CNAME] Запись:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ dig CNAME www.example.com +short
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ dig CNAME www.example.com +short
 example.com.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;Добавление-cname-Записи-в-dns--Примеры&quot;&gt;Добавление [CNAME] Записи в DNS — Примеры&lt;/h2&gt;
+&lt;h2 id=&quot;добавление-cname-записи-в-dns--примеры&quot;&gt;Добавление [CNAME] Записи в DNS — Примеры&lt;/h2&gt;
 
 &lt;p&gt;Используйте следующий синтаксис для добавления [CNAME] Записи в Файл Зоны.&lt;/p&gt;
 
-&lt;h3 id=&quot;Настроить-Редирект-для-www-с-помощью-cname-Записи&quot;&gt;Настроить Редирект для [WWW] с помощью [CNAME] Записи&lt;/h3&gt;
+&lt;h3 id=&quot;настроить-редирект-для-www-с-помощью-cname-записи&quot;&gt;Настроить Редирект для [WWW] с помощью [CNAME] Записи&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com. IN CNAME example.com.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www.example.com. IN CNAME example.com.&lt;/code&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;Создать-Несколько-Алиасов-с-помощью-cname-Записи&quot;&gt;Создать Несколько Алиасов с помощью [CNAME] Записи&lt;/h3&gt;
+&lt;h3 id=&quot;создать-несколько-алиасов-с-помощью-cname-записи&quot;&gt;Создать Несколько Алиасов с помощью [CNAME] Записи&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;example.com. IN CNAME example.tld.
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;example.com. IN CNAME example.tld.
 www.example.com. IN CNAME example.tld.
 test.example.com. IN CNAME example.tld.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -461,13 +507,13 @@ test.example.com. IN CNAME example.tld.
         <title>Сайт со &quot;шпорами&quot;</title>
         <description>&lt;p&gt;&lt;img src=&quot;/images/inpost/46057546984_f04e9d1762_o.jpg&quot; alt=&quot;Заметки&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;Ссылки-на-вспомогательные-клавиши&quot;&gt;Ссылки на вспомогательные клавиши&lt;/h2&gt;
+&lt;h2 id=&quot;ссылки-на-вспомогательные-клавиши&quot;&gt;Ссылки на вспомогательные клавиши&lt;/h2&gt;
 
 &lt;p&gt;Любимый редактор кода под Windows - &lt;a href=&quot;https://ru.wikipedia.org/wiki/Visual_Studio_Code&quot;&gt;Visual Studio Code&lt;/a&gt;. &lt;a href=&quot;https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf&quot;&gt;Горячие клавиши&lt;/a&gt; этой программы очень сильно ускоряют процесс работы. Запоминаем, пользуемся&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://nikomedvedev.ru/other/vscodeshortcuts/hotkeys.html&quot;&gt;горячие клавиши vscode&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;Шпаргалка-devhintsio&quot;&gt;Шпаргалка DevHints.io&lt;/h2&gt;
+&lt;h2 id=&quot;шпаргалка-devhintsio&quot;&gt;Шпаргалка DevHints.io&lt;/h2&gt;
 
 &lt;p&gt;Коллекция разработчика Rico Sta Cruz (подписывайтесь на его твиттер &lt;a href=&quot;https://twitter.com/rstacruz&quot;&gt;@rstacruz&lt;/a&gt;)&lt;/p&gt;
 
@@ -478,7 +524,7 @@ test.example.com. IN CNAME example.tld.
   &lt;li&gt;&lt;a href=&quot;https://devhints.io/sass&quot;&gt;Sass&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;Списком&quot;&gt;Списком&lt;/h2&gt;
+&lt;h2 id=&quot;списком&quot;&gt;Списком&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;горячие клавиши &lt;a href=&quot;https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf&quot;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
@@ -505,7 +551,7 @@ test.example.com. IN CNAME example.tld.
 
 &lt;p&gt;Возникает вопрос &lt;strong&gt;как выбрать стоящий из огромного выбора рекламных предложений?&lt;/strong&gt; Начнём с этих ссылок, которые я сам решил попробовать&lt;/p&gt;
 
-&lt;h3 id=&quot;Мои-ссылки&quot;&gt;Мои ссылки&lt;/h3&gt;
+&lt;h3 id=&quot;мои-ссылки&quot;&gt;Мои ссылки&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -519,7 +565,7 @@ test.example.com. IN CNAME example.tld.
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;Рекомендации-лофтблоггеров&quot;&gt;Рекомендации “лофтблоггеров”&lt;/h3&gt;
+&lt;h3 id=&quot;рекомендации-лофтблоггеров&quot;&gt;Рекомендации “лофтблоггеров”&lt;/h3&gt;
 
 &lt;p&gt;Список с &lt;a href=&quot;https://youtu.be/iV2YqZk0DRw&quot;&gt;трансляции&lt;/a&gt;.&lt;/p&gt;
 
@@ -541,7 +587,7 @@ test.example.com. IN CNAME example.tld.
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;Рекомендации-smm&quot;&gt;Рекомендации SMM&lt;/h3&gt;
+&lt;h3 id=&quot;рекомендации-smm&quot;&gt;Рекомендации SMM&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -551,7 +597,7 @@ test.example.com. IN CNAME example.tld.
     - 3 месяца аккаунт отлежаться
     - 20-30 подписок и лайков в день&lt;/p&gt;
 
-&lt;h3 id=&quot;Тактика-постинга&quot;&gt;Тактика постинга&lt;/h3&gt;
+&lt;h3 id=&quot;тактика-постинга&quot;&gt;Тактика постинга&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -560,7 +606,7 @@ test.example.com. IN CNAME example.tld.
   &lt;li&gt;Эволюция паблика -&amp;gt; установка &lt;em&gt;цели&lt;/em&gt;, уроки каждый день&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;Общая-стратегия-маркетинга&quot;&gt;Общая стратегия маркетинга&lt;/h3&gt;
+&lt;h3 id=&quot;общая-стратегия-маркетинга&quot;&gt;Общая стратегия маркетинга&lt;/h3&gt;
 
 &lt;hr /&gt;
 
@@ -570,9 +616,9 @@ test.example.com. IN CNAME example.tld.
   &lt;li&gt;Постараться увеличить сбыт товаров&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;Принципы-Маркетинга&quot;&gt;Принципы Маркетинга&lt;/h2&gt;
+&lt;h2 id=&quot;принципы-маркетинга&quot;&gt;Принципы Маркетинга&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;В маркетинге принято соблюдение следующих пяти основных принципов: 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;В маркетинге принято соблюдение следующих пяти основных принципов: 
 
 1. производство и продажа товаров должны соответствовать потребностям покупателей, рыночной ситуации и возможностям компании; 
 2. полное удовлетворение потребностей покупателей и соответствие современному техническому и художественному уровню; 
@@ -604,7 +650,7 @@ test.example.com. IN CNAME example.tld.
     
       <item>
         <title>О Ruby на рельсах</title>
-        <description>&lt;h2 id=&quot;Говорим-руби-подразумеваем-рельсы&quot;&gt;Говорим &lt;em&gt;руби&lt;/em&gt;, подразумеваем &lt;em&gt;рельсы&lt;/em&gt;&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;говорим-руби-подразумеваем-рельсы&quot;&gt;Говорим &lt;em&gt;руби&lt;/em&gt;, подразумеваем &lt;em&gt;рельсы&lt;/em&gt;&lt;/h2&gt;
 
 &lt;p&gt;Что бы создать собственое веб-приложение на &lt;a href=&quot;/programming/2017/05/07/Hello-Ruby/&quot;&gt;Ruby&lt;/a&gt; — без “рельс” не обойтись
 Данный фреймворк включает в себя:&lt;/p&gt;
@@ -623,7 +669,7 @@ test.example.com. IN CNAME example.tld.
   &lt;li&gt;&lt;a href=&quot;https://vk.com/doc10903696_319056752?hash=2b76c608f78301b46c&amp;amp;dl=523a5250ad165c506d&quot;&gt;“Rails 4. Гибкая разработка веб-приложений” (PDF)&lt;/a&gt;. &lt;em&gt;2014 г. Сэм Руби, Дейв Томас, Дэвид Хэннсон&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;Видео-с-практическим-примером-анг-яз-60-мин&quot;&gt;Видео с практическим примером (анг. яз., 60 мин)&lt;/h3&gt;
+&lt;h3 id=&quot;видео-с-практическим-примером-анг-яз-60-мин&quot;&gt;Видео с практическим примером (анг. яз., 60 мин)&lt;/h3&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pPy0GQJLZUM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
@@ -636,32 +682,6 @@ test.example.com. IN CNAME example.tld.
         <category>RoR</category>
         
         <category>Library</category>
-        
-        
-        <category>Programming</category>
-        
-      </item>
-    
-      <item>
-        <title>И не только Рельсы</title>
-        <description>&lt;h1 id=&quot;sinatra--альтернатива-ror&quot;&gt;Sinatra — альтернатива RoR&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Sinatra&lt;/strong&gt; — аналогичный рельсам “каркас” на  &lt;a href=&quot;/programming/2017/05/07/Hello-Ruby/&quot;&gt;Ruby&lt;/a&gt;, специализирующийся на быстром создании Веб-приложений. 
-Узнать больше полезной информации о нём &lt;a href=&quot;http://sinatrarb.com/&quot;&gt;здесь&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;Видеознакомство-с-sinatra-rb&quot;&gt;Видеознакомство с Sinatra Rb&lt;/h2&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sp8TL37ymGk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Sun, 07 May 2017 14:17:39 +0300</pubDate>
-        <link>http://localhost:4000/programming/2017/05/07/not-only-Rails/</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/05/07/not-only-Rails/</guid>
-        
-        <category>Ruby</category>
-        
-        <category>Sinatra</category>
         
         
         <category>Programming</category>

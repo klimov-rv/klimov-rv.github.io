@@ -31,9 +31,9 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="KlimovProject — Мой прожектор в WEB-разработках" />
-    <!-- Begin Jekyll SEO tag v2.5.0 -->
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Заглавные миниатюры | KlimovProject — Мой прожектор в WEB-разработках</title>
-<meta name="generator" content="Jekyll v3.8.3" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Заглавные миниатюры" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Каждая статья klimov-project начинается с изображения, которое сразу намекает на содержание страницы. В jekyll это легко сделать, добавив простой параметр thumbnail в формате сериализации данных YAML frontmatter Он может быть описан как изображение в файле _data/thumbnails.yml или используя Font Awesome" />
@@ -44,7 +44,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2017-02-04T14:41:22+03:00" />
 <script type="application/ld+json">
-{"description":"Каждая статья klimov-project начинается с изображения, которое сразу намекает на содержание страницы. В jekyll это легко сделать, добавив простой параметр thumbnail в формате сериализации данных YAML frontmatter Он может быть описан как изображение в файле _data/thumbnails.yml или используя Font Awesome","@type":"BlogPosting","url":"http://localhost:4000/jekyll/2017/02/04/using-thumbnails/","headline":"Заглавные миниатюры","dateModified":"2017-02-04T14:41:22+03:00","datePublished":"2017-02-04T14:41:22+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/2017/02/04/using-thumbnails/"},"@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/jekyll/2017/02/04/using-thumbnails/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/2017/02/04/using-thumbnails/"},"headline":"Заглавные миниатюры","dateModified":"2017-02-04T14:41:22+03:00","datePublished":"2017-02-04T14:41:22+03:00","description":"Каждая статья klimov-project начинается с изображения, которое сразу намекает на содержание страницы. В jekyll это легко сделать, добавив простой параметр thumbnail в формате сериализации данных YAML frontmatter Он может быть описан как изображение в файле _data/thumbnails.yml или используя Font Awesome","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
      
@@ -125,23 +125,23 @@
 
         <span itemprop="articleBody"><p>Каждая статья klimov-project начинается с изображения, которое сразу
 намекает на содержание страницы. В jekyll это легко сделать, добавив простой
-параметр <code class="highlighter-rouge">thumbnail</code> в формате сериализации данных <a href="http://jekyllrb.com/docs/frontmatter/">YAML frontmatter</a>
-Он может быть описан как изображение в файле <code class="highlighter-rouge">_data/thumbnails.yml</code> или
+параметр <code class="language-plaintext highlighter-rouge">thumbnail</code> в формате сериализации данных <a href="http://jekyllrb.com/docs/frontmatter/">YAML frontmatter</a>
+Он может быть описан как изображение в файле <code class="language-plaintext highlighter-rouge">_data/thumbnails.yml</code> или
 используя <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></p>
 
-<h2 id="Картинкой">Картинкой</h2>
+<h2 id="картинкой">Картинкой</h2>
 
 <p>Что бы воспользоваться изобржением - нужно загрузить его в интернет, например 
 на хостинг картинок <a href="http://imgur.com/">Imgur</a>, после чего прописать полученный адрес в файле 
-<code class="highlighter-rouge">_data/thumbnail.yml</code>, присвоив ему имя. В нашем случае запись выглядит так:</p>
+<code class="language-plaintext highlighter-rouge">_data/thumbnail.yml</code>, присвоив ему имя. В нашем случае запись выглядит так:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll: "http://i.imgur.com/aRQcGSi.png"
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll: "http://i.imgur.com/aRQcGSi.png"
 </code></pre></div></div>
 
-<p>Это имя-переменную я и подставляю позже в параметр <code class="highlighter-rouge">thumbnail</code> как опцию для 
+<p>Это имя-переменную я и подставляю позже в параметр <code class="language-plaintext highlighter-rouge">thumbnail</code> как опцию для 
 данной страницы</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>thumbnail: jekyll
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>thumbnail: jekyll
 </code></pre></div></div>
 
 <p>Эта система позволяет использовать одно и то же изображения без указания и 
@@ -149,7 +149,7 @@
 
 <h2 id="font-awesome">Font Awesome</h2>
 
-<p>Если jekyll не найдёт адресата для эскиза в файле <code class="highlighter-rouge">thumbnail.yml</code> , тогда
+<p>Если jekyll не найдёт адресата для эскиза в файле <code class="language-plaintext highlighter-rouge">thumbnail.yml</code> , тогда
 он решит что мы хотим использовать <em>Font Awesome</em> взамен. Весь список иконок
 <em>Font Awesome</em> можно найти <a href="http://fortawesome.github.io/Font-Awesome/icons/">здесь</a>.</p>
 
@@ -157,12 +157,12 @@
 <a href="http://fortawesome.github.io/Font-Awesome/icon/android/">иконку android</a> из набора font awesome, и задал бы параметру страницы такое
 значение:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>thumbnail: android
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>thumbnail: android
 </code></pre></div></div>
 
 <p>Удобно это тем, что воспользовавшись по умолчанию иконкой из всеми любимой библиотеки,
 позже мы можем легко переназначить имени android уже своё изображение, добавив его в
- <code class="highlighter-rouge">_data/thumbnails.yml</code>.</p>
+ <code class="language-plaintext highlighter-rouge">_data/thumbnails.yml</code>.</p>
 
 </span>
 

@@ -31,9 +31,9 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="KlimovProject — Мой прожектор в WEB-разработках" />
-    <!-- Begin Jekyll SEO tag v2.5.0 -->
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>CNAME для домена на Github | KlimovProject — Мой прожектор в WEB-разработках</title>
-<meta name="generator" content="Jekyll v3.8.3" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="CNAME для домена на Github" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Что такое [CNAME] Запись" />
@@ -44,7 +44,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-01-13T14:57:05+03:00" />
 <script type="application/ld+json">
-{"description":"Что такое [CNAME] Запись","@type":"BlogPosting","url":"http://localhost:4000/site/2018/01/13/CNAME-for-github-jekyll/","headline":"CNAME для домена на Github","dateModified":"2018-01-13T14:57:05+03:00","datePublished":"2018-01-13T14:57:05+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/site/2018/01/13/CNAME-for-github-jekyll/"},"@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/site/2018/01/13/CNAME-for-github-jekyll/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/site/2018/01/13/CNAME-for-github-jekyll/"},"headline":"CNAME для домена на Github","dateModified":"2018-01-13T14:57:05+03:00","datePublished":"2018-01-13T14:57:05+03:00","description":"Что такое [CNAME] Запись","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
      
@@ -123,7 +123,7 @@
 
         
 
-        <span itemprop="articleBody"><h1 id="Что-такое-cname-Запись">Что такое [CNAME] Запись</h1>
+        <span itemprop="articleBody"><h1 id="что-такое-cname-запись">Что такое [CNAME] Запись</h1>
 
 <p><strong>[CNAME] Запись</strong> или <strong>Каноническая Запись Доменного Имени</strong> указывает на то, что доменное имя или поддомен является алиасом (псевдонимом) другого, канонического доменного имени.</p>
 
@@ -131,33 +131,33 @@
   <p>Значение <strong>CNAME</strong> записи всегда является доменным именем.</p>
 </blockquote>
 
-<h2 id="Для-чего-служит-cname-Запись">Для чего служит [CNAME] Запись</h2>
+<h2 id="для-чего-служит-cname-запись">Для чего служит [CNAME] Запись</h2>
 
 <p>[CNAME] Записи полезны тем, что они позволяют настраивать алиасы (псевдонимы) сервера, без использования его IP адреса.</p>
 
-<p>Например, <code class="highlighter-rouge">www.example.com</code> может иметь [CNAME] Запись, указывающую на <code class="highlighter-rouge">example.com</code>.</p>
+<p>Например, <code class="language-plaintext highlighter-rouge">www.example.com</code> может иметь [CNAME] Запись, указывающую на <code class="language-plaintext highlighter-rouge">example.com</code>.</p>
 
-<p>Таким образом, если Вы наберете в браузере, <code class="highlighter-rouge">www.example.com</code>, Вы будете перенаправленный на <em>CNAME</em> — <code class="highlighter-rouge">example.com</code>.</p>
+<p>Таким образом, если Вы наберете в браузере, <code class="language-plaintext highlighter-rouge">www.example.com</code>, Вы будете перенаправленный на <em>CNAME</em> — <code class="language-plaintext highlighter-rouge">example.com</code>.</p>
 
-<h3 id="Как-проверить-cname-Запись">Как проверить [CNAME] Запись</h3>
+<h3 id="как-проверить-cname-запись">Как проверить [CNAME] Запись</h3>
 
-<p>Используйте команду <code class="highlighter-rouge">dig</code>, чтобы узнать [CNAME] Запись:</p>
+<p>Используйте команду <code class="language-plaintext highlighter-rouge">dig</code>, чтобы узнать [CNAME] Запись:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ dig CNAME www.example.com +short
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ dig CNAME www.example.com +short
 example.com.
 </code></pre></div></div>
 
-<h2 id="Добавление-cname-Записи-в-dns--Примеры">Добавление [CNAME] Записи в DNS — Примеры</h2>
+<h2 id="добавление-cname-записи-в-dns--примеры">Добавление [CNAME] Записи в DNS — Примеры</h2>
 
 <p>Используйте следующий синтаксис для добавления [CNAME] Записи в Файл Зоны.</p>
 
-<h3 id="Настроить-Редирект-для-www-с-помощью-cname-Записи">Настроить Редирект для [WWW] с помощью [CNAME] Записи</h3>
+<h3 id="настроить-редирект-для-www-с-помощью-cname-записи">Настроить Редирект для [WWW] с помощью [CNAME] Записи</h3>
 
-<p><code class="highlighter-rouge">www.example.com. IN CNAME example.com.</code></p>
+<p><code class="language-plaintext highlighter-rouge">www.example.com. IN CNAME example.com.</code></p>
 
-<h3 id="Создать-Несколько-Алиасов-с-помощью-cname-Записи">Создать Несколько Алиасов с помощью [CNAME] Записи</h3>
+<h3 id="создать-несколько-алиасов-с-помощью-cname-записи">Создать Несколько Алиасов с помощью [CNAME] Записи</h3>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>example.com. IN CNAME example.tld.
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>example.com. IN CNAME example.tld.
 www.example.com. IN CNAME example.tld.
 test.example.com. IN CNAME example.tld.
 </code></pre></div></div>
