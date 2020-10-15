@@ -2,8 +2,8 @@
 title:      Wordpress заявил о своих правах ;)
 date:       2019-05-15 12:16:15
 summary:    Wordpress - Загруженный файл не удалось переместить в wp-content/uploads
-categories: Bitrix
-thumbnail:  Bitrix
+categories: Wordpress
+thumbnail:  Wordpress
 tags:
  - Wordpress
  - access
@@ -12,7 +12,7 @@ tags:
 
 ## Настройка прав Wordpress после переноса сайта
 
-После переноса интернет магазина [elite-instrument][3] у его движка wordpress возникли вопросы о своих правах на новом месте.
+После переноса интернет магазина <a href="http://elite-instrument.ru/" target="_blank">elite-instrument</a> у его движка wordpress возникли вопросы о своих правах на новом месте.
 
 ```html
 Загруженный файл не удалось переместить в wp-content/uploads...
