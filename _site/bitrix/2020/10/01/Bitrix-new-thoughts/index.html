@@ -36,15 +36,15 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="В каком случае выбирать 1С-Битрикс?" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Объединение CSS и JS-файлов" />
-<meta property="og:description" content="Объединение CSS и JS-файлов" />
+<meta name="description" content="Когда вам подойдёт Битрикс" />
+<meta property="og:description" content="Когда вам подойдёт Битрикс" />
 <link rel="canonical" href="http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/" />
 <meta property="og:url" content="http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/" />
 <meta property="og:site_name" content="KlimovProject — Мой прожектор в WEB-разработках" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-10-01T20:17:12+03:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/"},"headline":"В каком случае выбирать 1С-Битрикс?","dateModified":"2020-10-01T20:17:12+03:00","datePublished":"2020-10-01T20:17:12+03:00","description":"Объединение CSS и JS-файлов","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/bitrix/2020/10/01/Bitrix-new-thoughts/"},"headline":"В каком случае выбирать 1С-Битрикс?","dateModified":"2020-10-01T20:17:12+03:00","datePublished":"2020-10-01T20:17:12+03:00","description":"Когда вам подойдёт Битрикс","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
      
@@ -96,7 +96,7 @@
     <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
       
       <div class="thumb">
-        <i class="fas fa-Bitrix fa-4x"></i>
+        <img itemprop="image" class="svg-image" src="/images/1c_bitrix_logo.svg" alt="Thumbnail: Bitrix" />
       </div>
       
 
@@ -115,7 +115,7 @@
 
       <div class="read-time">
         <small>
-          Чтение на 1 мин.
+          Чтение на 4 мин.
         </small>
       </div>
 
@@ -123,31 +123,74 @@
 
         
 
-        <span itemprop="articleBody"><h2 id="объединение-css-и-js-файлов">Объединение CSS и JS-файлов</h2>
+        <span itemprop="articleBody"><h3 id="когда-вам-подойдёт-битрикс">Когда вам подойдёт Битрикс</h3>
 
-<p>Рабочий стол -&gt; Настройки -&gt; Настройки продукта -&gt; Настройки модулей -&gt; Главный модуль -&gt; Оптимизация CSS</p>
+<p>Так как совсем недавно вернулся к разработке на «Битрикс: Управление сайтом» хотел оставить пару критериев, которые я бы рекомендовал примерить на себя, прежде чем принимать решение о работе с этим движком сайтов:</p>
 
-<p><img src="/images/inpost/bitrix_css_js_optimise_main_module.png" alt="Объединение CSS и JS-файлов" /></p>
+<h2 id="если-вы-готовы-работать-с-шаблонами-покупать-их">Если вы готовы работать с шаблонами (покупать их)</h2>
 
-<h2 id="настройка-seo-для-каталога">Настройка SEO для каталога</h2>
+<p>Это отличная стратегия, когда ваш бизнес не сильно отличается от множества других, и уже имеет преимущества за счёт цены или скорости предоставления услуг. Битрикс позволит и дальше сфокусироваться на преимуществах, если вы пожертвуете уникальностью вашего “представления” в интернете. Ведь это сугубо “коробочный” продукт с <em>возможностью</em> расширения функционала.</p>
 
-<p>Рабочий стол -&gt; Контент -&gt; Инфоблоки -&gt; Типы инфоблоков -&gt; Каталоги -&gt; _<ваш_каталог>_ -&gt; Вкладка SEO</ваш_каталог></p>
+<p>Итак, если ваша задача: быстро начать продавать, не изменяя стандартный функционал и дизайн - Битрикс отлично подойдёт!</p>
 
-<p><img src="/images/inpost/bitrix_seo_properties.png" alt="Настройки СЕО Битрикс" /></p>
+<p>Как проверить? Просто посмотрите демо-версию по этой ссылке <a href="https://bitrixlabs.ru/" target="_blank">bitrixlabs.ru</a>, выберете интернет-магазин, и если он вас уже на 100% устроит, то нет никаких причин отказываться от битрикса.</p>
 
-<h2 id="шаблоны">Шаблоны</h2>
+<p>Однако, если вы всё-таки захотите что-то менять на сайте без серьёзных вложений - будет беда. Вот пример кода для нестандартной задачи из моей практики, а именно: получение списка блоков “баннеры” для вывода одного случайного из них:</p>
 
-<p>Настройки -&gt; Настройки продукта -&gt; Сайты -&gt; Шаблоны сайтов</p>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$arSelect</span> <span class="o">=</span> <span class="k">Array</span><span class="p">(</span><span class="s1">'ID'</span><span class="p">,</span> <span class="s2">"PROPERTY_companyId"</span><span class="p">,</span> <span class="s1">'PROPERTY_type'</span><span class="p">,</span> <span class="s1">'PROPERTY_htmlCode'</span><span class="p">,</span> <span class="s1">'PROPERTY_flash'</span><span class="p">,</span> <span class="s1">'PREVIEW_PICTURE'</span><span class="p">);</span>
+<span class="nv">$arFilter</span> <span class="o">=</span> <span class="k">Array</span><span class="p">(</span> <span class="s2">"IBLOCK_ID"</span> <span class="o">=&gt;</span> <span class="no">IBLOCK_ID_BANNERS</span><span class="p">,</span> <span class="s1">'PROPERTY_hostingPage'</span> <span class="o">=&gt;</span> <span class="nv">$hostingPage</span><span class="p">,</span> <span class="s1">'PROPERTY_TYPE'</span> <span class="o">=&gt;</span> <span class="no">BANNER_TYPE_UNITED</span><span class="p">,</span> <span class="s2">"ACTIVE"</span><span class="o">=&gt;</span><span class="s2">"Y"</span><span class="p">);</span>
 
-<p><img src="/images/inpost/bitrix_templates_in_admin_panel.png" alt="шаблоны bitrix" /></p>
+<span class="k">if</span> <span class="p">(</span><span class="nc">CModule</span><span class="o">::</span><span class="nf">IncludeModule</span><span class="p">(</span><span class="s2">"iblock"</span><span class="p">))</span> <span class="p">{</span>
+  <span class="nv">$res</span> <span class="o">=</span> <span class="nc">CIBlockElement</span><span class="o">::</span><span class="nf">GetList</span><span class="p">(</span><span class="k">Array</span><span class="p">(</span><span class="s2">"RAND"</span> <span class="o">=&gt;</span> <span class="s2">"ASC"</span><span class="p">),</span> <span class="nv">$arFilter</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="k">Array</span><span class="p">(</span><span class="s2">"nTopCount"</span><span class="o">=&gt;</span><span class="mi">1</span><span class="p">),</span> <span class="nv">$arSelect</span><span class="p">);</span> 
+    <span class="c1">// ... тут реализуется вывод баннера </span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Сравните с интуитивным и понятным шаблонизатором Liquid, который встроен у ближайшего конкурента Bitrix	{</p>
 
-<h2 id="лучше-не-нажимать-эту-кнопку-без-дела">Лучше не нажимать эту кнопку без дела</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\{\% for slide in block_lists.promo.blocks %}
+    // ... тут реализуется вывод баннера
+\{\% endfor %} 
+</code></pre></div></div>
 
-<p><img src="/images/inpost/delete_button_for_new_site.png" alt="Отключение проблемной кнопки" /></p>
+<p>Нативный php и отсутствие шаблонизатора делают своё дело - в поддержке уникальных решений битрикс становится намного дороже. Как на стоимости специалистов, так и по их трудозатратам.</p>
 
-<p>После удаления кнопки вы сможете запустить мастер создания нового решения в панели управления, используя страницу с мастерами или формой добавления нового сайта.</p>
+<h2 id="если-вы-уже-имеете-опыт-в-e-коммерции">Если вы уже имеете опыт в e-коммерции</h2>
 
-<p><img src="/images/inpost/create_additional_site.png" alt="Добавить дополнительный сайт" /></p>
+<p>Компания позиционируется как профессиональная платформа, которая соответственно подходит профессионалам. Куча классных маркетинговых фишек типа “<a href="https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=89&amp;LESSON_ID=7623&amp;LESSON_PATH=7401.7737.7595.7623" target="_blank">А/Б тестирование</a>” и управленческих возможностей вроде “<a href="https://dev.1c-bitrix.ru/user_help/settings/ldap/index.php" target="_blank">AD/LDAP интеграция</a>” вам понадобятся тогда, <strong>и только тогда</strong>, когда вся базовая работа сайта уже настроена и уже работает, продажи идут, учёт товарооборота и денег уже налажен.</p>
+
+<p>Лишь опыт в электронной коммерции позволит вам сразу предусмотреть все необходимые ресурсы для запуска и развития вашего сайта заранее. О каких ресурсах идёт речь:</p>
+
+<ul>
+  <li><strong>Обученный персонал</strong>. Исходя из <a href="https://dev.1c-bitrix.ru/learning/index.php" target="_blank">курсов продукта</a> можно сделать вывод, что потребуются как минимум:
+    <ol>
+      <li>Контент-менеджер</li>
+      <li>Маркетолог</li>
+      <li>Администратор</li>
+      <li>Разработчик</li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>Специально подобранный и настроенный хостинг</strong>. Сервер для хостинга битрикса должен быть специально настроен и протестирован (см. документацию разработчика)</p>
+  </li>
+  <li><strong>Налаженный процесс разработки и внедрения нововведений</strong>.
+Тесты должны проводиться для каждой мелочи, потому что, если мы позиционируем себя как профессионалы - любая неосторожная погрешность на сайте может сильно снизить ваши продажи, в которые могут быть вложены большие деньги как на закупки, так и на рекламу.</li>
+</ul>
+
+<p>Если всё это для вас давно является прописными истинами - переходим к следующему критерию</p>
+
+<h2 id="бизнес-с-перспективой-на-автоматизацию">Бизнес с перспективой на автоматизацию</h2>
+
+<p>Да, допустим вы начали с 0, но масштабируемость бизнеса высокая, вы заранее понимаете, что без автоматизации не обойтись. В этом случае Битрикс попадает точно в цель, с его возможностями на перспективу. Заявленного маркетологами “Быстро-просто-эффективно” - не получится, разработка будет в этом случае долгой, сложной и дорогой - но вы знаете что в будущем это окупит себя.</p>
+
+<p>Внутренняя кухня больших компаний сегодня переходит в веб, особенно те, которые имеют много офисов.
+Тут как раз пригодится родовая интеграция с <a href="https://www.bitrix24.ru/" target="_blank"> Битрикс24</a>, с его целой экосистемой онлайн-сервисов и документооборота</p>
+
+<p>Засилие огромного количества более легковесных и простых аналогов выдавливает битрикс в сегмент сложно-настраиваемых и долго-поддерживаемых продуктов. Вы вкладываетесь всерьёз и надолго</p>
+
+<hr />
+
+<p>Безусловно, битрикс сегодня <em>в тренде</em> и у него есть главное преимущество - это хороший маркетинг, который может заставить вас приобрести его, даже если он вам не нужен.<br />
+Я не хочу спорить о полезности и важности соответствия заготовленных текстов согласия на обработку личных данных стандартам госрегулирования, о которых рассказывают на  <a href="https://youtu.be/6oTf99A2GgI?t=1007" target="_blank">презентациях Битрикс</a>, но я хотел бы донести с чем придётся столкнуться по факту. Не с точки зрения маркетолога компании, цель которых продвигать свой продукт, а с точки зрения веб-разработчика, к которому обращаются за поддержкой брошенных или недоделанных сайтов на этой системе</p>
 
 <hr />
 
@@ -161,7 +204,7 @@
         <div class="tags">
           <small>
           <i class="fas fa-tags"></i>
-            Bitrix, Шаблоны, Админка
+            CMS, Bitrix, php
           </small>
         </div>
         

@@ -106,12 +106,12 @@ Markdown:
 ## Цитаты
 
 ```Markdown
-> Это цитата из 2ух параграфов. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
->
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+Это цитата из 2ух параграфов. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
 ```
 
 Ленивый вариант:
@@ -137,7 +137,8 @@ Markdown:
 >
 >     return shell_exec("echo $input | $markdown_script");
 
-> Пост в процессе дополнения...
+
+Пост в процессе дополнения...
 
 [Источник](https://www.markdownguide.org/basic-syntax)
 

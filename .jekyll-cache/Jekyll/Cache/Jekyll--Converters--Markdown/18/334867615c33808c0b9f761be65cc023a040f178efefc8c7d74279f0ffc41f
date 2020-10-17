@@ -1,4 +1,4 @@
-I"�<h1 id="короткий-гайд-по-markdown">Короткий гайд по Markdown</h1>
+I"L<h1 id="короткий-гайд-по-markdown">Короткий гайд по Markdown</h1>
 
 <p>Используется базовый синтаксис <strong>Markdown</strong>, описанный в оригинальной документации <a href="https://daringfireball.net/projects/markdown/syntax">Джона Грубера</a>.</p>
 
@@ -92,12 +92,12 @@ _Курсив_
 
 <h2 id="цитаты">Цитаты</h2>
 
-<pre><code class="language-Markdown">&gt; Это цитата из 2ух параграфов. Lorem ipsum dolor sit amet,
-&gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-&gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-&gt;
-&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-&gt; id sem consectetuer libero luctus adipiscing.
+<pre><code class="language-Markdown">Это цитата из 2ух параграфов. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
 </code></pre>
 
 <p>Ленивый вариант:</p>
@@ -131,9 +131,7 @@ _Курсив_
 </code></pre></div>  </div>
 </blockquote>
 
-<blockquote>
-  <p>Пост в процессе дополнения…</p>
-</blockquote>
+<p>Пост в процессе дополнения…</p>
 
 <p><a href="https://www.markdownguide.org/basic-syntax">Источник</a></p>
 

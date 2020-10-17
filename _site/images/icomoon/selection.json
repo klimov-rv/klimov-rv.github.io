@@ -1,0 +1,116 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M470 384v-86h84v86h-84zM512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM470 726v-256h84v256h-84z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "info_outline"
+        ],
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 3,
+        "ligatures": "info_outline",
+        "id": 761,
+        "prevSize": 96,
+        "name": "info_outline"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 761
+    },
+    {
+      "icon": {
+        "paths": [
+          "M384 928c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z",
+          "M1024 928c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z",
+          "M1024 512v-384h-768c0-35.346-28.654-64-64-64h-192v64h128l48.074 412.054c-29.294 23.458-48.074 59.5-48.074 99.946 0 70.696 57.308 128 128 128h768v-64h-768c-35.346 0-64-28.654-64-64 0-0.218 0.014-0.436 0.016-0.656l831.984-127.344z"
+        ],
+        "tags": [
+          "cart",
+          "purchase",
+          "ecommerce",
+          "shopping"
+        ],
+        "defaultCode": 59706,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "cart, purchase",
+        "name": "cart",
+        "order": 2,
+        "id": 59,
+        "prevSize": 32
+      },
+      "setIdx": 3,
+      "setId": 1,
+      "iconIdx": 58
+    },
+    {
+      "icon": {
+        "paths": [
+          "M259.544 511.998c0-65.416 53.030-118.446 118.446-118.446s118.446 53.030 118.446 118.446c0 65.416-53.030 118.446-118.446 118.446s-118.446-53.030-118.446-118.446zM512.004 0c-282.774 0-512.004 229.232-512.004 512s229.226 512 512.004 512c282.764 0 511.996-229.23 511.996-512 0-282.768-229.23-512-511.996-512zM379.396 959.282c-153.956-89.574-257.468-256.324-257.468-447.282s103.512-357.708 257.462-447.282c154.010 89.562 257.59 256.288 257.59 447.282 0 190.988-103.58 357.718-257.584 447.282z"
+        ],
+        "tags": [
+          "IcoMoon",
+          "icomoon",
+          "brand"
+        ],
+        "defaultCode": 60138,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "IcoMoon, icomoon",
+        "name": "IcoMoon",
+        "order": 4,
+        "id": 491,
+        "prevSize": 32
+      },
+      "setIdx": 3,
+      "setId": 1,
+      "iconIdx": 490
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

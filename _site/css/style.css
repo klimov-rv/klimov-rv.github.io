@@ -193,7 +193,7 @@ pre { background-color: none; }
 
 .single h1, .single h2, .single h3, .single h4, .single h5, .single h6 { font-family: 'Roboto Condensed', sans-serif; margin-bottom: 23px; }
 
-.single h2 { font-size: 36px; }
+.single h2 { font-size: 34px; }
 
 .single h3 { font-size: 28px; }
 
@@ -235,7 +235,7 @@ pre { background-color: none; }
 
 @media (min-width: 768px) { .single .article .read-time { margin-bottom: 40px; } }
 
-.single .article .read-next { padding: 5px 0; }
+.single .article .read-next { margin: 5px 0; display: block; }
 
 .single .article .content { font-size: 15px; line-height: 170%; padding-left: 15px; padding-right: 15px; padding-top: 10px; padding-bottom: 10px; }
 
