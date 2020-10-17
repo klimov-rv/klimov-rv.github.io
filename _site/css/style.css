@@ -181,7 +181,7 @@ pre { background-color: none; }
 
 @media (min-width: 992px) { .all-posts .content-panel { padding-left: 30px; padding-right: 30px; } }
 
-.blog-post { height: 19px; text-align: right; }
+.blog-post { height: 30px; text-align: right; }
 
 .thumb { margin-top: 20px; margin-bottom: 0px; text-align: center; }
 

@@ -137,11 +137,9 @@ id sem consectetuer libero luctus adipiscing.
 >
 >     return shell_exec("echo $input | $markdown_script");
 
-
-Пост в процессе дополнения...
+Это основное, другие тонкости ищите в официальном гайде (англ):
 
 [Источник](https://www.markdownguide.org/basic-syntax)
 
 ___
-
-[1]: https://
+ 

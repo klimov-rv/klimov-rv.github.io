@@ -59,7 +59,7 @@ Blockquotes
 To create a blockquote, add a > in front of a paragraph.
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
-The Результатlooks like this:
+The result looks like this:
 
 Dorothy followed her through many of the beautiful rooms in her castle.
 
@@ -69,7 +69,7 @@ Blockquotes can contain multiple paragraphs. Add a > on the blank lines between 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-The Результатlooks like this:
+The result looks like this:
 
 Dorothy followed her through many of the beautiful rooms in her castle.
 
@@ -81,7 +81,7 @@ Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-The Результатlooks like this:
+The result looks like this:
 
 Dorothy followed her through many of the beautiful rooms in her castle.
 
@@ -96,7 +96,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 > - Profits were higher than ever.
 >
 >  *Everything* is going according to **plan**.
-The Результатlooks like this:
+The result looks like this:
 
 The quarterly results look good!
 Revenue was off the chart.
@@ -246,7 +246,7 @@ Paragraphs
     I need to add another paragraph below the second list item.
 
 *   And here's the third list item.
-The Результатlooks like this:
+The result looks like this:
 
 This is the first list item.
 Here’s the second list item.
@@ -261,7 +261,7 @@ Blockquotes
     > A blockquote would look great below the second list item.
 
 *   And here's the third list item.
-The Результатlooks like this:
+The result looks like this:
 
 This is the first list item.
 Here’s the second list item.
@@ -281,7 +281,7 @@ Code blocks are normally indented four spaces or one tab. When they’re in a li
           </head>
 
 3.  Update the title to match the name of your website.
-The Результатlooks like this:
+The result looks like this:
 
 Open the file.
 Find the following code block on line 21:
@@ -298,7 +298,7 @@ Images
     ![Tux, the Linux mascot](/assets/images/tux.png)
 
 3.  Close the file.
-The Результатlooks like this:
+The result looks like this:
 
 Open the file containing the Linux mascot.
 Marvel at its beauty.
@@ -323,7 +323,7 @@ To create code blocks, indent every line of the block by at least four spaces or
       <head>
       </head>
     </html>
-The Результатlooks like this:
+The result looks like this:
 
 <html>
   <head>
@@ -338,13 +338,13 @@ To create a horizontal rule, use three or more asterisks (***), dashes (---), or
 ---
 
 _________________
-The Результатof all three looks identical:
+The result of all three looks identical:
 
 Links
 To create a link, enclose the link text in brackets (e.g., [Duck Duck Go]) and then follow it immediately with the URL in parentheses (e.g., (https://duckduckgo.com)).
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-The Результатlooks like this:
+The result looks like this:
 
 My favorite search engine is Duck Duck Go.
 
@@ -353,7 +353,7 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
 
 <https://www.markdownguide.org>
 <fake@example.com>
-The Результатlooks like this:
+The result looks like this:
 
 https://www.markdownguide.org
 fake@example.com
@@ -363,7 +363,7 @@ To emphasize links, add asterisks before and after the brackets and parentheses.
 
 I love supporting **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
-The Результатlooks like this:
+The result looks like this:
 
 I love supporting the EFF.
 This is the Markdown Guide.
@@ -412,7 +412,7 @@ of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it t
 eat: it was a [hobbit-hole][1], and that means comfort.
 
 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
-In both instances above, the Результатwould be identical:
+In both instances above, the result would be identical:
 
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
 
@@ -423,7 +423,7 @@ Images
 To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
 
 ![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
-The Результатlooks like this:
+The result looks like this:
 
 Philadelphia's Magic Gardens. This place was so cool!
 
@@ -431,7 +431,7 @@ Linking Images
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 [![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
-The Результатlooks like this:
+The result looks like this:
 
 An old rock in the desert
 
@@ -439,7 +439,7 @@ Escaping Characters
 To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
 
 \* Without the backslash, this would be a bullet in an unordered list.
-The Результатlooks like this:
+The result looks like this:
 
 * Without the backslash, this would be a bullet in an unordered list.
 
