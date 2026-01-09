@@ -1,7 +1,0 @@
-I"�<p>Каждая статья klimov-project начинается с изображения, которое сразу
-намекает на содержание страницы. В jekyll это легко сделать, добавив простой
-параметр <code class="language-plaintext highlighter-rouge">thumbnail</code> в формате сериализации данных <a href="http://jekyllrb.com/docs/frontmatter/">YAML frontmatter</a>
-Он может быть описан как изображение в файле <code class="language-plaintext highlighter-rouge">_data/thumbnails.yml</code> или
-используя <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></p>
-
-:ET
